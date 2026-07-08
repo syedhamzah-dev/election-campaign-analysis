@@ -1,0 +1,37 @@
+# --- Core data handling ---
+pandas==2.2.2
+numpy==1.26.4
+
+# --- Visualization ---
+matplotlib==3.8.4
+seaborn==0.13.2
+plotly==5.22.0
+
+# --- Database ---
+SQLAlchemy==2.0.30
+psycopg2-binary==2.9.9   # remove if not using PostgreSQL; use mysql-connector-python for MySQL
+
+# --- Data cleaning / fuzzy matching (candidate & constituency name matching) ---
+thefuzz==0.22.1
+python-Levenshtein==0.25.1
+openpyxl==3.1.2          # reading/writing Excel files
+
+# --- Machine learning ---
+scikit-learn==1.4.2
+xgboost==2.0.3
+
+# --- Web scraping (pulling data directly from ECI/other sites) ---
+requests==2.31.0
+beautifulsoup4==4.12.3
+lxml==5.2.1
+
+# --- Dashboard ---
+streamlit==1.35.0
+
+# --- Notebook environment ---
+jupyter==1.0.0
+ipykernel==6.29.4
+
+# --- Utilities ---
+python-dotenv==1.0.1      # for managing DB credentials / API keys
+tqdm==4.66.4               # progress bars during data processing
