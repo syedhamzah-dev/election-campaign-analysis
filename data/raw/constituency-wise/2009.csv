@@ -1,0 +1,545 @@
+State,Parliamentary Constituency,,,Winner,,,,Runner-up,,,,Margin
+,No.,Name,Type,Candidate,Party,,Votes,Candidate,Party,,Votes,
+Andaman and Nicobar Islands,1,Andaman & Nicobar Islands,GEN,Bishnu Pada Ray,,Bharatiya Janata Party,75211,Kuldeep Rai Sharma,,Indian National Congress,72221,2990
+Andhra Pradesh,1,Adilabad,(ST),Ramesh Rathod,,Telugu Desam Party,"3,72,268",Kotnak Ramesh,,Indian National Congress,"2,57,181","1,15,087"
+,2,Peddapalli,(SC),Gaddam Vivek Venkatswamy,,Indian National Congress,"3,13,748",Gomasa Srinivas,,Telangana Rashtra Samithi,"2,64,731",49017
+,3,Karimnagar,GEN,Ponnam Prabhakar,,Indian National Congress,"3,17,927",Boianapalli Vinod Kumar,,Telangana Rashtra Samithi,"2,67,684",50243
+,4,Nizamabad,GEN,Madhu Goud Yaskhi,,Indian National Congress,"2,96,504",Bigala Ganesh Gupta,,Telangana Rashtra Samithi,"2,36,114",60390
+,5,Zahirabad,GEN,Suresh Shetkar,,Indian National Congress,"3,95,767",Syed Yousuf Ali,,Telangana Rashtra Samithi,"3,78,360",17407
+,6,Medak,GEN,Vijayashanti,,Telangana Rashtra Samithi,"3,88,839",Chaganla Narendra Nath,,Indian National Congress,"3,82,762",6077
+,7,Malkajgiri,GEN,Sarvey Sathyanarayana,,Indian National Congress,"3,88,368",Bheemsen T,,Telugu Desam Party,"2,95,042",93326
+,8,Secunderabad,GEN,Anjan Kumar Yadav,,Indian National Congress,"3,40,549",Bandaru Dattatreya,,Bharatiya Janata Party,"1,70,382","1,70,167"
+,9,Hyderabad,GEN,Asaduddin Owaisi,,All India Majlis-e-Ittehadul Muslimeen,"3,08,061",Zahid Ali Khan,,Telugu Desam Party,"1,94,196","1,13,865"
+,10,Chevella,GEN,Jaipal Reddy,,Indian National Congress,"4,20,807",A. P. Jithender Reddy,,Telugu Desam Party,"4,02,275",18532
+,11,Mahbubnagar,GEN,K. Chandrashekar Rao,,Telangana Rashtra Samithi,"3,66,569",Devarakonda Vittal Rao,,Indian National Congress,"3,46,385",20184
+,12,Nagarkurnool,(SC),Manda Jagannath,,Indian National Congress,"4,22,745",Guvvala Balaraju,,Telangana Rashtra Samithi,"3,74,978",47767
+,13,Nalgonda,GEN,Gutha Sukender Reddy,,Indian National Congress,"4,93,849",Suravaram Sudhakar Reddy,,Communist Party of India,"3,40,867","1,52,982"
+,14,Bhongir,GEN,Komatireddy Raj Gopal Reddy,,Indian National Congress,"5,04,103",Nomula Narsimhaiah,,Communist Party of India (Marxist),"3,64,215","1,39,888"
+,15,Warangal,(SC),Siricilla Rajaiah,,Indian National Congress,"3,96,568",Ramagalla Parameshwar,,Telangana Rashtra Samithi,"2,71,907","1,24,661"
+,16,Mahabubabad,(ST),Balram Naik,,Indian National Congress,"3,94,447",Kunja Srinivasa Rao,,Communist Party of India,"3,25,490",68957
+,17,Khammam,GEN,Nama Nageswara Rao,,Telugu Desam Party,"4,69,368",Renuka Chowdhury,,Indian National Congress,"3,44,920","1,24,448"
+,18,Araku,(ST),Kishore Chandra Deo,,Indian National Congress,"3,60,458",Midiyam Babu Rao,,Communist Party of India (Marxist),"1,68,014","1,92,444"
+,19,Srikakulam,GEN,Killi Krupa Rani,,Indian National Congress,"3,87,694",Kinjarapu Yerran Naidu,,Telugu Desam Party,"3,04,707",82987
+,20,Vizianagaram,GEN,Jhansi Laxmi Botcha,,Indian National Congress,"4,11,584",Kondapalli Appalanaidu,,Telugu Desam Party,"3,51,013",60571
+,21,Visakhapatnam,GEN,Daggubati Purandeswari,,Indian National Congress,"3,68,812",Palla Srinivasa Rao,,Praja Rajyam Party,"3,02,126",66686
+,22,Anakapalli,GEN,Sabbam Hari,,Indian National Congress,"3,69,968",Nookarapu Surya Prakasa Rao,,Telugu Desam Party,"3,17,056",52912
+,23,Kakinada,GEN,Mallipudi Mangapati Pallam Raju,,Indian National Congress,"3,23,607",Chalamalasetti Sunil,,Praja Rajyam Party,"2,89,563",34044
+,24,Amalapuram,(SC),G. V. Harsha Kumar,,Indian National Congress,"3,68,501",Pothula Prameela Devi,,Praja Rajyam Party,"3,28,496",40005
+,25,Rajahmundry,GEN,Vundavalli Aruna Kumar,,Indian National Congress,"3,57,449",Murali Mohan,,Telugu Desam Party,"3,55,302",2147
+,26,Narasapuram,GEN,Kanumuru Bapi Raju,,Indian National Congress,"3,89,422",Thota Seetharama Lakshmi,,Telugu Desam Party,"2,74,732","1,14,690"
+,27,Eluru,GEN,Kavuri Samba Siva Rao,,Indian National Congress,"4,23,777",Maganti Venkateswara Rao,,Telugu Desam Party,"3,80,994",42783
+,28,Machilipatnam,GEN,Konakalla Narayana Rao,,Telugu Desam Party,"4,09,936",Badiga Ramakrishna,,Indian National Congress,"3,97,480",12456
+,29,Vijayawada,GEN,Lagadapati Rajagopal,,Indian National Congress,"4,29,394",Vallabhaneni Vamsi Mohan,,Telugu Desam Party,"4,16,682",12712
+,30,Guntur,GEN,Rayapati Sambasiva Rao,,Indian National Congress,"4,03,937",Madala Rajendra,,Telugu Desam Party,"3,64,582",39355
+,31,Narasaraopet,GEN,Modugula Venugopala Reddy,,Telugu Desam Party,"4,63,358",Vallabhaneni Balasouri,,Indian National Congress,"4,61,751",1607
+,32,Bapatla,(SC),Panabaka Lakshmi,,Indian National Congress,"4,60,757",Malyadri Sriram,,Telugu Desam Party,"3,91,419",69338
+,33,Ongole,GEN,Magunta Sreenivasulu Reddy,,Indian National Congress,"4,50,442",Madduluri Malakondaiah Yadav,,Telugu Desam Party,"3,71,919",78523
+,34,Nandyal,GEN,S. P. Y. Reddy,,Indian National Congress,"4,00,023",N. M. D. Farooq,,Telugu Desam Party,"3,09,176",90847
+,35,Kurnool,GEN,Kotla Jayasurya Prakasha Reddy,,Indian National Congress,"3,82,668",B.T.Naidu,,Telugu Desam Party,"3,08,895",73773
+,36,Anantapur,GEN,Anantha Venkatarami Reddy,,Indian National Congress,"4,57,876",Kalava Srinivasulu,,Telugu Desam Party,"3,79,955",77921
+,37,Hindupur,GEN,Kristappa Nimmala,,Telugu Desam Party,"4,35,753",Khasim Khan,,Indian National Congress,"4,12,918",22835
+,38,Kadapa,GEN,Y. S. Jagan Mohan Reddy,,Indian National Congress,"5,42,611",Palem Srikanth Reddy,,Telugu Desam Party,"3,63,765","1,78,846"
+,39,Nellore,GEN,Mekapati Rajamohan Reddy,,Indian National Congress,"4,30,235",Vanteru Venu Gopala Reddy,,Telugu Desam Party,"3,75,242",54993
+,40,Tirupati,(SC),Chinta Mohan,,Indian National Congress,"4,28,403",Varla Ramaiah,,Telugu Desam Party,"4,09,127",19276
+,41,Rajampet,GEN,Annayyagari Sai Prathap,,Indian National Congress,"4,23,910",Ramesh Kumar Reddy Reddappagari,,Telugu Desam Party,"1,80,537","1,10,377"
+,42,Chittoor,(SC),Naramalli Sivaprasad,,Telugu Desam Party,"4,34,376",M. Thippeswamy,,Indian National Congress,"4,23,717",10659
+Arunachal Pradesh,1,Arunachal West,(ST),Takam Sanjoy,,Indian National Congress,"1,40,443",Kiren Rijiju,,Bharatiya Janata Party,"1,39,129",1314
+,2,Arunachal East,(ST),Ninong Ering,,Indian National Congress,"1,15,423",Tapir Gao,,Bharatiya Janata Party,46974,68449
+Assam,1,Karimganj,(SC),Lalit Mohan Suklabaidya,,Indian National Congress,"2,59,717",Rajesh Mallah,,All India United Democratic Front,"2,51,797",7920
+,2,Silchar,GEN,Kabindra Purkayastha,,Bharatiya Janata Party,"2,43,532",Badruddin Ajmal,,All India United Democratic Front,"2,02,062",41470
+,3,Autonomous District,(ST),Biren Sing Engti,,Indian National Congress,"1,97,835",Elwin Teron,,Autonomous State Demand Committee,"1,23,287",74548
+,4,Dhubri,GEN,Badruddin Ajmal,,All India United Democratic Front,"5,40,820",Anwar Hussain,,Indian National Congress,"3,56,401","1,84,419"
+,5,Kokrajhar,(ST),Sansuma Khunggur Bwiswmuthiary,,Bodoland People's Front,"4,95,211",Urkhao Gwra Brahma,,Independent,"3,04,889","1,90,322"
+,6,Barpeta,GEN,Ismail Hussain,,Indian National Congress,"3,22,137",Bhupen Ray,,Asom Gana Parishad,"2,91,708",30429
+,7,Gauhati,GEN,Bijoya Chakravarty,,Bharatiya Janata Party,"4,96,047",Robin Bordoloi,,Indian National Congress,"4,84,192",11855
+,8,Mangaldoi,GEN,Ramen Deka,,Bharatiya Janata Party,"3,07,881",Madhab Rajbangshi,,Indian National Congress,"2,52,032",55849
+,9,Tezpur,GEN,Joseph Toppo,,Asom Gana Parishad,"3,52,246",Moni Kumar Subba,,Indian National Congress,"3,22,093",30153
+,10,Nowgong,GEN,Rajen Gohain,,Bharatiya Janata Party,"3,80,921",Anil Raja,,Indian National Congress,"3,35,541",45380
+,11,Kaliabor,GEN,Dip Gogoi,,Indian National Congress,"4,34,676",Gunin Hazarika,,Asom Gana Parishad,"2,82,687","1,51,989"
+,12,Jorhat,GEN,Bijoy Krishna Handique,,Indian National Congress,"3,62,320",Kamakhya Prasad Tasa,,Bharatiya Janata Party,"2,90,406",71914
+,13,Dibrugarh,GEN,Paban Singh Ghatowar,,Indian National Congress,"3,59,163",Sarbananda Sonowal,,Asom Gana Parishad,"3,24,020",35143
+,14,Lakhimpur,GEN,Ranee Narah,,Indian National Congress,"3,52,330",Arun Kumar Sarmah,,Asom Gana Parishad,"3,07,758",44572
+Bihar,1,Valmiki Nagar,GEN,Baidyanath Prasad Mahto,,Janata Dal (United),"2,77,696",Fakhruddin,,Independent,94021,"1,83,675"
+,2,Paschim Champaran,GEN,Sanjay Jaiswal,,Bharatiya Janata Party,"1,98,781",Prakash Jha,,Lok Janshakti Party,"1,51,438",47343
+,3,Purvi Champaran,GEN,Radha Mohan Singh,,Bharatiya Janata Party,"2,01,114",Akhilesh Prasad Singh,,Rashtriya Janata Dal,"1,21,824",79290
+,4,Sheohar,GEN,Rama Devi,,Bharatiya Janata Party,"2,33,499",Md Anwarul Haque,,Bahujan Samaj Party,"1,07,815","1,25,684"
+,5,Sitamarhi,GEN,Arjun Rai,,Janata Dal (United),"2,32,782",Samir Kumar Mahaseth,,Indian National Congress,"1,22,216","1,10,566"
+,6,Madhubani,GEN,Hukmdev Narayan Yadav,,Bharatiya Janata Party,"1,64,094",Abdul Bari Siddiqui,,Rashtriya Janata Dal,"1,54,167",9927
+,7,Jhanjharpur,GEN,Mangani Lal Mandal,,Janata Dal (United),"2,65,175",Devendra Prasad Yadav,,Rashtriya Janata Dal,"1,92,466",72709
+,8,Supaul,GEN,Vishwa Mohan Kumar,,Janata Dal (United),"3,13,677",Ranjeet Ranjan,,Indian National Congress,"1,47,602","1,66,075"
+,9,Araria,GEN,Pradeep Kumar Singh,,Bharatiya Janata Party,"2,82,742",Zakir Hussain Khan,,Lok Janshakti Party,"2,60,240",22502
+,10,Kishanganj,GEN,Mohammad Asrarul Haque,,Indian National Congress,"2,39,405",Syed Mahmood Ashraf,,Janata Dal (United),"1,59,136",80269
+,11,Katihar,GEN,Nikhil Kumar Choudhary,,Bharatiya Janata Party,"2,69,834",Tariq Anwar,,Nationalist Congress Party,"2,55,819",14015
+,12,Purnia,GEN,Uday Singh,,Bharatiya Janata Party,"3,62,952",Shanti Priya,,Independent,"1,76,725","1,86,227"
+,13,Madhepura,GEN,Sharad Yadav,,Janata Dal (United),"3,70,585",Ravindra Charan Yadav,,Rashtriya Janata Dal,"1,92,964","1,77,621"
+,14,Darbhanga,GEN,Kirti Azad,,Bharatiya Janata Party,"2,39,268",Ali Ashraf Fatmi,,Rashtriya Janata Dal,"1,92,815",46453
+,15,Muzaffarpur,GEN,Jai Narain Prasad Nishad,,Janata Dal (United),"1,95,091",Bhagwanlal Sahni,,Lok Janshakti Party,"1,47,282",47809
+,16,Vaishali,GEN,Raghuvansh Prasad Singh,,Rashtriya Janata Dal,"2,84,479",Vijay Kumar Shukla,,Janata Dal (United),"2,62,171",22308
+,17,Gopalganj,(SC),Purnmasi Ram,,Janata Dal (United),"2,00,024",Anil Kumar,,Rashtriya Janata Dal,"1,57,552",42472
+,18,Siwan,GEN,Om Prakash Yadav,,Independent,"2,36,194",Hena Shahab,,Rashtriya Janata Dal,"1,72,764",63430
+,19,Maharajganj,GEN,Umashanker Singh,,Rashtriya Janata Dal,"2,11,610",Prabhunath Singh,,Janata Dal (United),"2,08,813",2797
+,20,Saran,GEN,Lalu Prasad Yadav,,Rashtriya Janata Dal,"2,74,209",Rajiv Pratap Rudy,,Bharatiya Janata Party,"2,22,394",51815
+,21,Hajipur,(SC),Ram Sundar Das,,Janata Dal (United),"2,46,715",Ram Vilas Paswan,,Lok Janshakti Party,"2,08,761",37954
+,22,Ujiarpur,GEN,Ashwamedh Devi,,Janata Dal (United),"1,80,082",Alok Kumar Mehta,,Rashtriya Janata Dal,"1,54,770",25312
+,23,Samastipur,(SC),Maheshwar Hazari,,Janata Dal (United),"2,59,458",Ram Chandra Paswan,,Lok Janshakti Party,"1,55,082","1,04,376"
+,24,Begusarai,GEN,Monazir Hassan,,Janata Dal (United),"2,05,680",Shatrughna Prasad Singh,,Communist Party of India,"1,64,843",40837
+,25,Khagaria,GEN,Dinesh Chandra Yadav,,Janata Dal (United),"2,66,964",Ravindar Rana,,Rashtriya Janata Dal,"1,28,209","1,38,755"
+,26,Bhagalpur,GEN,Syed Shahnawaz Hussain,,Bharatiya Janata Party,"2,28,384",Shakuni Choudhary,,Rashtriya Janata Dal,"1,72,573",55811
+,27,Banka,GEN,Digvijay Singh,,Independent,"1,85,762",Jay Prakash Narayan Yadav,,Rashtriya Janata Dal,"1,57,046",28716
+,28,Munger,GEN,Rajiv Ranjan Singh,,Janata Dal (United),"3,74,317",Ram Badan Roy,,Rashtriya Janata Dal,"1,84,956","1,89,361"
+,29,Nalanda,GEN,Kaushalendra Kumar,,Janata Dal (United),"2,99,155",Satish Kumar,,Lok Janshakti Party,"1,46,478","1,52,677"
+,30,Patna Sahib,GEN,Shatrughan Sinha,,Bharatiya Janata Party,"3,16,549",Vijay Kumar,,Rashtriya Janata Dal,"1,49,779","1,66,770"
+,31,Pataliputra,GEN,Ranjan Prasad Yadav,,Janata Dal (United),"2,69,298",Lalu Prasad Yadav,,Rashtriya Janata Dal,"2,45,757",23541
+,32,Arrah,GEN,Meena Singh,,Janata Dal (United),"2,12,726",Rama Kishore Singh,,Lok Janshakti Party,"1,38,006",74720
+,33,Buxar,GEN,Jagada Nand Singh,,Rashtriya Janata Dal,"1,32,614",Lalmuni Chaubey,,Bharatiya Janata Party,"1,30,376",2238
+,34,Sasaram,(SC),Meira Kumar,,Indian National Congress,"1,92,213",Muni Lall,,Bharatiya Janata Party,"1,49,259",42954
+,35,Karakat,GEN,Mahabali Singh,,Janata Dal (United),"1,96,946",Kanti Singh,,Rashtriya Janata Dal,"1,76,463",20483
+,36,Jahanabad,GEN,Jagdish Sharma,,Janata Dal (United),"2,34,769",Surendra Yadav,,Rashtriya Janata Dal,"2,13,442",21327
+,37,Aurangabad,GEN,Sushil Kumar Singh,,Janata Dal (United),"2,60,153",Shakil Ahmad Khan,,Rashtriya Janata Dal,"1,88,095",72058
+,38,Gaya,(SC),Hari Manjhi,,Bharatiya Janata Party,"2,46,255",Ramji Manjhi,,Rashtriya Janata Dal,"1,83,802",62453
+,39,Nawada,GEN,Bhola Singh,,Bharatiya Janata Party,"1,30,608",Veena Devi,,Lok Janshakti Party,95691,34917
+,40,Jamui,(SC),Bhudeo Choudhary,,Janata Dal (United),"1,78,560",Shyam Rajak,,Rashtriya Janata Dal,"1,48,763",29797
+Chandigarh,1,Chandigarh,GEN,Pawan Kumar Bansal,,Indian National Congress,"1,61,042",Satya Pal Jain,,Bharatiya Janata Party,"1,02,075",58967
+Chhattisgarh,1,Sarguja,(ST),Murarilal Singh,,Bharatiya Janata Party,"4,16,532",Bhanu Pratap Singh,,Indian National Congress,"2,56,984","1,59,548"
+,2,Raigarh,(ST),Vishnu Deo Sai,,Bharatiya Janata Party,"4,43,948",Hridayaram Rathiya,,Indian National Congress,"3,88,100",55848
+,3,Janjgir-Champa,(SC),Kamla Devi Patle,,Bharatiya Janata Party,"3,02,142",Shiv Kumar Dahariya,,Indian National Congress,"2,14,931",87211
+,4,Korba,GEN,Charan Das Mahant,,Indian National Congress,"3,14,616",Karuna Shukla,,Bharatiya Janata Party,"2,93,879",20737
+,5,Bilaspur,GEN,Dilip Singh Judeo,,Bharatiya Janata Party,"3,47,930",Renu Jogi,,Indian National Congress,"3,27,791",20139
+,6,Rajnandgaon,GEN,Madhusudan Yadav,,Bharatiya Janata Party,"4,37,721",Devwrat Singh,,Indian National Congress,"3,18,647","1,19,074"
+,7,Durg,GEN,Saroj Pandey,,Bharatiya Janata Party,"2,83,170",Pradeep Choubey,,Indian National Congress,"2,73,216",9954
+,8,Raipur,GEN,Ramesh Bais,,Bharatiya Janata Party,"3,64,943",Bhupesh Baghel,,Indian National Congress,"3,07,042",57901
+,9,Mahasamund,GEN,Chandu Lal Sahu,,Bharatiya Janata Party,"3,71,201",Motilal Sahu,,Indian National Congress,"3,19,726",51475
+,10,Bastar,(ST),Baliram Kashyap,,Bharatiya Janata Party,"2,49,373",Shankar Sodi,,Indian National Congress,"1,49,111","1,00,262"
+,11,Kanker,(ST),Sohan Potai,,Bharatiya Janata Party,"3,41,131",Phulo Devi Netam,,Indian National Congress,"3,21,843",19288
+Dadra and Nagar Haveli,1,Dadra And Nagar Haveli,(ST),Natubhai Gomanbhai Patel,,Bharatiya Janata Party,51242,Mohanbhai Sanjibhai Delkar,,Indian National Congress,50624,618
+Daman and Diu,1,Daman and Diu,GEN,Lalubhai Patel,,Bharatiya Janata Party,44546,Dahyabhai Vallabhbhai Patel,,Indian National Congress,19708,24838
+Delhi,1,Chandni Chowk,GEN,Kapil Sibal,,Indian National Congress,"4,65,713",Vijender Gupta,,Bharatiya Janata Party,"2,65,003","2,00,710"
+,2,North East Delhi,GEN,Jai Parkash Aggarwal,,Indian National Congress,"5,18,191",B. L. Sharma,,Bharatiya Janata Party,"2,95,948","2,22,243"
+,3,East Delhi,GEN,Sandeep Dikshit,,Indian National Congress,"5,18,001",Chetan Chauhan,,Bharatiya Janata Party,"2,76,948","2,41,053"
+,4,New Delhi,GEN,Ajay Maken,,Indian National Congress,"4,55,867",Vijay Goel,,Bharatiya Janata Party,"2,68,058","1,87,809"
+,5,North West Delhi,(SC),Krishna Tirath,,Indian National Congress,"4,87,404",Meera Kanwaria,,Bharatiya Janata Party,"3,02,971","1,84,433"
+,6,West Delhi,GEN,Mahabal Mishra,,Indian National Congress,"4,79,899",Jagdish Mukhi,,Bharatiya Janata Party,"3,50,889","1,29,010"
+,7,South Delhi,GEN,Ramesh Kumar,,Indian National Congress,"3,60,278",Ramesh Bidhuri,,Bharatiya Janata Party,"2,67,059",93219
+Goa,1,North Goa,GEN,Shripad Yesso Naik,,Bharatiya Janata Party,"1,37,716",Jitendra Raghuraj Deshprabhu,,Nationalist Congress Party,"1,31,363",6353
+,2,South Goa,GEN,Francisco Sardinha,,Indian National Congress,"1,27,494",Narendra Keshav Sawaikar,,Bharatiya Janata Party,"1,14,978",12516
+Gujarat,1,Kachchh,(SC),Poonamben Jat,,Bharatiya Janata Party,"2,85,300",Valjibhai Danicha,,Indian National Congress,"2,13,957",71343
+,2,Banaskantha,GEN,Mukesh Gadhvi,,Indian National Congress,"2,89,409",Haribhai Parthibhai Chaudhary,,Bharatiya Janata Party,"2,79,108",10301
+,3,Patan,GEN,Jagdish Thakor,,Indian National Congress,"2,83,778",Bhavsinh Rathod,,Bharatiya Janata Party,"2,65,274",18504
+,4,Mahesana,GEN,Jayshreeben Patel,,Bharatiya Janata Party,"3,34,631",Jivabhai Ambalal Patel,,Indian National Congress,"3,12,766",21865
+,5,Sabarkantha,GEN,Mahendrasinh Chauhan,,Bharatiya Janata Party,"3,37,432",Madhusudan Mistry,,Indian National Congress,"3,20,272",17160
+,6,Gandhinagar,GEN,L. K. Advani,,Bharatiya Janata Party,"4,34,044",Sureshkumar Chaturdas Patel,,Indian National Congress,"3,12,297","1,21,747"
+,7,Ahmedabad East,GEN,Harin Pathak,,Bharatiya Janata Party,"3,18,846",Deepakbhai Babariya,,Indian National Congress,"2,32,790",86056
+,8,Ahmedabad West,(SC),Kirit Solanki,,Bharatiya Janata Party,"3,76,823",Shailesh Parmar,,Indian National Congress,"2,85,696",91127
+,9,Surendranagar,GEN,Somabhai Patel,,Indian National Congress,"2,47,710",Laljibhai Mer,,Bharatiya Janata Party,"2,42,879",4831
+,10,Rajkot,GEN,Kunwarjibhai Bavaliya,,Indian National Congress,"3,07,553",Kiran Kumar Patel,,Bharatiya Janata Party,"2,82,818",24735
+,11,Porbandar,GEN,Vitthal Radadiya,,Indian National Congress,"3,29,436",Mansukhbhai Shamjibhai Kachariya,,Bharatiya Janata Party,"2,89,933",39503
+,12,Jamnagar,GEN,Vikrambhai Arjanbhai Madam,,Indian National Congress,"2,81,410",Rameshbhai Mungra,,Bharatiya Janata Party,"2,54,992",26418
+,13,Junagadh,GEN,Dinubhai Solanki,,Bharatiya Janata Party,"3,55,335",Jashubhai Barad,,Indian National Congress,"3,41,576",13759
+,14,Amreli,GEN,Naranbhai Kachhadia,,Bharatiya Janata Party,"2,47,666",Nilaben Thummar,,Indian National Congress,"2,10,349",37317
+,15,Bhavnagar,GEN,Rajendrasinh Rana,,Bharatiya Janata Party,"2,13,376",Mahavirsinh Gohil,,Indian National Congress,"2,07,483",5893
+,16,Anand,GEN,Bharatsinh Solanki,,Indian National Congress,"3,48,655",Dipakbhai Patel,,Bharatiya Janata Party,"2,81,337",67318
+,17,Kheda,GEN,Dinsha Patel,,Indian National Congress,"2,84,004",Devusinh Chauhan,,Bharatiya Janata Party,"2,83,158",846
+,18,Panchmahal,GEN,Prabhatsinh Pratapsinh Chauhan,,Bharatiya Janata Party,"2,82,079",Shankersinh Vaghela,,Indian National Congress,"2,79,998",2081
+,19,Dahod,(ST),Prabha Kishor Taviad,,Indian National Congress,"2,50,586",Somjibhai Damor,,Bharatiya Janata Party,"1,92,050",58536
+,20,Vadodara,GEN,Balkrishna Khanderao Shukla,,Bharatiya Janata Party,"4,28,833",Satyajitsinh Gaekwad,,Indian National Congress,"2,92,805","1,36,028"
+,21,Chhota Udaipur,(ST),Ramsinh Rathwa,,Bharatiya Janata Party,"3,53,534",Naranbhai Rathwa,,Indian National Congress,"3,26,536",26998
+,22,Bharuch,GEN,Mansukhbhai Vasava,,Bharatiya Janata Party,"3,11,019",Aziz Tankarvi,,Indian National Congress,"2,83,787",27232
+,23,Bardoli,(ST),Tushar Amarsinh Chaudhary,,Indian National Congress,"3,98,430",Riteshkumar Vasava,,Bharatiya Janata Party,"3,39,445",58985
+,24,Surat,GEN,Darshana Jardosh,,Bharatiya Janata Party,"3,64,947",Dhirubhai Haribhai Gajera,,Indian National Congress,"2,90,149",74798
+,25,Navsari,GEN,C. R. Patil,,Bharatiya Janata Party,"4,23,413",Dhansukh Rajput,,Indian National Congress,"2,90,770","1,32,643"
+,26,Valsad,(ST),Kishanbhai Vestabhai Patel,,Indian National Congress,"3,57,755",DC Patel,,Bharatiya Janata Party,"3,50,586",7169
+Haryana,1,Ambala,(SC),Kumari Selja,,Indian National Congress,"3,22,258",Rattan Lal Kataria,,Bharatiya Janata Party,"3,07,688",14570
+,2,Kurukshetra,GEN,Naveen Jindal,,Indian National Congress,"3,97,204",Ashok Kumar Arora,,Indian National Lok Dal,"2,78,475","1,18,729"
+,3,Sirsa,(SC),Ashok Tanwar,,Indian National Congress,"4,15,584",Sita Ram,,Indian National Lok Dal,"3,80,085",35499
+,4,Hisar,GEN,Bhajan Lal,,Haryana Janhit Congress (BL),"2,48,476",Sampat Singh,,Indian National Lok Dal,"2,41,493",6983
+,5,Karnal,GEN,Arvind Kumar Sharma,,Indian National Congress,"3,04,698",Maratha Virender Verma,,Bahujan Samaj Party,"2,28,352",76346
+,6,Sonipat,GEN,Jitender Singh Malik,,Indian National Congress,"3,38,795",Kishan Singh Sangwan,,Bharatiya Janata Party,"1,77,511","1,61,284"
+,7,Rohtak,GEN,Deepender Singh Hooda,,Indian National Congress,"5,85,016",Nafe Singh Rathee,,Indian National Lok Dal,"1,39,280","4,45,736"
+,8,Bhiwaniï¿½ï¿½ï¿½Mahe,GEN,Shruti Choudhry,,Indian National Congress,"3,02,817",Ajay Singh Chautala,,Indian National Lok Dal,"2,47,240",55577
+,9,Gurgaon,GEN,Rao Inderjit Singh,,Indian National Congress,"2,78,516",Zakir Hussain,,Bahujan Samaj Party,"1,93,652",84864
+,10,Faridabad,GEN,Avtar Singh Bhadana,,Indian National Congress,"2,57,864",Ram Chander Bainda,,Bharatiya Janata Party,"1,89,663",68201
+Himachal Pradesh,1,Kangra,GEN,Rajan Sushant,,Bharatiya Janata Party,"3,22,254",Chander Kumar,,Indian National Congress,"3,01,475",20779
+,2,Mandi,GEN,Virbhadra Singh,,Indian National Congress,"3,40,973",Maheshwar Singh,,Bharatiya Janata Party,"3,26,976",13997
+,3,Hamirpur,GEN,Anurag Thakur,,Bharatiya Janata Party,"3,73,598",Narinder Thakur,,Indian National Congress,"3,00,866",72732
+,4,Shimla,(SC),Virender Kashyap,,Bharatiya Janata Party,"3,10,946",Dhani Ram Shandil,,Indian National Congress,"2,83,619",27327
+Jammu and Kashmir,1,Baramulla,GEN,Sharifuddin Shariq,,Jammu & Kashmir National Conference,"2,03,022",Mohammad Dilawar Mir,,Jammu and Kashmir Peoples Democratic Party,"1,38,208",64814
+,2,Srinagar,GEN,Farooq Abdullah,,Jammu & Kashmir National Conference,"1,47,035",Iftikhar Hussain Ansari,,Jammu and Kashmir Peoples Democratic Party,"1,16,793",30242
+,3,Anantnag,GEN,Mirza Mehboob Beg,,Jammu & Kashmir National Conference,"1,48,317",Peer Mohd Hussain,,Jammu and Kashmir Peoples Democratic Party,"1,43,093",5224
+,4,Ladakh,GEN,Hassan Khan,,Independent,32701,Phuntsog Namgyal,,Indian National Congress,29017,3684
+,5,Udhampur,GEN,Chaudhary Lal Singh,,Indian National Congress,"2,31,853",Nirmal Singh,,Bharatiya Janata Party,"2,18,459",13394
+,6,Jammu,GEN,Madan Lal Sharma,,Indian National Congress,"3,82,305",Lila Karan Sharma,,Bharatiya Janata Party,"2,60,932","1,21,373"
+Jharkhand,1,Rajmahal,(ST),Devidhan Besra,,Bharatiya Janata Party,"1,68,357",Hemlal Murmu,,Jharkhand Mukti Morcha,"1,59,374",8983
+,2,Dumka,(ST),Shibu Soren,,Jharkhand Mukti Morcha,"2,08,518",Sunil Soren,,Bharatiya Janata Party,"1,89,706",18812
+,3,Godda,GEN,Nishikant Dubey,,Bharatiya Janata Party,"1,89,526",Furkan Ansari,,Indian National Congress,"1,83,119",6407
+,4,Chatra,GEN,Inder Singh Namdhari,,Independent,"1,08,336",Dhiraj Prasad Sahu,,Indian National Congress,92158,16178
+,5,Kodarma,GEN,Babulal Marandi,,Jharkhand Vikas Morcha (Prajatantrik),"1,99,462",Raj Kumar Yadav,,Communist Party of India (Marxistï¿½ï¿½ï¿½Leninist) Li,"1,50,942",48520
+,6,Giridih,GEN,Ravindra Kumar Pandey,,Bharatiya Janata Party,"2,33,435",Tek Lal Mahto,,Jharkhand Mukti Morcha,"1,38,697",94738
+,7,Dhanbad,GEN,Pashupati Nath Singh,,Bharatiya Janata Party,"2,60,521",Chandra Shekhar Dubey,,Indian National Congress,"2,02,474",58047
+,8,Ranchi,GEN,Subodh Kant Sahay,,Indian National Congress,"3,10,499",Ram Tahal Choudhary,,Bharatiya Janata Party,"2,97,149",13350
+,9,Jamshedpur,GEN,Arjun Munda,,Bharatiya Janata Party,"3,19,620",Suman Mahato,,Jharkhand Mukti Morcha,"1,99,957","1,19,663"
+,10,Singhbhum,(ST),Madhu Koda,,Independent,"2,56,827",Barkuwar Gagrai,,Bharatiya Janata Party,"1,67,154",89673
+,11,Khunti,(ST),Kariya Munda,,Bharatiya Janata Party,"2,10,214",Neil Tirkey,,Indian National Congress,"1,30,039",80175
+,12,Lohardaga,(ST),Sudarshan Bhagat,,Bharatiya Janata Party,"1,44,628",Chamra Linda,,Independent,"1,36,345",8283
+,13,Palamau,(SC),Kameshwar Baitha,,Jharkhand Mukti Morcha,"1,67,995",Ghuran Ram,,Rashtriya Janata Dal,"1,44,457",23538
+,14,Hazaribagh,GEN,Yashwant Sinha,,Bharatiya Janata Party,"2,19,810",Saurabh Narain Singh,,Indian National Congress,"1,79,646",40164
+Karnataka,1,Chikkodi,GEN,Ramesh Katti,,Bharatiya Janata Party,"4,38,081",Prakash Hukkeri,,Indian National Congress,"3,82,794",55287
+,2,Belgaum,GEN,Suresh Angadi,,Bharatiya Janata Party,"3,84,324",Amarsinh Vasantrao Patil,,Indian National Congress,"2,65,637","1,18,687"
+,3,Bagalkot,GEN,P. C. Gaddigoudar,,Bharatiya Janata Party,"4,13,272",J. T. Patil,,Indian National Congress,"3,77,826",35446
+,4,Bijapur,(SC),Ramesh Jigajinagi,,Bharatiya Janata Party,"3,08,939",Prakash Rathod,,Indian National Congress,"2,66,535",42404
+,5,Gulbarga,(SC),Mallikarjun Kharge,,Indian National Congress,"3,45,241",Revu Naik Belamgi,,Bharatiya Janata Party,"3,31,837",13404
+,6,Raichur,(ST),Sanna Pakirappa,,Bharatiya Janata Party,"3,16,450",Raja Venkatappa Naik,,Indian National Congress,"2,85,814",30636
+,7,Bidar,GEN,Dharam Singh,,Indian National Congress,"3,37,957",Gurupadappa Nagamarapalli,,Bharatiya Janata Party,"2,98,338",39619
+,8,Koppal,GEN,Shivaramagouda Shivanagouda,,Bharatiya Janata Party,"2,91,693",Basavaraj Rayareddy,,Indian National Congress,"2,91,693",81789
+,9,Bellary,(ST),J. Shantha,,Bharatiya Janata Party,"4,02,213",N. Y. Hanumanthappa,,Indian National Congress,"3,99,970",2243
+,10,Haveri,GEN,Shivkumar Chanabasappa Udasi,,Bharatiya Janata Party,"4,30,293",Saleem Ahmed,,Indian National Congress,"3,42,373",87920
+,11,Dharwad,GEN,Pralhad Joshi,,Bharatiya Janata Party,"4,46,786",Manjunath Kunnur,,Indian National Congress,"3,09,123","1,37,663"
+,12,Uttara Kannada,GEN,Anant Kumar Hegde,,Bharatiya Janata Party,"3,39,300",Margaret Alva,,Indian National Congress,"3,16,531",22769
+,13,Davanagere,GEN,G. M. Siddeshwara,,Bharatiya Janata Party,"4,23,447",SS Mallikarjuna,,Indian National Congress,"4,21,423",2024
+,14,Shimoga,GEN,B. Y. Raghavendra,,Bharatiya Janata Party,"4,82,783",Sarekoppa Bangarappa,,Indian National Congress,"4,29,890",52893
+,15,Udupi Chikmagalur,GEN,D. V. Sadananda Gowda,,Bharatiya Janata Party,"4,01,441",K. Jayaprakash Hegde,,Indian National Congress,"3,74,423",27018
+,16,Hassan,GEN,H. D. Deve Gowda,,Janata Dal (Secular),"4,96,429",K H Hanume Gowda,,Bharatiya Janata Party,"2,05,316","2,91,113"
+,17,Dakshina Kannada,GEN,Nalin Kumar Kateel,,Bharatiya Janata Party,"4,99,385",Janardhana Poojary,,Indian National Congress,"4,58,965",40420
+,18,Chitradurga,(SC),Janardhana Swamy,,Bharatiya Janata Party,"3,70,920",B Thippeswamy,,Indian National Congress,"2,35,349","1,35,571"
+,19,Tumkur,GEN,G. S. Basavaraj,,Bharatiya Janata Party,"3,31,064",S. P. Muddahanumegowda,,Janata Dal (Secular),"3,09,619",21445
+,20,Mandya,GEN,N Cheluvaraya Swamy,,Janata Dal (Secular),"3,84,443",Ambareesh,,Indian National Congress,"3,60,943",23500
+,21,Mysore,GEN,Adagur H. Vishwanath,,Indian National Congress,"3,54,810",C. H. Vijayashankar,,Bharatiya Janata Party,"3,47,119",7691
+,22,Chamarajanagar,(SC),R. Dhruvanarayana,,Indian National Congress,"3,69,970",A R Krishnamurthy,,Bharatiya Janata Party,"3,65,968",4002
+,23,Bangalore Rural,GEN,H. D. Kumaraswamy,,Janata Dal (Secular),"4,93,302",C. P. Yogeeshwara,,Bharatiya Janata Party,"3,63,027","1,30,275"
+,24,Bangalore North,GEN,D. B. Chandre Gowda,,Bharatiya Janata Party,"4,52,920",C. K. Jaffer Sharief,,Indian National Congress,"3,93,255",59665
+,25,Bangalore Central,GEN,P. C. Mohan,,Bharatiya Janata Party,"3,40,162",H. T. Sangliana,,Indian National Congress,"3,04,944",35218
+,26,Bangalore South,GEN,Ananth Kumar,,Bharatiya Janata Party,"4,37,953",Krishna Byre Gowda,,Indian National Congress,"4,00,341",37612
+,27,Chikballapur,GEN,Veerappa Moily,,Indian National Congress,"3,90,500",C Aswathanarayana,,Bharatiya Janata Party,"3,39,119",51381
+,28,Kolar,GEN,K. H. Muniyappa,,Indian National Congress,"3,44,771",DS Veeraiah,,Bharatiya Janata Party,"3,21,765",23006
+Kerala,1,Kasaragod,GEN,P. Karunakaran,,Communist Party of India (Marxist),"3,85,522",Shahida Kamal,,Indian National Congress,"3,21,095",64427
+,2,Kannur,GEN,K. Sudhakaran,,Indian National Congress,"4,32,878",K. K. Ragesh,,Communist Party of India (Marxist),"3,89,727",43151
+,3,Vatakara,GEN,Mullappally Ramachandran,,Indian National Congress,"4,21,255",P Satheedevi,,Communist Party of India (Marxist),"3,65,069",56186
+,4,Wayanad,GEN,M. I. Shanavas,,Indian National Congress,"4,10,703",M Rahmathulla,,Communist Party of India,"2,57,264","1,53,439"
+,5,Kozhikode,GEN,M. K. Raghavan,,Indian National Congress,"3,42,309",P. A. Mohammed Riyas,,Communist Party of India (Marxist),"3,41,471",838
+,6,Malappuram,GEN,E. Ahamed,,Muslim League Kerala State Committee,"4,27,940",T. K. Hamza,,Communist Party of India (Marxist),"3,12,343","1,15,597"
+,7,Ponnani,GEN,E. T. Mohammed Basheer,,Muslim League Kerala State Committee,"3,85,801",Hussain Randathani,,Independent,"3,03,117",82684
+,8,Palakkad,GEN,M. B. Rajesh,,Communist Party of India (Marxist),"3,38,070",Satheeshan Pacheni,,Indian National Congress,"3,36,250",1820
+,9,Alathur,(SC),P. K. Biju,,Communist Party of India (Marxist),"3,87,352",NK Sudheer,,Indian National Congress,"3,66,392",20960
+,10,Thrissur,GEN,P. C. Chacko,,Indian National Congress,"3,85,297",C. N. Jayadevan,,Communist Party of India,"3,60,146",25151
+,11,Chalakudy,GEN,K. P. Dhanapalan,,Indian National Congress,"3,99,035",UP Joseph,,Communist Party of India (Marxist),"3,27,356",71679
+,12,Ernakulam,GEN,K. V. Thomas,,Indian National Congress,"3,42,845",Sindhu Joy,,Communist Party of India (Marxist),"3,31,055",11790
+,13,Idukki,GEN,P. T. Thomas,,Indian National Congress,"4,08,484",Francis George,,Kerala Congress,"3,33,688",74796
+,14,Kottayam,GEN,Jose K. Mani,,Kerala Congress (M),"4,04,962",K. Suresh Kurup,,Communist Party of India (Marxist),"3,33,392",71570
+,15,Alappuzha,GEN,K. C. Venugopal,,Indian National Congress,"4,68,679",K. S. Manoj,,Communist Party of India (Marxist),"4,11,044",57635
+,16,Mavelikkara,(SC),Kodikunnil Suresh,,Indian National Congress,"3,97,211",RS Anil,,Communist Party of India,"3,49,163",48048
+,17,Pathanamthitta,GEN,Anto Antony,,Indian National Congress,"4,08,232",K Anantha Gopan,,Communist Party of India (Marxist),"2,97,026","1,11,206"
+,18,Kollam,GEN,N. Peethambara Kurup,,Indian National Congress,"3,57,401",P. Rajendran,,Communist Party of India (Marxist),"3,39,870",17531
+,19,Attingal,GEN,A Sampath,,Communist Party of India (Marxist),"3,28,036",G Balachandran,,Indian National Congress,"3,09,695",18341
+,20,Thiruvananthapuram,GEN,Shashi Tharoor,,Indian National Congress,"3,26,725",P Ramachandran Nair,,Communist Party of India (Marxist),"2,26,727",99998
+Lakshadweep,1,Lakshadweep,(ST),Muhammed Hamdulla Sayeed,,Indian National Congress,20492,P. Pookunhi Koya,,Nationalist Congress Party,18294,2198
+Madhya Pradesh,1,Morena,GEN,Narendra Singh Tomar,,Bharatiya Janata Party,"3,00,647",Ramnivas Rawat,,Indian National Congress,"1,99,650","1,00,997"
+,2,Bhind,(SC),Ashok Argal,,Bharatiya Janata Party,"2,27,365",Bhagirath Prasad,,Indian National Congress,"2,08,479",18886
+,3,Gwalior,GEN,Yashodhara Raje Scindia,,Bharatiya Janata Party,"2,52,314",Ashok Singh,,Indian National Congress,"2,25,723",26591
+,4,Guna,GEN,Jyotiraditya Scindia,,Indian National Congress,"4,13,297",Narottam Mishra,,Bharatiya Janata Party,"1,63,560","2,49,737"
+,5,Sagar,GEN,Bhupendra Singh,,Bharatiya Janata Party,"3,23,954",Aslam Sher Khan,,Indian National Congress,"1,92,786","1,31,168"
+,6,Tikamgarh,(SC),Virendra Kumar,,Bharatiya Janata Party,"2,00,109",Ahirwar Vrindavan,,Indian National Congress,"1,58,247",41862
+,7,Damoh,GEN,Shivraj Singh Lodhi,,Bharatiya Janata Party,"3,02,673",Chandrabhan Bhaiya,,Indian National Congress,"2,31,796",70877
+,8,Khajuraho,GEN,Jeetendra Singh Bundela,,Bharatiya Janata Party,"2,29,369",Raja Pateria,,Indian National Congress,"2,01,037",28332
+,9,Satna,GEN,Ganesh Singh,,Bharatiya Janata Party,"1,94,624",Sukhlal Kushwaha,,Bahujan Samaj Party,"1,90,206",4418
+,10,Rewa,GEN,Deoraj Singh Patel,,Bahujan Samaj Party,"1,72,002",Sundar Lal Tiwari,,Indian National Congress,"1,67,981",4021
+,11,Sidhi,GEN,Govind Prasad Mishra,,Bharatiya Janata Party,"2,70,914",Indrajeet Kumar,,Indian National Congress,"2,25,174",45740
+,12,Shahdol,(ST),Rajesh Nandini Singh,,Indian National Congress,"2,63,434",Narendra Singh Maravi,,Bharatiya Janata Party,"2,50,019",13415
+,13,Jabalpur,GEN,Rakesh Singh,,Bharatiya Janata Party,"3,43,922",Rameshwar Neekhra,,Indian National Congress,"2,37,919","1,06,003"
+,14,Mandla,(ST),Basori Singh Masram,,Indian National Congress,"3,91,133",Faggan Singh Kulaste,,Bharatiya Janata Party,"3,26,080",65053
+,15,Balaghat,GEN,K. D. Deshmukh,,Bharatiya Janata Party,"2,99,959",Vishveshwar Bhagat,,Indian National Congress,"2,59,140",40819
+,16,Chhindwara,GEN,Kamal Nath,,Indian National Congress,"4,09,736",Marot Rao Khavase,,Bharatiya Janata Party,"2,88,516","1,21,220"
+,17,Narmadapuram,GEN,Uday Pratap Singh,,Indian National Congress,"3,39,496",Rampal Singh,,Bharatiya Janata Party,"3,20,251",19245
+,18,Vidisha,GEN,Sushma Swaraj,,Bharatiya Janata Party,"4,38,235",Munvvar Saleem,,Samajwadi Party,48391,"3,89,844"
+,19,Bhopal,GEN,Kailash Joshi,,Bharatiya Janata Party,"3,35,678",Surendra Singh Thakur,,Indian National Congress,"2,70,521",65157
+,20,Rajgarh,GEN,Narayan Singh Amlabe,,Indian National Congress,"3,19,371",Lakshman Singh,,Bharatiya Janata Party,"2,94,983",24388
+,21,Dewas,(SC),Sajjan Singh Verma,,Indian National Congress,"3,76,421",Thawar Chand Gehlot,,Bharatiya Janata Party,"3,60,964",15457
+,22,Ujjain,(SC),Premchand Guddu,,Indian National Congress,"3,26,905",Satyanarayan Jatiya,,Bharatiya Janata Party,"3,11,064",15841
+,23,Mandsaur,GEN,Meenakshi Natarajan,,Indian National Congress,"3,73,532",Laxminarayan Pandey,,Bharatiya Janata Party,"3,42,713",30819
+,24,Ratlam,(ST),Kantilal Bhuria,,Indian National Congress,"3,08,923",Dileep Singh Bhuria,,Bharatiya Janata Party,"2,51,255",57668
+,25,Dhar,(ST),Gajendra Singh Rajukhedi,,Indian National Congress,"3,02,660",Mukam Singh Kirade,,Bharatiya Janata Party,"2,99,999",2661
+,26,Indore,GEN,Sumitra Mahajan,,Bharatiya Janata Party,"3,88,662",Satyanarayan Patel,,Indian National Congress,"3,77,182",11480
+,27,Khargone,(ST),Makhansingh Solanki,,Bharatiya Janata Party,"3,51,296",Bala Bachchan,,Indian National Congress,"3,17,121",34175
+,28,Khandwa,GEN,Arun Subhash Chandra Yadav,,Indian National Congress,"3,94,241",Nandkumar Singh Chauhan,,Bharatiya Janata Party,"3,45,160",49081
+,29,Betul,(ST),Jyoti Dhurve,,Bharatiya Janata Party,"3,34,939",Ojharam Evane,,Indian National Congress,"2,37,622",97317
+Maharashtra,1,Nandurbar,(ST),Manikrao Hodlya Gavit,,Indian National Congress,"2,75,936",Sharad Gavit,,Samajwadi Party,"2,35,093",40843
+,2,Dhule,GEN,Pratap Narayanrao Sonawane,,Bharatiya Janata Party,"2,63,260",Amarishbhai Rasiklal Patel,,Indian National Congress,"2,43,841",19419
+,3,Jalgaon,GEN,AT Nana Patil,,Bharatiya Janata Party,"3,43,647",Vasantrao More,,Nationalist Congress Party,"2,47,627",96020
+,4,Raver,GEN,Haribhau Jawale,,Bharatiya Janata Party,"3,28,843",Ravindra Patil,,Nationalist Congress Party,"3,00,625",28218
+,5,Buldhana,GEN,Prataprao Ganpatrao Jadhav,,Shiv Sena,"3,53,671",Rajendra Shingne,,Nationalist Congress Party,"3,25,593",28078
+,6,Akola,GEN,Sanjay Shamrao Dhotre,,Bharatiya Janata Party,"2,87,526",Prakash Yashwant Ambedkar,,Bharipa Bahujan Mahasangh,"2,22,678",64848
+,7,Amravati,(SC),Anandrao Vithoba Adsul,,Shiv Sena,"3,14,286",Rajendra Gavai,,Republican Party of India (G),"2,52,570",61716
+,8,Wardha,GEN,Datta Meghe,,Indian National Congress,"3,52,853",Suresh Wagmare,,Bharatiya Janata Party,"2,56,935",95918
+,9,Ramtek,(SC),Mukul Wasnik,,Indian National Congress,"3,11,614",Krupal Tumane,,Shiv Sena,"2,94,913",16701
+,10,Nagpur,GEN,Vilas Muttemwar,,Indian National Congress,"3,15,148",Banwarilal Purohit,,Bharatiya Janata Party,"2,90,749",24399
+,11,Bhandara-Gondiya,GEN,Praful Patel,,Nationalist Congress Party,"4,89,814",Nana Patole,,Independent,"2,37,899","2,51,915"
+,12,Gadchiroli-Chimur,(ST),Marotrao Kowase,,Indian National Congress,"3,21,756",Ashok Nete,,Bharatiya Janata Party,"2,93,176",28580
+,13,Chandrapur,GEN,Hansraj Gangaram Ahir,,Bharatiya Janata Party,"3,01,467",Naresh Puglia,,Indian National Congress,"2,68,972",32495
+,14,Yavatmal-Washim,GEN,Bhavana Gawali,,Shiv Sena,"3,84,443",Harising Rathod,,Indian National Congress,"3,27,492",56951
+,15,Hingoli,GEN,Subhash Wankhede,,Shiv Sena,"3,40,148",Suryakanta Patil,,Nationalist Congress Party,"2,66,514",73634
+,16,Nanded,GEN,Bhaskarrao Khatgaonkar,,Indian National Congress,"3,46,400",Sambhaji Pawar,,Bharatiya Janata Party,"2,71,786",74614
+,17,Parbhani,GEN,Ganeshrao Dudhgaonkar,,Shiv Sena,"3,85,387",Suresh Warpudkar,,Nationalist Congress Party,"3,19,969",65418
+,18,Jalna,GEN,Raosaheb Danve,,Bharatiya Janata Party,"3,50,710",Kalyan Vaijinath Kale,,Indian National Congress,"3,42,228",8482
+,19,Aurangabad,GEN,Chandrakant Khaire,,Shiv Sena,"2,55,896",Uttamsingh Pawar,,Indian National Congress,"2,22,882",33014
+,20,Dindori,(ST),Harischandra Devram Chavan,,Bharatiya Janata Party,"2,81,254",Zirwal Narhari Sitaram,,Nationalist Congress Party,"2,43,907",37347
+,21,Nashik,GEN,Sameer Bhujbal,,Nationalist Congress Party,"2,38,706",Hemant Godse,,Maharashtra Navnirman Sena,"2,16,674",22032
+,22,Palghar,(ST),Baliram Jadhav,,Bahujan Vikas Aaghadi,"2,23,234",Chintaman Vanaga,,Bharatiya Janata Party,"2,10,874",12360
+,23,Bhiwandi,GEN,Suresh Kashinath Taware,,Indian National Congress,"1,82,789",Jagannath Patil,,Bharatiya Janata Party,"1,41,425",41364
+,24,Kalyan,GEN,Anand Paranjpe,,Shiv Sena,"2,12,476",Vasant Davkhare,,Nationalist Congress Party,"1,88,274",24202
+,25,Thane,GEN,Sanjeev Naik,,Nationalist Congress Party,"3,01,000",Vijay Chougule,,Shiv Sena,"2,51,980",49020
+,26,Mumbai North,GEN,Sanjay Nirupam,,Indian National Congress,"2,55,157",Ram Naik,,Bharatiya Janata Party,"2,49,378",5779
+,27,Mumbai North West,GEN,Gurudas Kamat,,Indian National Congress,"2,53,920",Gajanan Kirtikar,,Shiv Sena,"2,15,533",38387
+,28,Mumbai North East,GEN,Sanjay Dina Patil,,Nationalist Congress Party,"2,13,505",Kirit Somaiya,,Bharatiya Janata Party,"2,10,572",2933
+,29,Mumbai North Central,GEN,Priya Dutt,,Indian National Congress,"3,19,352",Mahesh Ram Jethmalani,,Bharatiya Janata Party,"1,44,797","1,74,555"
+,30,Mumbai South Central,GEN,Eknath Gaikwad,,Indian National Congress,"2,57,523",Suresh Anant Gambhir,,Shiv Sena,"1,81,817",75706
+,31,Mumbai South,GEN,Milind Deora,,Indian National Congress,"2,72,411",Bala Nandgaonkar,,Maharashtra Navnirman Sena,"1,59,729","1,12,682"
+,32,Raigad,GEN,Anant Geete,,Shiv Sena,"4,13,546",A. R. Antulay,,Indian National Congress,"2,67,025","1,46,521"
+,33,Maval,GEN,Gajanan Babar,,Shiv Sena,"3,64,857",Azam Pansare,,Nationalist Congress Party,"2,84,238",80619
+,34,Pune,GEN,Suresh Kalmadi,,Indian National Congress,"2,79,973",Anil Shirole,,Bharatiya Janata Party,"2,54,272",25701
+,35,Baramati,GEN,Supriya Sule,,Nationalist Congress Party,"4,87,827",Kanta Nalawade,,Bharatiya Janata Party,"1,50,996","3,36,831"
+,36,Shirur,GEN,Shivajirao Adhalarao Patil,,Shiv Sena,"4,82,563",Vilas Vithoba Lande,,Nationalist Congress Party,"3,03,952","1,78,611"
+,37,Ahmednagar,GEN,Dilip Kumar Gandhi,,Bharatiya Janata Party,"3,12,047",Kardile Shivaji Bhanudas,,Nationalist Congress Party,"2,65,316",46731
+,38,Shirdi,(SC),Bhausaheb Wakchaure,,Shiv Sena,"3,59,921",Ramdas Athawale,,Republican Party of India (A),"2,27,170","1,32,751"
+,39,Beed,GEN,Gopinath Munde,,Bharatiya Janata Party,"5,53,994",Rameshrao Baburao Kokate,,Nationalist Congress Party,"4,13,042","1,40,952"
+,40,Osmanabad,GEN,Padamsinha Patil,,Nationalist Congress Party,"4,08,840",Ravindra Gaikwad,,Shiv Sena,"4,02,053",6787
+,41,Latur,(SC),Jaywantrao Awale,,Indian National Congress,"3,72,890",Sunil Gaikwad,,Bharatiya Janata Party,"3,64,915",7975
+,42,Solapur,(SC),Sushilkumar Shinde,,Indian National Congress,"3,87,591",Sharad Bansode,,Bharatiya Janata Party,"2,87,959",99632
+,43,Madha,GEN,Sharad Pawar,,Nationalist Congress Party,"5,30,596",Subhash Sureshchandra Deshmukh,,Bharatiya Janata Party,"2,16,137","3,14,459"
+,44,Sangli,GEN,Pratik Patil,,Indian National Congress,"3,78,620",Ajitrao Shankarrao Ghorpade,,Independent,"3,38,837",39783
+,45,Satara,GEN,Udayanraje Bhosale,,Nationalist Congress Party,"5,32,583",Purushottam Bajirao Jadhav,,Shiv Sena,"2,35,068","2,97,515"
+,46,Ratnagiri-Sindhudurg,GEN,Nilesh Narayan Rane,,Indian National Congress,"3,53,915",Suresh Prabhu,,Shiv Sena,"3,07,165",46750
+,47,Kolhapur,GEN,Sadashivrao Mandlik,,Independent,"4,28,082",Sambhaji Raje,,Nationalist Congress Party,"3,83,282",44800
+,48,Hatkanangle,GEN,Raju Shetti,,Swabhimani Paksha,"4,81,025",Nivedita Mane,,Nationalist Congress Party,"3,85,965",95060
+Manipur,1,Inner Manipur,GEN,Thokchom Meinya,,Indian National Congress,"2,30,876",Moirangthem Nara,,Communist Party of India,"1,99,916",30960
+,2,Outer Manipur,(ST),Thangso Baite,,Indian National Congress,"3,44,517",Mani Charenamei,,People's Democratic Alliance,"2,24,719","1,19,798"
+Meghalaya,1,Shillong,(ST),Vincent Pala,,Indian National Congress,"2,32,270",John Filmore Kharshiing,,United Democratic Party,"1,24,402","1,07,868"
+,2,Tura,(ST),Agatha Sangma,,Nationalist Congress Party,"1,54,476",Debora C Marak,,Indian National Congress,"1,36,531",17945
+Mizoram,1,Mizoram,(ST),C. L. Ruala,,Indian National Congress,"2,13,779",H. Lallungmuana,,Independent,"1,04,824","1,08,955"
+Nagaland,1,Nagaland,(ST),C. M. Chang,,Naga People's Front,"8,32,224",K. Asungba Sangtam,,Indian National Congress,"3,49,203","4,83,021"
+Odisha,1,Bargarh,GEN,Sanjay Bhoi,,Indian National Congress,"3,97,375",Hamid Hussain,,Biju Janata Dal,"2,98,931",98444
+,2,Sundargarh,(ST),Hemananda Biswal,,Indian National Congress,"2,80,054",Jual Oram,,Bharatiya Janata Party,"2,68,430",11624
+,3,Sambalpur,GEN,Amarnath Pradhan,,Indian National Congress,"3,04,890",Rohit Pujari,,Biju Janata Dal,"2,90,016",14874
+,4,Keonjhar,(ST),Yashbant Narayan Singh Laguri,,Biju Janata Dal,"3,89,104",Dhanurjaya Sidu,,Indian National Congress,"2,62,620","1,26,484"
+,5,Mayurbhanj,(ST),Laxman Tudu,,Biju Janata Dal,"2,56,648",Sudam Marndi,,Jharkhand Mukti Morcha,"1,90,470",66178
+,6,Balasore,GEN,Srikant Kumar Jena,,Indian National Congress,"3,13,888",Arun Dey,,Nationalist Congress Party,"2,74,988",38900
+,7,Bhadrak,(SC),Arjun Charan Sethi,,Biju Janata Dal,"4,16,808",Ananta Prasad Sethi,,Indian National Congress,"3,61,870",54938
+,8,Jajpur,(SC),Mohan Jena,,Biju Janata Dal,"4,33,350",Amiya Kanta Mallik,,Indian National Congress,"3,05,603","1,27,747"
+,9,Dhenkanal,GEN,Tathagata Satpathy,,Biju Janata Dal,"3,98,568",Chandra Sekhar Tripathi,,Indian National Congress,"2,11,981","1,86,587"
+,10,Bolangir,GEN,Kalikesh Narayan Singh Deo,,Biju Janata Dal,"4,30,150",Narasingha Mishra,,Indian National Congress,"3,39,315",90835
+,11,Kalahandi,GEN,Bhakta Charan Das,,Indian National Congress,"4,01,736",Subash Chandra Nayak,,Biju Janata Dal,"2,47,699","1,54,037"
+,12,Nabarangpur,(ST),Pradeep Kumar Majhi,,Indian National Congress,"3,08,307",Domburu Majhi,,Biju Janata Dal,"2,78,330",29977
+,13,Kandhamal,GEN,Rudra Madhab Ray,,Biju Janata Dal,"3,15,314",Suzit Kumar Padhi,,Indian National Congress,"1,64,307","1,51,007"
+,14,Cuttack,GEN,Bhartruhari Mahtab,,Biju Janata Dal,"4,65,089",Bibhuti Bhusan Mishra,,Indian National Congress,"2,28,797","2,36,292"
+,15,Kendrapara,GEN,Baijayant Panda,,Biju Janata Dal,"5,02,635",Ranjib Biswal,,Indian National Congress,"3,75,528","1,27,107"
+,16,Jagatsinghpur,(SC),Bibhu Prasad Tarai,,Communist Party of India,"4,57,234",Rabindra Kumar Sethy,,Indian National Congress,"3,80,499",76735
+,17,Puri,GEN,Pinaki Misra,,Biju Janata Dal,"4,36,961",Debendra Nath Mansingh,,Indian National Congress,"2,25,656","2,11,305"
+,18,Bhubaneswar,GEN,Prasanna Kumar Patasani,,Biju Janata Dal,"4,00,472",Santosh Mohanty,,Indian National Congress,"1,47,712","2,52,760"
+,19,Aska,GEN,Nityananda Pradhan,,Biju Janata Dal,"4,19,862",Ramchandra Rath,,Indian National Congress,"1,87,028","2,32,834"
+,20,Berhampur,GEN,Siddhanta Mahapatra,,Biju Janata Dal,"3,19,839",Chandra Sekhar Sahu,,Indian National Congress,"2,62,552",57287
+,21,Koraput,(ST),Jayaram Pangi,,Biju Janata Dal,"3,12,776",Giridhar Gamang,,Indian National Congress,"2,16,416",96360
+Puducherry,1,Puducherry,GEN,V. Narayanasamy,,Indian National Congress,"3,00,391",M. Ramadass,,Pattali Makkal Katchi,"2,08,619",91772
+Punjab,1,Gurdaspur,GEN,Partap Singh Bajwa,,Indian National Congress,"4,47,994",Vinod Khanna,,Bharatiya Janata Party,"4,39,652",8342
+,2,Amritsar,GEN,Navjot Singh Sidhu,,Bharatiya Janata Party,"3,92,046",Om Parkash Soni,,Indian National Congress,"3,85,188",6858
+,3,Khadoor Sahib,GEN,Rattan Singh Ajnala,,Shiromani Akali Dal,"4,67,980",Rana Gurjeet Singh,,Indian National Congress,"4,35,720",32260
+,4,Jalandhar,(SC),Mohinder Singh Kaypee,,Indian National Congress,"4,08,103",Hans Raj Hans,,Shiromani Akali Dal,"3,71,658",36445
+,5,Hoshiarpur,(SC),Santosh Chowdhary,,Indian National Congress,"3,58,812",Som Parkash,,Bharatiya Janata Party,"3,58,446",366
+,6,Anandpur Sahib,GEN,Ravneet Singh Bittu,,Indian National Congress,"4,04,836",Daljit Singh Cheema,,Shiromani Akali Dal,"3,37,632",67204
+,7,Ludhiana,GEN,Manish Tewari,,Indian National Congress,"4,49,264",Gurcharan Singh Galib,,Shiromani Akali Dal,"3,35,558","1,13,706"
+,8,Fatehgarh Sahib,(SC),Sukhdev Singh Libra,,Indian National Congress,"3,93,557",Charanjit Singh Atwal,,Shiromani Akali Dal,"3,59,258",34299
+,9,Faridkot,(SC),Paramjit Kaur Gulshan,,Shiromani Akali Dal,"4,57,734",Sukhwinder Singh Danny,,Indian National Congress,"3,95,692",62042
+,10,Ferozepur,GEN,Sher Singh Ghubaya,,Shiromani Akali Dal,"4,50,900",Jagmeet Singh Brar,,Indian National Congress,"4,29,829",21071
+,11,Bathinda,GEN,Harsimrat Kaur Badal,,Shiromani Akali Dal,"5,29,472",Raninder Singh,,Indian National Congress,"4,08,524","1,20,948"
+,12,Sangrur,GEN,Vijay Inder Singla,,Indian National Congress,"3,58,670",Sukhdev Singh Dhindsa,,Shiromani Akali Dal,"3,17,798",40872
+,13,Patiala,GEN,Preneet Kaur,,Indian National Congress,"4,74,188",Prem Singh Chandumajra,,Shiromani Akali Dal,"3,76,799",97389
+Rajasthan,1,Ganganagar,(SC),Bharat Ram Meghwal,,Indian National Congress,"4,76,554",Nihalchand,,Bharatiya Janata Party,"3,35,886","1,40,668"
+,2,Bikaner,(SC),Arjun Ram Meghwal,,Bharatiya Janata Party,"2,44,537",Rewat Ram Panwar,,Indian National Congress,"2,24,962",19575
+,3,Churu,GEN,Ram Singh Kaswan,,Bharatiya Janata Party,"3,76,708",Rafique Mandelia,,Indian National Congress,"3,64,268",12440
+,4,Jhunjhunu,GEN,Sis Ram Ola,,Indian National Congress,"3,06,330",Dasrath Singh Shekhawat,,Bharatiya Janata Party,"2,40,998",65332
+,5,Sikar,GEN,Mahadeo Singh Khandela,,Indian National Congress,"3,24,812",Subhash Maharia,,Bharatiya Janata Party,"1,75,386","1,49,426"
+,6,Jaipur Rural,GEN,Lal Chand Kataria,,Indian National Congress,"2,78,266",Rao Rajendra Singh,,Bharatiya Janata Party,"2,26,029",52237
+,7,Jaipur,GEN,Mahesh Joshi,,Indian National Congress,"3,97,438",Ramcharan Bohra,,Bharatiya Janata Party,"3,81,339",16099
+,8,Alwar,GEN,Bhanwar Jitendra Singh,,Indian National Congress,"4,50,119",Kiran Yadav,,Bharatiya Janata Party,"2,93,500","1,56,619"
+,9,Bharatpur,(SC),Ratan Singh,,Indian National Congress,"3,01,434",Khemchand,,Bharatiya Janata Party,"2,19,980",81454
+,10,Karauliï¿½ï¿½ï¿,(SC),Khiladi Lal Bairwa,,Indian National Congress,"2,15,810",Manoj Rajoria,,Bharatiya Janata Party,"1,86,087",29723
+,11,Dausa,(ST),Kirodi Lal Meena,,Independent,"4,33,666",Qummer Rubbani,,Independent,"2,95,907","1,37,759"
+,12,Tonkï¿½ï¿½ï¿½Sawai ,GEN,Namo Narain Meena,,Indian National Congress,"3,75,572",Kirori Singh Bainsla,,Bharatiya Janata Party,"3,75,255",317
+,13,Ajmer,GEN,Sachin Pilot,,Indian National Congress,"4,05,575",Kiran Maheshwari,,Bharatiya Janata Party,"3,29,440",76135
+,14,Nagaur,GEN,Jyoti Mirdha,,Indian National Congress,"3,33,261",Bindu Chaudhary,,Bharatiya Janata Party,"1,78,124","1,55,137"
+,15,Pali,GEN,Badri Ram Jakhar,,Indian National Congress,"3,87,604",Pusp Jain,,Bharatiya Janata Party,"1,90,887","1,96,717"
+,16,Jodhpur,GEN,Chandresh Kumari Katoch,,Indian National Congress,"3,61,577",Jaswant Singh Bishnoi,,Bharatiya Janata Party,"2,63,248",98329
+,17,Barmer,GEN,Harish Chaudhary,,Indian National Congress,"4,16,497",Manvendra Singh,,Bharatiya Janata Party,"2,97,391","1,19,106"
+,18,Jalore,(SC),Devji Patel,,Bharatiya Janata Party,"1,94,503",Buta Singh,,Independent,"1,44,698",49805
+,19,Udaipur,(ST),Raghuveer Meena,,Indian National Congress,"4,11,510",Mahaveer Bhagora,,Bharatiya Janata Party,"2,46,585","1,64,925"
+,20,Banswara,(ST),Tarachand Bhagora,,Indian National Congress,"4,13,169",Hakaru Maida,,Bharatiya Janata Party,"2,13,751","1,99,418"
+,21,Chittorgarh,GEN,Girija Vyas,,Indian National Congress,"3,99,663",Shrichand Kriplani,,Bharatiya Janata Party,"3,26,885",72778
+,22,Rajsamand,GEN,Gopal Singh Shekhawat,,Indian National Congress,"2,94,451",Rasa Singh Rawat,,Bharatiya Janata Party,"2,48,561",45890
+,23,Bhilwara,GEN,C. P. Joshi,,Indian National Congress,"4,13,128",V. P. Singh Badnore,,Bharatiya Janata Party,"2,77,760","1,35,368"
+,24,Kota,GEN,Ijyaraj Singh,,Indian National Congress,"3,60,486",Shyam Sharma,,Bharatiya Janata Party,"2,77,393",83093
+,25,Jhalawarï¿½ï¿½,GEN,Dushyant Singh,,Bharatiya Janata Party,"4,29,096",Urmila Jain,,Indian National Congress,"3,76,255",52841
+Sikkim,1,Sikkim,GEN,Prem Das Rai,,Sikkim Democratic Front,"1,59,351",Kharananda Upreti,,Indian National Congress,74483,84868
+Tamil Nadu,1,Thiruvallur,(SC),P Venugopal,,All India Anna Dravida Munnetra Kazhagam,"3,68,294",Gayathri S,,Dravida Munnetra Kazhagam,"3,36,621",31673
+,2,Chennai North,GEN,T. K. S. Elangovan,,Dravida Munnetra Kazhagam,"2,81,055",D. Pandian,,Communist Party of India,"2,61,902",19153
+,3,Chennai South,GEN,C. Rajendran,,All India Anna Dravida Munnetra Kazhagam,"3,08,567",R. S. Bharathi,,Dravida Munnetra Kazhagam,"2,75,632",32935
+,4,Chennai Central,GEN,Dayanidhi Maran,,Dravida Munnetra Kazhagam,"2,85,783",S.M.K Mogamed Ali Jinnah,,All India Anna Dravida Munnetra Kazhagam,"2,52,329",33454
+,5,Sriperumbudur,(SC),T. R. Baalu,,Dravida Munnetra Kazhagam,"3,52,641",A. K. Moorthy,,Pattali Makkal Katchi,"3,27,605",25036
+,6,Kancheepuram,(SC),P. Viswanathan,,Indian National Congress,"3,30,237",Ramakrishnan E,,All India Anna Dravida Munnetra Kazhagam,"3,17,134",13103
+,7,Arakkonam,(SC),S. Jagathrakshakan,,Dravida Munnetra Kazhagam,"4,15,041",R. Velu,,Pattali Makkal Katchi,"3,05,245","1,09,796"
+,8,Vellore,(SC),Abdul Rahman,,Dravida Munnetra Kazhagam,"3,60,474",L.K.M.B Vasu,,All India Anna Dravida Munnetra Kazhagam,"2,53,081","1,07,393"
+,9,Krishnagiri,GEN,E. G. Sugavanam,,Dravida Munnetra Kazhagam,"3,35,977",Nanjegowdu K,,All India Anna Dravida Munnetra Kazhagam,"2,59,379",76598
+,10,Dharmapuri,GEN,R. Thamaraiselvan,,Dravida Munnetra Kazhagam,"3,65,812",R. Senthil,,Pattali Makkal Katchi,"2,29,870","1,35,942"
+,11,Tiruvannamalai,GEN,D. Venugopal,,Dravida Munnetra Kazhagam,"4,36,866",Guru Gurunathan,,Pattali Makkal Katchi,"2,88,566","1,48,300"
+,12,Arani,GEN,M. Krishnasamy,,Indian National Congress,"3,96,728",N. Subramanian,,All India Anna Dravida Munnetra Kazhagam,"2,89,898","1,06,830"
+,13,Viluppuram,GEN,Anandan M,,All India Anna Dravida Munnetra Kazhagam,"3,06,826",Swamidurai K,,Viduthalai Chiruthaigal Katchi,"3,04,029",2797
+,14,Kallakurichi,GEN,Adhi Sankar,,Dravida Munnetra Kazhagam,"3,63,601",K. Dhanaraju,,Pattali Makkal Katchi,"2,54,993","1,08,608"
+,15,Salem,GEN,S. Semmalai,,All India Anna Dravida Munnetra Kazhagam,"3,80,460",K. V. Thangkabalu,,Indian National Congress,"3,33,969",46491
+,16,Namakkal,GEN,S. Gandhiselvan,,Dravida Munnetra Kazhagam,"3,71,476",Vairam Tamilarasi,,All India Anna Dravida Munnetra Kazhagam,"2,69,045","1,02,431"
+,17,Erode,GEN,A. Ganeshamurthi,,Marumalarchi Dravida Munnetra Kazhagam,"2,84,148",E. V. K. S. Elangovan,,Indian National Congress,"2,34,812",49336
+,18,Tiruppur,GEN,C. Sivasamy,,All India Anna Dravida Munnetra Kazhagam,"2,95,731",S. K. Kharventhan,,Indian National Congress,"2,10,385",85346
+,19,Nilgiris,GEN,A. Raja,,Dravida Munnetra Kazhagam,"3,16,802",Krishnan C,,Marumalarchi Dravida Munnetra Kazhagam,"2,30,781",86021
+,20,Coimbatore,GEN,P. R. Natarajan,,Communist Party of India (Marxist),"2,93,165",R. Prabhu,,Indian National Congress,"2,54,501",38664
+,21,Pollachi,GEN,K. Sugumar,,All India Anna Dravida Munnetra Kazhagam,"3,05,935",K. Shamugasundaram,,Dravida Munnetra Kazhagam,"2,59,910",46025
+,22,Dindigul,GEN,N. S. V. Chitthan,,Indian National Congress,"3,61,545",Baalasubramani P,,All India Anna Dravida Munnetra Kazhagam,"3,07,198",54347
+,23,Karur,GEN,M. Thambidurai,,All India Anna Dravida Munnetra Kazhagam,"3,80,542",K. C. Palanisamy,,Dravida Munnetra Kazhagam,"3,33,288",47254
+,24,Tiruchirappalli,GEN,P Kumar,,All India Anna Dravida Munnetra Kazhagam,"2,98,710",Sarubala R Thondaiman,,Indian National Congress,"2,94,375",4335
+,25,Perambalur,GEN,Napoleon D,,Dravida Munnetra Kazhagam,"3,98,742",Balasubramanian KK,,All India Anna Dravida Munnetra Kazhagam,"3,21,138",77604
+,26,Cuddalore,GEN,K. S. Alagiri,,Indian National Congress,"3,20,473",M. C. Sampath,,All India Anna Dravida Munnetra Kazhagam,"2,96,941",23532
+,27,Chidambaram,(SC),Thol. Thirumavalavan,,Viduthalai Chiruthaigal Katchi,"4,28,804",E. Ponnuswamy,,Pattali Makkal Katchi,"3,29,721",99083
+,28,Mayiladuthurai,GEN,O. S. Manian,,All India Anna Dravida Munnetra Kazhagam,"3,64,089",Mani Shankar Aiyar,,Indian National Congress,"3,27,235",36854
+,29,Nagapattinam,(SC),A. K. S. Vijayan,,Dravida Munnetra Kazhagam,"3,69,915",Selvaraj M,,Communist Party of India,"3,21,953",47962
+,30,Thanjavur,(SC),S. S. Palanimanickam,,Dravida Munnetra Kazhagam,"4,08,343",Durai Balakrishnan,,Marumalarchi Dravida Munnetra Kazhagam,"3,06,556","1,01,787"
+,31,Sivaganga,GEN,P. Chidambaram,,Indian National Congress,"3,34,348",R. S. Raja Kannappan,,All India Anna Dravida Munnetra Kazhagam,"3,30,994",3354
+,32,Madurai,GEN,M. K. Alagiri,,Dravida Munnetra Kazhagam,"4,31,295",P. Mohan,,Communist Party of India (Marxist),"2,90,310","1,40,985"
+,33,Theni,GEN,J. M. Aaroon Rashid,,Indian National Congress,"3,40,575",Thanga Tamil Selvan,,All India Anna Dravida Munnetra Kazhagam,"3,34,273",6302
+,34,Virudhunagar,GEN,Manickam Tagore,,Indian National Congress,"3,07,187",Vaiko,,Marumalarchi Dravida Munnetra Kazhagam,"2,91,423",15764
+,35,Ramanathapuram,GEN,J. K. Rithesh,,Dravida Munnetra Kazhagam,"2,94,945",Sathiamoorthy V,,All India Anna Dravida Munnetra Kazhagam,"2,25,030",69915
+,36,Thoothukkudi,GEN,S. R. Jeyadurai,,Dravida Munnetra Kazhagam,"3,11,017",Cynthia Pandian,,All India Anna Dravida Munnetra Kazhagam,"2,34,368",76649
+,37,Tenkasi,GEN,P. Lingam,,Communist Party of India,"2,81,174",Vellaipandi G,,Indian National Congress,"2,46,497",34677
+,38,Tirunelveli,GEN,S. S. Ramasubbu,,Indian National Congress,"2,74,932",K Annamalai,,All India Anna Dravida Munnetra Kazhagam,"2,53,629",21303
+,39,Kanyakumari,GEN,J. Helen Davidson,,Dravida Munnetra Kazhagam,"3,20,161",Pon Radhakrishnan,,Bharatiya Janata Party,"2,54,474",65687
+Tripura,1,Tripura West,GEN,Khagen Das,,Communist Party of India (Marxist),"5,63,799",Sudip Roy Barman,,Indian National Congress,"3,15,250","2,48,549"
+,2,Tripura East,(ST),Baju Ban Riyan,,Communist Party of India (Marxist),"5,21,084",Diba Chandra Hrangkhawl,,Indian National Congress,"2,25,503","2,95,581"
+Uttar Pradesh,1,Saharanpur,GEN,Jagdish Singh Rana,,Bahujan Samaj Party,"3,54,807",Rasheed Masood,,Samajwadi Party,"2,69,934",84873
+,2,Kairana,GEN,Begum Tabassum Hasan,,Bahujan Samaj Party,"2,83,259",Hukum Singh,,Bharatiya Janata Party,"2,60,796",22463
+,3,Muzaffarnagar,GEN,Kadir Rana,,Bahujan Samaj Party,"2,75,318",Anuradha Choudhary,,Rashtriya Lok Dal,"2,54,720",20598
+,4,Bijnor,GEN,Sanjay Singh Chauhan,,Rashtriya Lok Dal,"2,44,587",Shahid Siddiqui,,Bahujan Samaj Party,"2,16,157",28430
+,5,Nagina,(SC),Yashvir Singh,,Samajwadi Party,"2,34,815",Ram Kishan Singh,,Bahujan Samaj Party,"1,75,127",59688
+,6,Moradabad,GEN,Mohammad Azharuddin,,Indian National Congress,"3,01,283",Kunwar Sarvesh Kumar Singh,,Bharatiya Janata Party,"2,52,176",49107
+,7,Rampur,GEN,Jaya Prada,,Samajwadi Party,"2,30,724",Begum Noor Bano,,Indian National Congress,"1,99,793",30931
+,8,Sambhal,GEN,Shafiqur Rahman Barq,,Bahujan Samaj Party,"2,07,422",Iqbal Mehmood,,Samajwadi Party,"1,93,958",13464
+,9,Amroha,GEN,Devendra Nagpal,,Rashtriya Lok Dal,"2,83,182",Mehboob Ali,,Samajwadi Party,"1,91,099",92083
+,10,Meerut,GEN,Rajendra Agrawal,,Bharatiya Janata Party,"2,32,137",Malook Nagar,,Bahujan Samaj Party,"1,84,991",47146
+,11,Baghpat,GEN,Ajit Singh,,Rashtriya Lok Dal,"2,38,638",Mukesh Sharma,,Bahujan Samaj Party,"1,75,611",63027
+,12,Ghaziabad,GEN,Rajnath Singh,,Bharatiya Janata Party,"3,59,637",Surendra Prakash Goel,,Indian National Congress,"2,68,956",90681
+,13,Gautam Buddh Nagar,GEN,Surendra Singh Nagar,,Bahujan Samaj Party,"2,45,613",Mahesh Sharma,,Bharatiya Janata Party,"2,29,709",15904
+,14,Bulandshahr,(SC),Kamlesh Balmiki,,Samajwadi Party,"2,36,257",Ashok Kumar Pradhan,,Bharatiya Janata Party,"1,70,192",66065
+,15,Aligarh,GEN,Raj Kumari Chauhan,,Bahujan Samaj Party,"1,93,444",Zafar Alam,,Samajwadi Party,"1,76,887",16557
+,16,Hathras,(SC),Sarika Singh,,Rashtriya Lok Dal,"2,47,927",Rajendra Kumar,,Bahujan Samaj Party,"2,11,075",36852
+,17,Mathura,GEN,Jayant Chaudhary,,Rashtriya Lok Dal,"3,79,870",Shyam Sunder Sharma,,Bahujan Samaj Party,"2,10,257","1,69,613"
+,18,Agra,(SC),Ram Shankar Katheria,,Bharatiya Janata Party,"2,03,697",Kunwar Chand,,Bahujan Samaj Party,"1,93,982",9715
+,19,Fatehpur Sikri,GEN,Seema Upadhyay,,Bahujan Samaj Party,"2,09,466",Raj Babbar,,Indian National Congress,"1,99,530",9936
+,20,Firozabad,GEN,Akhilesh Yadav,,Samajwadi Party,"2,87,011",S. P. Singh Baghel,,Bahujan Samaj Party,"2,19,710",67301
+,21,Mainpuri,GEN,Mulayam Singh Yadav,,Samajwadi Party,"3,92,308",Vinay Shakya,,Bahujan Samaj Party,"2,19,239","1,73,069"
+,22,Etah,GEN,Kalyan Singh,,Independent,"2,75,717",Devendra Singh Yadav,,Bahujan Samaj Party,"1,47,449","1,28,268"
+,23,Badaun,GEN,Dharmendra Yadav,,Samajwadi Party,"2,33,744",Dharam Yadav,,Bahujan Samaj Party,"2,01,202",32542
+,24,Aonla,GEN,Maneka Gandhi,,Bharatiya Janata Party,"2,16,503",Dharmendra Kashyap,,Samajwadi Party,"2,08,822",7681
+,25,Bareilly,GEN,Praveen Singh Aron,,Indian National Congress,"2,20,976",Santosh Kumar Gangwar,,Bharatiya Janata Party,"2,11,638",9338
+,26,Pilibhit,GEN,Varun Gandhi,,Bharatiya Janata Party,"4,19,539",V M Singh,,Indian National Congress,"1,38,038","2,81,501"
+,27,Shahjahanpur,(SC),Mithlesh Kumar,,Samajwadi Party,"2,57,033",Sunita Singh,,Bahujan Samaj Party,"1,86,454",70579
+,28,Kheri,GEN,Zafar Ali Naqvi,,Indian National Congress,"1,84,982",Iliyas Azmi,,Bahujan Samaj Party,"1,76,205",8777
+,29,Dhaurahra,GEN,Jitin Prasada,,Indian National Congress,"3,91,391",Rajesh Verma,,Bahujan Samaj Party,"2,06,882","1,84,509"
+,30,Sitapur,GEN,Kaisar Jahan,,Bahujan Samaj Party,"2,41,106",Mahendra Singh Verma,,Samajwadi Party,"2,21,474",19632
+,31,Hardoi,(SC),Usha Verma,,Samajwadi Party,"2,94,030",Ram Kumar Kuril,,Bahujan Samaj Party,"2,01,095",92935
+,32,Misrikh,(SC),Ashok Kumar Rawat,,Bahujan Samaj Party,"2,07,627",Shyam Prakash,,Samajwadi Party,"1,84,335",23292
+,33,Unnao,GEN,Annu Tandon,,Indian National Congress,"4,75,476",Arun Shankar Shukla,,Bahujan Samaj Party,"1,73,384","3,02,092"
+,34,Mohanlalganj,(SC),Sushila Saroj,,Samajwadi Party,"2,56,367",Jai Prakash Rawat,,Bahujan Samaj Party,"1,79,772",76595
+,35,Lucknow,GEN,Lalji Tandon,,Bharatiya Janata Party,"2,04,028",Rita Bahuguna Joshi,,Indian National Congress,"1,63,127",40901
+,36,Rae Bareli,GEN,Sonia Gandhi,,Indian National Congress,"4,81,490",R. S. Kushwaha,,Bahujan Samaj Party,"1,09,325","3,72,165"
+,37,Amethi,GEN,Rahul Gandhi,,Indian National Congress,"4,64,195",Asheesh Shukla,,Bahujan Samaj Party,93997,"3,70,198"
+,38,Sultanpur,GEN,Sanjaya Sinh,,Indian National Congress,"3,00,411",Mohammad Tahir,,Bahujan Samaj Party,"2,01,632",98779
+,39,Pratapgarh,GEN,Ratna Singh,,Indian National Congress,"1,69,137",Shivakant Ojha,,Bahujan Samaj Party,"1,39,358",29779
+,40,Farrukhabad,GEN,Salman Khurshid,,Indian National Congress,"1,69,351",Naresh Chandra Agrawal,,Bahujan Samaj Party,"1,42,152",27199
+,41,Etawah,(SC),Premdas Katheria,,Samajwadi Party,"2,78,776",Gaurishanker,,Bahujan Samaj Party,"2,32,030",46746
+,42,Kannauj,GEN,Akhilesh Yadav,,Samajwadi Party,"3,37,751",Mahesh Chandra Verma,,Bahujan Samaj Party,"2,21,887","1,15,864"
+,43,Kanpur Urban,GEN,Sriprakash Jaiswal,,Indian National Congress,"2,14,988",Satish Mahana,,Bharatiya Janata Party,"1,96,082",18906
+,44,Akbarpur,GEN,Raja Ram Pal,,Indian National Congress,"1,92,549",Anil Shukla Warsi,,Bahujan Samaj Party,"1,60,506",32043
+,45,Jalaun,(SC),Ghanshyam Anuragi,,Samajwadi Party,"2,83,023",Tilak Chandra Ahirwar,,Bahujan Samaj Party,"2,71,614",11409
+,46,Jhansi,GEN,Pradeep Jain Aditya,,Indian National Congress,"2,52,712",Ramesh Kumar Sharma,,Bahujan Samaj Party,"2,05,042",47670
+,47,Hamirpur,GEN,Vijay Bahadur Singh,,Bahujan Samaj Party,"1,99,143",Siddha Gopal Sahu,,Indian National Congress,"1,73,641",25502
+,48,Banda,GEN,R. K. Singh Patel,,Samajwadi Party,"2,40,948",Bhairon Prasad Mishra,,Bahujan Samaj Party,"2,06,355",34593
+,49,Fatehpur,GEN,Rakesh Sachan,,Samajwadi Party,"2,18,953",Mahendra Prasad Nishad,,Bahujan Samaj Party,"1,66,725",52228
+,50,Kaushambi,(SC),Shailendra Kumar,,Samajwadi Party,"2,46,501",Girish Chandra Pasi,,Bahujan Samaj Party,"1,90,712",55789
+,51,Phulpur,GEN,Kapil Muni Karwariya,,Bahujan Samaj Party,"1,67,542",Shyama Charan Gupta,,Samajwadi Party,"1,52,964",14578
+,52,Allahabad,GEN,Rewati Raman Singh,,Samajwadi Party,"2,09,431",Ashok Kumar Bajpai,,Bahujan Samaj Party,"1,74,511",34920
+,53,Barabanki,(SC),P. L. Punia,,Indian National Congress,"3,28,418",Ram Sagar Rawat,,Samajwadi Party,"1,60,505","1,67,913"
+,54,Faizabad,GEN,Nirmal Khatri,,Indian National Congress,"2,11,543",Mitrasen Yadav,,Samajwadi Party,"1,57,315",54228
+,55,Ambedkar Nagar,GEN,Rakesh Pandey,,Bahujan Samaj Party,"2,59,487",Shankhlal Majhi,,Samajwadi Party,"2,36,751",22736
+,56,Bahraich,(SC),Kamal Kishor,,Indian National Congress,"1,60,005",Lal Mani Prasad,,Bahujan Samaj Party,"1,21,052",38953
+,57,Kaiserganj,GEN,Brij Bhushan Sharan Singh,,Samajwadi Party,"1,96,063",Surendra Nath Awasthi,,Bahujan Samaj Party,"1,23,864",72199
+,58,Shrawasti,GEN,Vinay Kumar Pandey,,Indian National Congress,"2,01,556",Rizwan Zaheer,,Bahujan Samaj Party,"1,59,527",42029
+,59,Gonda,GEN,Beni Prasad Verma,,Indian National Congress,"1,55,675",Kirti Vardhan Singh,,Bahujan Samaj Party,"1,32,000",23675
+,60,Domariyaganj,GEN,Jagdambika Pal,,Indian National Congress,"2,29,872",Jai Pratap Singh,,Bharatiya Janata Party,"1,53,306",76566
+,61,Basti,GEN,Arvind Kumar Chaudhary,,Bahujan Samaj Party,"2,68,666",Raj Kishor Singh,,Samajwadi Party,"1,63,456","1,05,210"
+,62,Sant Kabir Nagar,GEN,Bhishma Shankar Tiwari,,Bahujan Samaj Party,"2,11,043",Sharad Tripathi,,Bharatiya Janata Party,"1,81,547",29496
+,63,Maharajganj,GEN,Harsh Vardhan,,Indian National Congress,"3,05,474",Ganesh Shanker Pandey,,Bahujan Samaj Party,"1,81,846","1,23,628"
+,64,Gorakhpur,GEN,Yogi Adityanath,,Bharatiya Janata Party,"4,03,156",Vinay Shankar Tiwari,,Bahujan Samaj Party,"1,82,885","2,20,271"
+,65,Kushi Nagar,GEN,R. P. N. Singh,,Indian National Congress,"2,23,954",Swami Prasad Maurya,,Bahujan Samaj Party,"2,02,860",21094
+,66,Deoria,GEN,Gorakh Prasad Jaiswal,,Bahujan Samaj Party,"2,19,889",Prakash Mani Tripathi,,Bharatiya Janata Party,"1,78,110",41779
+,67,Bansgaon,(SC),Kamlesh Paswan,,Bharatiya Janata Party,"2,23,011",Shree Nath Ji,,Bahujan Samaj Party,"1,70,224",52787
+,68,Lalganj,(SC),Bali Ram,,Bahujan Samaj Party,"2,07,998",Neelam Sonkar,,Bharatiya Janata Party,"1,68,050",39948
+,69,Azamgarh,GEN,Ramakant Yadav,,Bharatiya Janata Party,"2,47,648",Akbar Ahmad Dumpy,,Bahujan Samaj Party,"1,98,609",49039
+,70,Ghosi,GEN,Dara Singh Chauhan,,Bahujan Samaj Party,"2,20,695",Arshad Jamal Ansari,,Samajwadi Party,"1,59,750",60945
+,71,Salempur,GEN,Ramashankar Rajbhar,,Bahujan Samaj Party,"1,75,088",Bhola Pandey,,Indian National Congress,"1,56,783",18305
+,72,Ballia,GEN,Neeraj Shekhar,,Samajwadi Party,"2,76,649",Sangram Singh Yadav,,Bahujan Samaj Party,"2,04,094",72555
+,73,Jaunpur,GEN,Dhananjay Singh,,Bahujan Samaj Party,"3,02,618",Parasnath Yadav,,Samajwadi Party,"2,22,267",80351
+,74,Machhlishahr,(SC),Tufani Saroj,,Samajwadi Party,"2,23,152",Kamla Kant Gautam,,Bahujan Samaj Party,"1,98,846",24306
+,75,Ghazipur,GEN,Radhe Mohan Singh,,Samajwadi Party,"3,79,233",Afzal Ansari,,Bahujan Samaj Party,"3,09,924",69309
+,76,Chandauli,GEN,Ramkishun,,Samajwadi Party,"1,80,114",Kailash Nath Singh Yadav,,Bahujan Samaj Party,"1,79,655",459
+,77,Varanasi,GEN,Murli Manohar Joshi,,Bharatiya Janata Party,"2,03,122",Mukhtar Ansari,,Bahujan Samaj Party,"1,85,911",17211
+,78,Bhadohi,GEN,Gorakh Nath Pandey,,Bahujan Samaj Party,"1,95,808",Chhotelal Bind,,Samajwadi Party,"1,82,845",12963
+,79,Mirzapur,GEN,Bal Kumar Patel,,Samajwadi Party,"2,18,898",Anil Kumar Maurya,,Bahujan Samaj Party,"1,99,216",19682
+,80,Robertsganj,(SC),Pakaudi Lal Kol,,Samajwadi Party,"2,16,478",Ram Chandra Tyagi,,Bahujan Samaj Party,"1,66,219",50259
+Uttarakhand,1,Tehri Garhwal,GEN,Vijay Bahuguna,,Indian National Congress,"2,63,083",Jaspal Rana,,Bharatiya Janata Party,"2,10,144",52939
+,2,Garhwal,GEN,Satpal Maharaj,,Indian National Congress,"2,36,949",Tejpal Singh Rawat,,Bharatiya Janata Party,"2,19,552",17397
+,3,Almora,(SC),Pradeep Tamta,,Indian National Congress,"2,00,824",Ajay Tamta,,Bharatiya Janata Party,"1,93,874",6950
+,4,Nainitalï¿½ï¿½ï¿½Udhamsin,GEN,K. C. Singh Baba,,Indian National Congress,"3,21,377",Bachi Singh Rawat,,Bharatiya Janata Party,"2,32,965",88412
+,5,Haridwar,GEN,Harish Rawat,,Indian National Congress,"3,32,235",Swami Yatindranand Giri,,Bharatiya Janata Party,"1,27,412","2,04,823"
+West Bengal,1,Cooch Behar,(SC),Nripendra Nath Roy,,All India Forward Bloc,"5,00,677",Arghya Roy Pradhan,,All India Trinamool Congress,"4,66,928",33749
+,2,Alipurduars,(SC),Manohar Tirkey,,Revolutionary Socialist Party,"3,84,890",Paban Kumar Lakra,,All India Trinamool Congress,"2,72,068","1,12,822"
+,3,Jalpaiguri,(SC),Mahendra Kumar Roy,,Communist Party of India (Marxist),"4,69,613",Sukhbilas Barma,,Indian National Congress,"3,81,242",88371
+,4,Darjeeling,GEN,Jaswant Singh,,Bharatiya Janata Party,"4,97,649",Jibesh Sarkar,,Communist Party of India (Marxist),"2,44,360","2,53,289"
+,5,Raiganj,GEN,Deepa Dasmunsi,,Indian National Congress,"4,51,776",Bireswar Lahiri,,Communist Party of India (Marxist),"3,46,573","1,05,203"
+,6,Balurghat,GEN,Prasanta Kumar Majumdar,,Revolutionary Socialist Party,"3,88,444",Biplab Mitra,,All India Trinamool Congress,"3,83,339",5105
+,7,Maldaha Uttar,GEN,Mausam Noor,,Indian National Congress,"4,40,264",Sailen Sarkar,,Communist Party of India (Marxist),"3,80,123",60141
+,8,Maldaha Dakshin,GEN,Abu Hasem Khan Choudhury,,Indian National Congress,"4,43,377",Abdur Razzaque,,Communist Party of India (Marxist),"3,07,097","1,36,280"
+,9,Jangipur,GEN,Pranab Mukherjee,,Indian National Congress,"5,06,749",Mriganka Sekhar Bhattacharya,,Communist Party of India (Marxist),"3,78,600","1,28,149"
+,10,Baharampur,GEN,Adhir Ranjan Chowdhury,,Indian National Congress,"5,41,920",Promothes Mukherjee,,Revolutionary Socialist Party,"3,54,943","1,86,977"
+,11,Murshidabad,GEN,Abdul Mannan Hossain,,Indian National Congress,"4,96,348",Anisur Rahman Sarkar,,Communist Party of India (Marxist),"4,60,701",35647
+,12,Krishnanagar,GEN,Tapas Paul,,All India Trinamool Congress,"4,43,679",Jyotirmoyee Sikdar,,Communist Party of India (Marxist),"3,66,293",77386
+,13,Ranaghat,(SC),Sucharu Ranjan Haldar,,All India Trinamool Congress,"5,75,058",Basudeb Barman,,Communist Party of India (Marxist),"4,73,235","1,01,823"
+,14,Bangaon,(SC),Gobinda Chandra Naskar,,All India Trinamool Congress,"5,46,596",Asim Bala,,Communist Party of India (Marxist),"4,53,770",92826
+,15,Barrackpur,GEN,Dinesh Trivedi,,All India Trinamool Congress,"4,28,699",Tarit Baran Topdar,,Communist Party of India (Marxist),"3,72,675",56024
+,16,Dum Dum,GEN,Saugata Roy,,All India Trinamool Congress,"4,58,988",Amitava Nandy,,Communist Party of India (Marxist),"4,38,510",20478
+,17,Barasat,GEN,Kakoli Ghosh Dastidar,,All India Trinamool Congress,"5,22,530",Sudin Chattopadhyay,,All India Forward Bloc,"3,99,629","1,22,901"
+,18,Basirhat,GEN,Haji Nurul Islam,,All India Trinamool Congress,"4,79,650",Ajay Chakraborty,,Communist Party of India,"4,19,267",60383
+,19,Jaynagar,(SC),Tarun Mandal,,Socialist Unity Centre of India (C),"4,46,200",Nimai Barman,,Revolutionary Socialist Party,"3,92,495",53705
+,20,Mathurapur,(SC),Choudhury Mohan Jatua,,All India Trinamool Congress,"5,65,505",Animesh Naskar,,Communist Party of India (Marxist),"4,35,542","1,29,963"
+,21,Diamond Harbour,GEN,Somen Mitra,,All India Trinamool Congress,"5,64,612",Samik Lahiri,,Communist Party of India (Marxist),"4,12,923","1,51,689"
+,22,Jadavpur,GEN,Kabir Suman,,All India Trinamool Congress,"5,40,667",Sujan Chakraborty,,Communist Party of India (Marxist),"4,84,400",56267
+,23,Kolkata Dakshin,GEN,Mamata Banerjee,,All India Trinamool Congress,"5,76,045",Rabin Deb,,Communist Party of India (Marxist),"3,56,474","2,19,571"
+,24,Kolkata Uttar,GEN,Sudip Bandyopadhyay,,All India Trinamool Congress,"4,60,646",Mohammed Salim,,Communist Party of India (Marxist),"3,51,368","1,09,278"
+,25,Howrah,GEN,Ambica Banerjee,,All India Trinamool Congress,"4,77,449",Swadesh Chakraborty,,Communist Party of India (Marxist),"4,40,057",37392
+,26,Uluberia,GEN,Sultan Ahmed,,All India Trinamool Congress,"5,14,193",Hannan Mollah,,Communist Party of India (Marxist),"4,15,257",98936
+,27,Srerampur,GEN,Kalyan Banerjee,,All India Trinamool Congress,"5,69,725",Santasri Chatterjee,,Communist Party of India (Marxist),"4,32,535","1,37,190"
+,28,Hooghly,GEN,Ratna De,,All India Trinamool Congress,"5,74,022",Rupchand Pal,,Communist Party of India (Marxist),"4,92,499",81523
+,29,Arambagh,(SC),Sakti Mohan Malik,,Communist Party of India (Marxist),"6,30,254",Sambhu Nath Malik,,Indian National Congress,"4,28,696","2,01,558"
+,30,Tamluk,GEN,Suvendu Adhikari,,All India Trinamool Congress,"6,37,664",Lakshman Chandra Seth,,Communist Party of India (Marxist),"4,64,706","1,72,958"
+,31,Kanthi,GEN,Sisir Adhikari,,All India Trinamool Congress,"6,06,712",Prasanta Pradhan,,Communist Party of India (Marxist),"4,77,609","1,29,103"
+,32,Ghatal,GEN,Gurudas Dasgupta,,Communist Party of India,"6,25,923",Noor Alam Chowdhury,,All India Trinamool Congress,"4,78,739","1,47,184"
+,33,Jhargram,(ST),Pulin Bihari Baske,,Communist Party of India (Marxist),"5,45,231",Amrit Hansda,,Indian National Congress,"2,52,886","2,92,345"
+,34,Medinipur,GEN,Prabodh Panda,,Communist Party of India,"4,93,021",Dipak Kumar Ghosh,,All India Trinamool Congress,"4,45,004",48017
+,35,Purulia,GEN,Narahari Mahato,,All India Forward Bloc,"3,99,201",Santiram Mahato,,Indian National Congress,"3,79,900",19301
+,36,Bankura,GEN,Basudeb Acharia,,Communist Party of India (Marxist),"4,69,223",Subrata Mukherjee,,Indian National Congress,"3,61,421","1,07,802"
+,37,Bishnupur,(SC),Susmita Bauri,,Communist Party of India (Marxist),"5,41,075",Seuli Saha,,All India Trinamool Congress,"4,11,709","1,29,366"
+,38,Bardhaman Purba,(SC),Anup Kumar Saha,,Communist Party of India (Marxist),"5,31,987",Ashoke Biswas,,All India Trinamool Congress,"4,72,568",59419
+,39,Bardhaman-Durgapur,GEN,Sheikh Saidul Haque,,Communist Party of India (Marxist),"5,73,399",Nargis Begum,,Indian National Congress,"4,65,162","1,08,237"
+,40,Asansol,GEN,Bansa Gopal Chowdhury,,Communist Party of India (Marxist),"4,35,161",Moloy Ghatak,,All India Trinamool Congress,"3,62,205",72956
+,41,Bolpur,(SC),Ram Chandra Dome,,Communist Party of India (Marxist),"5,38,383",Asit Kumar Mal,,Indian National Congress,"4,11,501","1,26,882"
+,42,Birbhum,GEN,Satabdi Roy,,All India Trinamool Congress,"4,86,553",Braja Mukherjee,,Communist Party of India (Marxist),"4,25,034",61519
