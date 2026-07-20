@@ -4,6 +4,7 @@ Page 3: State & Regional Intelligence Dashboard.
 
 from pathlib import Path
 import sys
+import matplotlib.pyplot as plt
 import streamlit as st
 
 base_dir = Path(__file__).resolve().parent.parent.parent
@@ -41,19 +42,27 @@ with col3:
 
 st.markdown("---")
 
-output_fig_dir = base_dir / "outputs" / "figures"
-
 tab1, tab2 = st.tabs(["Battleground State Volatility", "Victory Margin Distribution"])
 
 with tab1:
     st.subheader("Historical Seat Volatility Ranking by State")
-    fig_path = plot_state_volatility_ranking(s_filt if not s_filt.empty else s_df, output_fig_dir)
-    st.image(str(fig_path), use_container_width=True)
+    # For state comparative rankings, fallback to s_df if filter narrows to a single state
+    df_vol = s_filt if len(s_filt) > 1 else s_df
+    fig1 = plot_state_volatility_ranking(df_vol)
+    try:
+        st.pyplot(fig1, use_container_width=True)
+    finally:
+        plt.close(fig1)
 
 with tab2:
     st.subheader("Victory Margin % Spread Across Major States")
-    fig_path2 = plot_state_margin_distribution(c_filt if not c_filt.empty else c_df, output_fig_dir)
-    st.image(str(fig_path2), use_container_width=True)
+    # For multi-state boxplots, fallback to c_df if filter narrows to a single state
+    df_margin = c_filt if c_filt["State"].nunique() > 1 else c_df
+    fig2 = plot_state_margin_distribution(df_margin)
+    try:
+        st.pyplot(fig2, use_container_width=True)
+    finally:
+        plt.close(fig2)
 
 st.markdown("---")
 st.subheader("State-Level Aggregated Summary Table")

@@ -4,6 +4,7 @@ Page 1: Executive Overview Dashboard.
 
 from pathlib import Path
 import sys
+import matplotlib.pyplot as plt
 import streamlit as st
 
 base_dir = Path(__file__).resolve().parent.parent.parent
@@ -49,19 +50,23 @@ with col4:
 
 st.markdown("---")
 
-output_fig_dir = base_dir / "outputs" / "figures"
-
 tab1, tab2 = st.tabs(["Coalition Trajectory", "Vote vs Seat Conversion"])
 
 with tab1:
     st.subheader("National Coalition Seat Share Trajectory (2004–2024)")
-    fig_path = plot_coalition_trajectory(c_filt if not c_filt.empty else c_df, output_fig_dir)
-    st.image(str(fig_path), use_container_width=True)
+    fig1 = plot_coalition_trajectory(c_filt if not c_filt.empty else c_df)
+    try:
+        st.pyplot(fig1, use_container_width=True)
+    finally:
+        plt.close(fig1)
 
 with tab2:
     st.subheader("Vote Share % vs Parliamentary Seats Won")
-    fig_path2 = plot_vote_seat_conversion(p_filt if not p_filt.empty else p_df, output_fig_dir)
-    st.image(str(fig_path2), use_container_width=True)
+    fig2 = plot_vote_seat_conversion(p_filt if not p_filt.empty else p_df)
+    try:
+        st.pyplot(fig2, use_container_width=True)
+    finally:
+        plt.close(fig2)
 
 st.markdown("---")
 st.subheader("National Party Summary Data Table")

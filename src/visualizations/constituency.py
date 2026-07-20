@@ -4,7 +4,7 @@ Implements turnout rankings, reserved category breakdowns, and extreme victory m
 """
 
 from pathlib import Path
-from typing import Dict
+from typing import Dict, Optional, Union
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -22,7 +22,7 @@ from src.visualizations.base import (
 )
 
 
-def plot_turnout_top20(df: pd.DataFrame, output_dir: Path) -> Path:
+def plot_turnout_top20(df: pd.DataFrame, output_dir: Optional[Path] = None) -> Union[Path, plt.Figure]:
     """
     Viz: Top 20 Constituencies by Total Votes Cast (Seaborn Mako Palette).
     Rule: Non-party plot -> Use professional Seaborn palette.
@@ -37,9 +37,11 @@ def plot_turnout_top20(df: pd.DataFrame, output_dir: Path) -> Path:
     if turnout.empty:
         fig, ax = plt.subplots(figsize=(10, 5))
         ax.text(0.5, 0.5, "No Constituency Data Available for Selected Filter", ha="center", va="center", fontsize=12)
-        out_path = output_dir / "fig_11_turnout_top20.png"
-        save_figure(fig, out_path)
-        return out_path
+        if output_dir is not None:
+            out_path = output_dir / "fig_11_turnout_top20.png"
+            save_figure(fig, out_path)
+            return out_path
+        return fig
 
     fig, ax = plt.subplots(figsize=(11, 8))
 
@@ -59,12 +61,14 @@ def plot_turnout_top20(df: pd.DataFrame, output_dir: Path) -> Path:
     insight = "Dhubri constituency recorded the highest aggregate candidate votes cast exceeding 2.4M votes."
     add_chart_footer(fig, "Constituency Electorate Turnout Analysis", insight)
 
-    out_path = output_dir / "fig_11_turnout_top20.png"
-    save_figure(fig, out_path)
-    return out_path
+    if output_dir is not None:
+        out_path = output_dir / "fig_11_turnout_top20.png"
+        save_figure(fig, out_path)
+        return out_path
+    return fig
 
 
-def plot_reserved_category_wins(df: pd.DataFrame, output_dir: Path) -> Path:
+def plot_reserved_category_wins(df: pd.DataFrame, output_dir: Optional[Path] = None) -> Union[Path, plt.Figure]:
     """
     Viz: Reserved (`SC`, `ST`) vs General (`GEN`) Constituency Win Breakdown.
     Uses official Party Colors for party category breakdown.
@@ -107,12 +111,14 @@ def plot_reserved_category_wins(df: pd.DataFrame, output_dir: Path) -> Path:
     insight = "BJP holds dominant majorities in ST and SC reserved seats, capturing over 50% of ST seats in 2014–2019."
     add_chart_footer(fig, "Constituency Master Dataset", insight)
 
-    out_path = output_dir / "fig_05_reserved_category_wins.png"
-    save_figure(fig, out_path)
-    return out_path
+    if output_dir is not None:
+        out_path = output_dir / "fig_05_reserved_category_wins.png"
+        save_figure(fig, out_path)
+        return out_path
+    return fig
 
 
-def plot_extreme_margins(df: pd.DataFrame, output_dir: Path) -> Path:
+def plot_extreme_margins(df: pd.DataFrame, output_dir: Optional[Path] = None) -> Union[Path, plt.Figure]:
     """
     Viz: Top 10 Tightest vs Top 10 Largest Victory Margins.
     Rule: Non-party plot -> Professional Seaborn palettes (Reds_r / Greens_r).
@@ -181,6 +187,8 @@ def plot_extreme_margins(df: pd.DataFrame, output_dir: Path) -> Path:
     insight = "Tightest victory recorded was just 25 votes (Ladakh 2004), while largest exceeded 690,000 votes (Indore 2024)."
     add_chart_footer(fig, "Constituency Master Dataset", insight)
 
-    out_path = output_dir / "fig_06_extreme_margins.png"
-    save_figure(fig, out_path)
-    return out_path
+    if output_dir is not None:
+        out_path = output_dir / "fig_06_extreme_margins.png"
+        save_figure(fig, out_path)
+        return out_path
+    return fig

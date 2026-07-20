@@ -4,6 +4,7 @@ Page 2: Party Performance Analytics.
 
 from pathlib import Path
 import sys
+import matplotlib.pyplot as plt
 import streamlit as st
 
 base_dir = Path(__file__).resolve().parent.parent.parent
@@ -47,8 +48,6 @@ with col3:
 
 st.markdown("---")
 
-output_fig_dir = base_dir / "outputs" / "figures"
-
 tab1, tab2, tab3, tab4, tab5 = st.tabs([
     "Seats Won by Party",
     "Total Votes Received",
@@ -59,29 +58,44 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs([
 
 with tab1:
     st.subheader("Top Parties by Seats Won")
-    fig_path1 = plot_seats_by_party(p_filt if not p_filt.empty else p_df, output_fig_dir)
-    st.image(str(fig_path1), use_container_width=True)
+    fig1 = plot_seats_by_party(p_filt if not p_filt.empty else p_df)
+    try:
+        st.pyplot(fig1, use_container_width=True)
+    finally:
+        plt.close(fig1)
 
 with tab2:
     st.subheader("Top Parties by Total Votes Received")
-    fig_path2 = plot_votes_by_party(p_filt if not p_filt.empty else p_df, output_fig_dir)
-    st.image(str(fig_path2), use_container_width=True)
+    fig2 = plot_votes_by_party(p_filt if not p_filt.empty else p_df)
+    try:
+        st.pyplot(fig2, use_container_width=True)
+    finally:
+        plt.close(fig2)
 
 with tab3:
     st.subheader("Postal Vote Share (%) Analysis per Party")
     st.markdown("*Calculates relative dependence on postal ballots: `postal_votes / (evm_votes + postal_votes) * 100`*")
-    fig_path3 = plot_postal_vote_share(c_filt if not c_filt.empty else c_df, output_fig_dir)
-    st.image(str(fig_path3), use_container_width=True)
+    fig3 = plot_postal_vote_share(c_filt if not c_filt.empty else c_df)
+    try:
+        st.pyplot(fig3, use_container_width=True)
+    finally:
+        plt.close(fig3)
 
 with tab4:
     st.subheader("Incumbent Party Seat Retention vs Loss Breakdown")
-    fig_path4 = plot_party_retention_loss(c_filt if not c_filt.empty else c_df, output_fig_dir)
-    st.image(str(fig_path4), use_container_width=True)
+    fig4 = plot_party_retention_loss(c_filt if not c_filt.empty else c_df)
+    try:
+        st.pyplot(fig4, use_container_width=True)
+    finally:
+        plt.close(fig4)
 
 with tab5:
     st.subheader("Vote Share % vs Parliamentary Seats Won")
-    fig_path5 = plot_vote_seat_conversion(p_filt if not p_filt.empty else p_df, output_fig_dir)
-    st.image(str(fig_path5), use_container_width=True)
+    fig5 = plot_vote_seat_conversion(p_filt if not p_filt.empty else p_df)
+    try:
+        st.pyplot(fig5, use_container_width=True)
+    finally:
+        plt.close(fig5)
 
 st.markdown("---")
 st.subheader("Detailed Party Performance Table")

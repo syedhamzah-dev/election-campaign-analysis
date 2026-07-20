@@ -12,7 +12,7 @@ Audit Categorization:
 """
 
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Union
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -30,7 +30,7 @@ from src.visualizations.base import (
 )
 
 
-def plot_seats_by_party(df: pd.DataFrame, output_dir: Path) -> Path:
+def plot_seats_by_party(df: pd.DataFrame, output_dir: Optional[Path] = None) -> Union[Path, plt.Figure]:
     """
     Viz 8: Top Parties by Seats Won (Official Party Colors).
     Audit Status: Primary Dashboard Visualization.
@@ -51,9 +51,11 @@ def plot_seats_by_party(df: pd.DataFrame, output_dir: Path) -> Path:
     if seats.empty:
         fig, ax = plt.subplots(figsize=(10, 5))
         ax.text(0.5, 0.5, "No Seats Data Available for Filter", ha="center", va="center", fontsize=14)
-        out_path = output_dir / "fig_08_seats_by_party.png"
-        save_figure(fig, out_path)
-        return out_path
+        if output_dir is not None:
+            out_path = output_dir / "fig_08_seats_by_party.png"
+            save_figure(fig, out_path)
+            return out_path
+        return fig
 
     fig, ax = plt.subplots(figsize=(11, 7))
     colors = [get_party_color(p) for p in seats.index]
@@ -72,12 +74,14 @@ def plot_seats_by_party(df: pd.DataFrame, output_dir: Path) -> Path:
     insight = "BJP and INC lead the overall seat tallies across major national election cycles."
     add_chart_footer(fig, "Election Commission of India | Party Results", insight)
 
-    out_path = output_dir / "fig_08_seats_by_party.png"
-    save_figure(fig, out_path)
-    return out_path
+    if output_dir is not None:
+        out_path = output_dir / "fig_08_seats_by_party.png"
+        save_figure(fig, out_path)
+        return out_path
+    return fig
 
 
-def plot_votes_by_party(df: pd.DataFrame, output_dir: Path) -> Path:
+def plot_votes_by_party(df: pd.DataFrame, output_dir: Optional[Path] = None) -> Union[Path, plt.Figure]:
     """
     Viz 9: Top Parties by Total Votes Received (Official Party Colors).
     Audit Status: Primary Dashboard Visualization.
@@ -92,9 +96,11 @@ def plot_votes_by_party(df: pd.DataFrame, output_dir: Path) -> Path:
     if votes.empty:
         fig, ax = plt.subplots(figsize=(10, 5))
         ax.text(0.5, 0.5, "No Vote Data Available for Filter", ha="center", va="center", fontsize=14)
-        out_path = output_dir / "fig_09_votes_by_party.png"
-        save_figure(fig, out_path)
-        return out_path
+        if output_dir is not None:
+            out_path = output_dir / "fig_09_votes_by_party.png"
+            save_figure(fig, out_path)
+            return out_path
+        return fig
 
     fig, ax = plt.subplots(figsize=(11, 7))
     colors = [get_party_color(p) for p in votes.index]
@@ -118,12 +124,14 @@ def plot_votes_by_party(df: pd.DataFrame, output_dir: Path) -> Path:
     insight = f"Top party average vote tally is {avg_votes/1e6:.1f}M votes. BJP received over 230M total votes in 2024."
     add_chart_footer(fig, "Election Commission of India | Party Votes Summary", insight)
 
-    out_path = output_dir / "fig_09_votes_by_party.png"
-    save_figure(fig, out_path)
-    return out_path
+    if output_dir is not None:
+        out_path = output_dir / "fig_09_votes_by_party.png"
+        save_figure(fig, out_path)
+        return out_path
+    return fig
 
 
-def plot_postal_vote_share(df: pd.DataFrame, output_dir: Path) -> Path:
+def plot_postal_vote_share(df: pd.DataFrame, output_dir: Optional[Path] = None) -> Union[Path, plt.Figure]:
     """
     Viz 10: Postal Vote Share (%) Breakdown by Party (Official Party Colors).
     Audit Status: Primary Dashboard Visualization (Replaces absolute EVM vs Postal chart).
@@ -177,12 +185,14 @@ def plot_postal_vote_share(df: pd.DataFrame, output_dir: Path) -> Path:
     insight = f"Postal ballots average {avg_pct:.2f}% of party totals, highlighting relative reliance across services & government personnel."
     add_chart_footer(fig, "Election Commission of India | Detailed Vote Breakdown", insight)
 
-    out_path = output_dir / "fig_10_postal_vote_share.png"
-    save_figure(fig, out_path)
-    return out_path
+    if output_dir is not None:
+        out_path = output_dir / "fig_10_postal_vote_share.png"
+        save_figure(fig, out_path)
+        return out_path
+    return fig
 
 
-def plot_evm_postal_by_party(df: pd.DataFrame, output_dir: Path) -> Path:
+def plot_evm_postal_by_party(df: pd.DataFrame, output_dir: Optional[Path] = None) -> Union[Path, plt.Figure]:
     """
     Legacy Helper / Archived Visualization.
     Audit Status: Archived Redundant (Replaced by plot_postal_vote_share on primary dashboard).
@@ -190,7 +200,7 @@ def plot_evm_postal_by_party(df: pd.DataFrame, output_dir: Path) -> Path:
     return plot_postal_vote_share(df, output_dir)
 
 
-def plot_vote_seat_conversion(df: pd.DataFrame, output_dir: Path) -> Path:
+def plot_vote_seat_conversion(df: pd.DataFrame, output_dir: Optional[Path] = None) -> Union[Path, plt.Figure]:
     """
     Viz 2: National Vote Share % vs Parliamentary Seats Won (FPTP Efficiency).
     Audit Status: Primary Dashboard Visualization.
@@ -240,12 +250,14 @@ def plot_vote_seat_conversion(df: pd.DataFrame, output_dir: Path) -> Path:
     insight = "FPTP rules disproportionately reward parties with concentrated regional support."
     add_chart_footer(fig, "Party Summary Master Dataset", insight)
 
-    out_path = output_dir / "fig_02_vote_seat_conversion.png"
-    save_figure(fig, out_path)
-    return out_path
+    if output_dir is not None:
+        out_path = output_dir / "fig_02_vote_seat_conversion.png"
+        save_figure(fig, out_path)
+        return out_path
+    return fig
 
 
-def plot_party_retention_loss(df: pd.DataFrame, output_dir: Path) -> Path:
+def plot_party_retention_loss(df: pd.DataFrame, output_dir: Optional[Path] = None) -> Union[Path, plt.Figure]:
     """
     Viz 7: Incumbent Party Seat Retention vs Seat Loss Breakdown.
     Audit Status: Primary Dashboard Visualization.
@@ -301,6 +313,8 @@ def plot_party_retention_loss(df: pd.DataFrame, output_dir: Path) -> Path:
     insight = "TMC & DMK maintain high stronghold retention rates (>75%)."
     add_chart_footer(fig, "Constituency Transition Master Dataset", insight)
 
-    out_path = output_dir / "fig_07_party_retention_loss.png"
-    save_figure(fig, out_path)
-    return out_path
+    if output_dir is not None:
+        out_path = output_dir / "fig_07_party_retention_loss.png"
+        save_figure(fig, out_path)
+        return out_path
+    return fig

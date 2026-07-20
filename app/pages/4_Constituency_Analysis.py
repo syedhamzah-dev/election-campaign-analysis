@@ -4,6 +4,7 @@ Page 4: Constituency & Candidate Deep-Dive Dashboard.
 
 from pathlib import Path
 import sys
+import matplotlib.pyplot as plt
 import streamlit as st
 
 base_dir = Path(__file__).resolve().parent.parent.parent
@@ -53,8 +54,6 @@ with col4:
 
 st.markdown("---")
 
-output_fig_dir = base_dir / "outputs" / "figures"
-
 tab1, tab2, tab3, tab4, tab5 = st.tabs([
     "Top 20 Constituencies by Turnout",
     "Distribution of Winning Margins",
@@ -65,29 +64,44 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs([
 
 with tab1:
     st.subheader("Top 20 Constituencies by Total Votes Cast")
-    fig_path1 = plot_turnout_top20(c_filt if not c_filt.empty else c_df, output_fig_dir)
-    st.image(str(fig_path1), use_container_width=True)
+    fig1 = plot_turnout_top20(c_filt if not c_filt.empty else c_df)
+    try:
+        st.pyplot(fig1, use_container_width=True)
+    finally:
+        plt.close(fig1)
 
 with tab2:
     st.subheader("Distribution of Winning Margins Across Parliamentary Seats")
-    fig_path2 = plot_margins_hist(c_filt if not c_filt.empty else c_df, output_fig_dir)
-    st.image(str(fig_path2), use_container_width=True)
+    fig2 = plot_margins_hist(c_filt if not c_filt.empty else c_df)
+    try:
+        st.pyplot(fig2, use_container_width=True)
+    finally:
+        plt.close(fig2)
 
 with tab3:
     st.subheader("EVM vs Postal Votes Distribution per Constituency (Advanced View)")
     st.markdown("*Scatter plot comparing absolute EVM and Postal vote volumes per constituency.*")
-    fig_path3 = plot_evm_vs_postal_scatter(c_filt if not c_filt.empty else c_df, output_fig_dir)
-    st.image(str(fig_path3), use_container_width=True)
+    fig3 = plot_evm_vs_postal_scatter(c_filt if not c_filt.empty else c_df)
+    try:
+        st.pyplot(fig3, use_container_width=True)
+    finally:
+        plt.close(fig3)
 
 with tab4:
     st.subheader("Party Win Distribution Across Reserved & General Seats")
-    fig_path4 = plot_reserved_category_wins(c_filt if not c_filt.empty else c_df, output_fig_dir)
-    st.image(str(fig_path4), use_container_width=True)
+    fig4 = plot_reserved_category_wins(c_filt if not c_filt.empty else c_df)
+    try:
+        st.pyplot(fig4, use_container_width=True)
+    finally:
+        plt.close(fig4)
 
 with tab5:
     st.subheader("Top 10 Tightest Victories vs Landslide Sweeps")
-    fig_path5 = plot_extreme_margins(c_filt if not c_filt.empty else c_df, output_fig_dir)
-    st.image(str(fig_path5), use_container_width=True)
+    fig5 = plot_extreme_margins(c_filt if not c_filt.empty else c_df)
+    try:
+        st.pyplot(fig5, use_container_width=True)
+    finally:
+        plt.close(fig5)
 
 st.markdown("---")
 st.subheader("Searchable Constituency Fact Finder")

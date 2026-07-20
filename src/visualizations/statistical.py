@@ -10,7 +10,7 @@ Audit Categorization:
 """
 
 from pathlib import Path
-from typing import Dict
+from typing import Dict, Optional, Union
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -27,7 +27,7 @@ from src.visualizations.base import (
 )
 
 
-def plot_coalition_trajectory(c_df: pd.DataFrame, output_dir: Path) -> Path:
+def plot_coalition_trajectory(c_df: pd.DataFrame, output_dir: Optional[Path] = None) -> Union[Path, plt.Figure]:
     """
     Viz 1: Coalition Seat Share Trajectory (2004-2024).
     Audit Status: Primary Dashboard Visualization.
@@ -86,12 +86,14 @@ def plot_coalition_trajectory(c_df: pd.DataFrame, output_dir: Path) -> Path:
     insight = "In 2024, NDA & UPA/I.N.D.I.A. captured 97.1% of seats (527/543), signaling a near-total collapse of unaligned regional seats."
     add_chart_footer(fig, "Election Commission of India | Processed Dataset", insight)
 
-    out_path = output_dir / "fig_01_coalition_trajectory.png"
-    save_figure(fig, out_path)
-    return out_path
+    if output_dir is not None:
+        out_path = output_dir / "fig_01_coalition_trajectory.png"
+        save_figure(fig, out_path)
+        return out_path
+    return fig
 
 
-def plot_margins_hist(df: pd.DataFrame, output_dir: Path) -> Path:
+def plot_margins_hist(df: pd.DataFrame, output_dir: Optional[Path] = None) -> Union[Path, plt.Figure]:
     """
     Viz 12: Distribution of Winning Margins (Seaborn Crest Palette).
     Audit Status: Primary Dashboard Visualization.
@@ -131,12 +133,14 @@ def plot_margins_hist(df: pd.DataFrame, output_dir: Path) -> Path:
     insight = f"Median victory margin across analyzed seats is {int(median_margin):,} votes (Mean: {int(mean_margin):,})."
     add_chart_footer(fig, "Constituency Margin Analysis", insight)
 
-    out_path = output_dir / "fig_12_margins_hist.png"
-    save_figure(fig, out_path)
-    return out_path
+    if output_dir is not None:
+        out_path = output_dir / "fig_12_margins_hist.png"
+        save_figure(fig, out_path)
+        return out_path
+    return fig
 
 
-def plot_evm_vs_postal_scatter(df: pd.DataFrame, output_dir: Path) -> Path:
+def plot_evm_vs_postal_scatter(df: pd.DataFrame, output_dir: Optional[Path] = None) -> Union[Path, plt.Figure]:
     """
     Viz 13: EVM vs Postal Votes Scatter Plot by Constituency.
     Audit Status: Secondary / Advanced Analytics Visualization.
@@ -169,6 +173,8 @@ def plot_evm_vs_postal_scatter(df: pd.DataFrame, output_dir: Path) -> Path:
     insight = "Postal votes scale linearly with EVM vote volumes, consistently representing <3% of total votes."
     add_chart_footer(fig, "Constituency Ballot Distribution Analysis", insight)
 
-    out_path = output_dir / "fig_13_evm_vs_postal_scatter.png"
-    save_figure(fig, out_path)
-    return out_path
+    if output_dir is not None:
+        out_path = output_dir / "fig_13_evm_vs_postal_scatter.png"
+        save_figure(fig, out_path)
+        return out_path
+    return fig
