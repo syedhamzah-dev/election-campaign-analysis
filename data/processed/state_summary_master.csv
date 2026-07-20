@@ -1,0 +1,644 @@
+Year,State_UT,Party_Alliance,Votes_Received,Vote_Share_Percentage,Seats_Won
+2004,Andhra Pradesh,UPA,0.0,0.0,35
+2004,Andhra Pradesh,NDA,0.0,0.0,5
+2004,Andhra Pradesh,Left Front,0.0,0.0,2
+2004,Andhra Pradesh,Others,0.0,0.0,0
+2004,Arunachal Pradesh,UPA,0.0,0.0,0
+2004,Arunachal Pradesh,NDA,0.0,0.0,2
+2004,Arunachal Pradesh,Left Front,0.0,0.0,0
+2004,Arunachal Pradesh,Others,0.0,0.0,0
+2004,Assam,UPA,0.0,0.0,11
+2004,Assam,NDA,0.0,0.0,3
+2004,Assam,Left Front,0.0,0.0,0
+2004,Assam,Others,0.0,0.0,2
+2004,Bihar,UPA,0.0,0.0,29
+2004,Bihar,NDA,0.0,0.0,11
+2004,Bihar,Left Front,0.0,0.0,0
+2004,Bihar,Others,0.0,0.0,0
+2004,Chhattisgarh,UPA,0.0,0.0,1
+2004,Chhattisgarh,NDA,0.0,0.0,10
+2004,Chhattisgarh,Left Front,0.0,0.0,0
+2004,Chhattisgarh,Others,0.0,0.0,0
+2004,Dadra and Nagar Haveli,UPA,0.0,0.0,0
+2004,Dadra and Nagar Haveli,NDA,0.0,0.0,0
+2004,Dadra and Nagar Haveli,Left Front,0.0,0.0,0
+2004,Dadra and Nagar Haveli,Others,0.0,0.0,1
+2004,Daman and Diu,UPA,0.0,0.0,1
+2004,Daman and Diu,NDA,0.0,0.0,0
+2004,Daman and Diu,Left Front,0.0,0.0,0
+2004,Daman and Diu,Others,0.0,0.0,0
+2004,Delhi,UPA,0.0,0.0,6
+2004,Delhi,NDA,0.0,0.0,1
+2004,Delhi,Left Front,0.0,0.0,0
+2004,Delhi,Others,0.0,0.0,0
+2004,Goa,UPA,0.0,0.0,1
+2004,Goa,NDA,0.0,0.0,1
+2004,Goa,Left Front,0.0,0.0,0
+2004,Goa,Others,0.0,0.0,0
+2004,Gujarat,UPA,0.0,0.0,12
+2004,Gujarat,NDA,0.0,0.0,14
+2004,Gujarat,Left Front,0.0,0.0,0
+2004,Gujarat,Others,0.0,0.0,0
+2004,Haryana,UPA,0.0,0.0,9
+2004,Haryana,NDA,0.0,0.0,1
+2004,Haryana,Left Front,0.0,0.0,0
+2004,Haryana,Others,0.0,0.0,0
+2004,Himachal Pradesh,UPA,0.0,0.0,3
+2004,Himachal Pradesh,NDA,0.0,0.0,1
+2004,Himachal Pradesh,Left Front,0.0,0.0,0
+2004,Himachal Pradesh,Others,0.0,0.0,0
+2004,Jammu and Kashmir,UPA,0.0,0.0,3
+2004,Jammu and Kashmir,NDA,0.0,0.0,0
+2004,Jammu and Kashmir,Left Front,0.0,0.0,0
+2004,Jammu and Kashmir,Others,0.0,0.0,3
+2004,Jharkhand,UPA,0.0,0.0,12
+2004,Jharkhand,NDA,0.0,0.0,1
+2004,Jharkhand,Left Front,0.0,0.0,1
+2004,Jharkhand,Others,0.0,0.0,0
+2004,Karnataka,UPA,0.0,0.0,8
+2004,Karnataka,NDA,0.0,0.0,18
+2004,Karnataka,Left Front,0.0,0.0,2
+2004,Karnataka,Others,0.0,0.0,0
+2004,Kerala,UPA,0.0,0.0,2
+2004,Kerala,NDA,0.0,0.0,0
+2004,Kerala,Left Front,0.0,0.0,18
+2004,Kerala,Others,0.0,0.0,0
+2004,Madhya Pradesh,UPA,0.0,0.0,4
+2004,Madhya Pradesh,NDA,0.0,0.0,25
+2004,Madhya Pradesh,Left Front,0.0,0.0,0
+2004,Madhya Pradesh,Others,0.0,0.0,0
+2004,Maharashtra,UPA,0.0,0.0,23
+2004,Maharashtra,NDA,0.0,0.0,25
+2004,Maharashtra,Left Front,0.0,0.0,0
+2004,Maharashtra,Others,0.0,0.0,0
+2004,Manipur,UPA,0.0,0.0,1
+2004,Manipur,NDA,0.0,0.0,0
+2004,Manipur,Left Front,0.0,0.0,0
+2004,Manipur,Others,0.0,0.0,1
+2004,Meghalaya,UPA,0.0,0.0,1
+2004,Meghalaya,NDA,0.0,0.0,1
+2004,Meghalaya,Left Front,0.0,0.0,0
+2004,Meghalaya,Others,0.0,0.0,0
+2004,Mizoram,UPA,0.0,0.0,0
+2004,Mizoram,NDA,0.0,0.0,1
+2004,Mizoram,Left Front,0.0,0.0,0
+2004,Mizoram,Others,0.0,0.0,0
+2004,Nagaland,UPA,0.0,0.0,0
+2004,Nagaland,NDA,0.0,0.0,1
+2004,Nagaland,Left Front,0.0,0.0,0
+2004,Nagaland,Others,0.0,0.0,0
+2004,Odisha,UPA,0.0,0.0,3
+2004,Odisha,NDA,0.0,0.0,18
+2004,Odisha,Left Front,0.0,0.0,0
+2004,Odisha,Others,0.0,0.0,0
+2004,Puducherry,UPA,0.0,0.0,1
+2004,Puducherry,NDA,0.0,0.0,0
+2004,Puducherry,Left Front,0.0,0.0,0
+2004,Puducherry,Others,0.0,0.0,0
+2004,Punjab,UPA,0.0,0.0,2
+2004,Punjab,NDA,0.0,0.0,11
+2004,Punjab,Left Front,0.0,0.0,0
+2004,Punjab,Others,0.0,0.0,0
+2004,Rajasthan,UPA,0.0,0.0,4
+2004,Rajasthan,NDA,0.0,0.0,21
+2004,Rajasthan,Left Front,0.0,0.0,0
+2004,Rajasthan,Others,0.0,0.0,0
+2004,Sikkim,UPA,0.0,0.0,0
+2004,Sikkim,NDA,0.0,0.0,1
+2004,Sikkim,Left Front,0.0,0.0,0
+2004,Sikkim,Others,0.0,0.0,0
+2004,Tamil Nadu,UPA,0.0,0.0,39
+2004,Tamil Nadu,NDA,0.0,0.0,0
+2004,Tamil Nadu,Left Front,0.0,0.0,0
+2004,Tamil Nadu,Others,0.0,0.0,0
+2004,Tripura,UPA,0.0,0.0,0
+2004,Tripura,NDA,0.0,0.0,0
+2004,Tripura,Left Front,0.0,0.0,2
+2004,Tripura,Others,0.0,0.0,0
+2004,Uttar Pradesh,UPA,0.0,0.0,9
+2004,Uttar Pradesh,NDA,0.0,0.0,11
+2004,Uttar Pradesh,Left Front,0.0,0.0,0
+2004,Uttar Pradesh,Others,0.0,0.0,61
+2004,Uttarakhand,UPA,0.0,0.0,1
+2004,Uttarakhand,NDA,0.0,0.0,3
+2004,Uttarakhand,Left Front,0.0,0.0,0
+2004,Uttarakhand,Others,0.0,0.0,1
+2004,West Bengal,UPA,0.0,0.0,6
+2004,West Bengal,NDA,0.0,0.0,1
+2004,West Bengal,Left Front,0.0,0.0,35
+2004,West Bengal,Others,0.0,0.0,0
+2009,Andaman and Nicobar Islands,BJP,0.0,100.0,1
+2009,Andaman and Nicobar Islands,INC,0.0,0.0,0
+2009,Andhra Pradesh,INC,0.0,79.0,33
+2009,Andhra Pradesh,AIMIM,0.0,2.0,1
+2009,Andhra Pradesh,TDP,0.0,14.0,6
+2009,Andhra Pradesh,TRS,0.0,5.0,2
+2009,Arunachal Pradesh,INC,0.0,100.0,2
+2009,Arunachal Pradesh,BJP,0.0,0.0,0
+2009,Assam,INC,0.0,50.0,7
+2009,Assam,BJP,0.0,29.0,4
+2009,Assam,AGP,0.0,7.0,1
+2009,Assam,AIUDF,0.0,7.0,1
+2009,Assam,BPF,0.0,7.0,1
+2009,Bihar,JD(U),0.0,50.0,20
+2009,Bihar,BJP,0.0,30.0,12
+2009,Bihar,RJD,0.0,10.0,4
+2009,Bihar,INC,0.0,5.0,2
+2009,Bihar,IND,0.0,5.0,2
+2009,Chandigarh,INC,0.0,100.0,1
+2009,Chandigarh,BJP,0.0,0.0,0
+2009,Chhattisgarh,BJP,0.0,91.0,10
+2009,Chhattisgarh,INC,0.0,9.0,1
+2009,Dadra and Nagar Haveli,BJP,0.0,100.0,1
+2009,Dadra and Nagar Haveli,INC,0.0,0.0,0
+2009,Delhi,INC,0.0,100.0,7
+2009,Delhi,BJP,0.0,0.0,0
+2009,Goa,INC,0.0,50.0,1
+2009,Goa,BJP,0.0,50.0,1
+2009,Gujarat,BJP,0.0,58.0,15
+2009,Gujarat,INC,0.0,42.0,11
+2009,Haryana,INC,0.0,90.0,9
+2009,Haryana,BJP,0.0,0.0,0
+2009,Haryana,Haryana Janhit Congress (Bl),0.0,10.0,1
+2009,Himachal Pradesh,BJP,0.0,75.0,3
+2009,Himachal Pradesh,INC,0.0,25.0,1
+2009,Jammu and Kashmir,JKNC,0.0,50.0,3
+2009,Jammu and Kashmir,INC,0.0,33.0,2
+2009,Jammu and Kashmir,IND,0.0,33.0,1
+2009,Jharkhand,BJP,0.0,57.0,8
+2009,Jharkhand,Jharkhand Vikas Morcha (Prajatantrik),0.0,7.0,1
+2009,Jharkhand,JMM,0.0,14.0,2
+2009,Jharkhand,INC,0.0,7.0,1
+2009,Jharkhand,IND,0.0,14.0,2
+2009,Karnataka,BJP,0.0,68.0,19
+2009,Karnataka,INC,0.0,21.0,6
+2009,Karnataka,JD(S),0.0,11.0,3
+2009,Kerala,INC,0.0,65.0,13
+2009,Kerala,IUML,0.0,10.0,2
+2009,Kerala,Kerala Congress (M),0.0,5.0,1
+2009,Kerala,CPI(M),0.0,20.0,4
+2009,Kerala,1,0.0,0.0,0
+2009,Kerala,NCP,0.0,0.0,0
+2009,Kerala,JD(U),0.0,0.0,0
+2009,Madhya Pradesh,BJP,0.0,0.0,16
+2009,Madhya Pradesh,INC,0.0,0.0,12
+2009,Madhya Pradesh,BSP,0.0,0.0,1
+2009,Maharashtra,INC,0.0,0.0,17
+2009,Maharashtra,NCP,0.0,0.0,8
+2009,Maharashtra,SS,0.0,0.0,11
+2009,Maharashtra,BJP,0.0,0.0,9
+2009,Maharashtra,Swabhimani Paksha,0.0,0.0,1
+2009,Maharashtra,Bahujan Vikas Aaghadi,0.0,0.0,1
+2009,Maharashtra,IND,0.0,0.0,1
+2009,Manipur,INC,0.0,0.0,2
+2009,Manipur,People'S Democratic Alliance,0.0,0.0,0
+2009,Meghalaya,INC,0.0,0.0,1
+2009,Meghalaya,NCP,0.0,0.0,1
+2009,Mizoram,INC,0.0,0.0,1
+2009,Mizoram,Mizo National Front,0.0,0.0,0
+2009,Nagaland,Naga People'S Front,0.0,0.0,1
+2009,Nagaland,INC,0.0,0.0,0
+2009,Odisha,BJD,0.0,0.0,14
+2009,Odisha,INC,0.0,0.0,6
+2009,Odisha,CPI(M),0.0,0.0,1
+2009,Puducherry,INC,0.0,0.0,1
+2009,Puducherry,Pattali Makkal Katchi,0.0,0.0,0
+2009,Puducherry,AIADMK,0.0,0.0,0
+2009,Punjab,INC,0.0,0.0,8
+2009,Punjab,SAD,0.0,0.0,4
+2009,Punjab,BJP,0.0,0.0,1
+2009,Rajasthan,INC,0.0,0.0,20
+2009,Rajasthan,BJP,0.0,0.0,4
+2009,Rajasthan,IND,0.0,0.0,1
+2009,Sikkim,SDF,0.0,0.0,1
+2009,Sikkim,INC,0.0,0.0,0
+2009,Tamil Nadu,DMK,0.0,0.0,18
+2009,Tamil Nadu,AIADMK,0.0,0.0,4
+2009,Tamil Nadu,INC,0.0,0.0,1
+2009,Tamil Nadu,VCK,0.0,0.0,1
+2009,Tamil Nadu,MDMK,0.0,0.0,1
+2009,Tamil Nadu,CPI,0.0,0.0,1
+2009,Tamil Nadu,CPI(M),0.0,0.0,1
+2009,Tripura,CPI(M),0.0,0.0,2
+2009,Tripura,INC,0.0,0.0,0
+2009,Uttar Pradesh,SP,0.0,0.0,23
+2009,Uttar Pradesh,INC,0.0,0.0,21
+2009,Uttar Pradesh,BSP,0.0,0.0,20
+2009,Uttar Pradesh,BJP,0.0,0.0,10
+2009,Uttar Pradesh,RLD,0.0,0.0,1
+2009,Uttar Pradesh,IND,0.0,0.0,1
+2009,West Bengal,TMC,0.0,0.0,19
+2009,West Bengal,CPI(M),0.0,0.0,9
+2009,West Bengal,INC,0.0,0.0,6
+2009,West Bengal,CPI,0.0,0.0,2
+2009,West Bengal,AIFB,0.0,0.0,2
+2009,West Bengal,RSP,0.0,0.0,1
+2009,West Bengal,BJP,0.0,0.0,1
+2009,West Bengal,Socialist Unity Centre Of India (Communist),0.0,0.0,1
+2014,Andaman and Nicobar Islands,BJP,0.0,47.8,1
+2014,Andaman and Nicobar Islands,INC,0.0,44.8,0
+2014,Andhra Pradesh,TDP,0.0,28.1,15
+2014,Andhra Pradesh,YSRCP,0.0,28.9,8
+2014,Andhra Pradesh,INC,0.0,11.5,0
+2014,Andhra Pradesh,BJP,0.0,8.5,2
+2014,Arunachal Pradesh,BJP,275344.0,46.62,1
+2014,Arunachal Pradesh,INC,246084.0,41.66,1
+2014,Assam,BJP,5507152.0,36.5,7
+2014,Assam,INC,4467295.0,29.6,3
+2014,Assam,AIUDF,2237612.0,14.8,3
+2014,Assam,AGP,577730.0,3.8,0
+2014,Assam,Independent (Politician),1436900.0,9.62,1
+2014,Assam,BPF,330106.0,2.21,0
+2014,Bihar,BJP,0.0,29.4,22
+2014,Bihar,LJP,0.0,6.4,6
+2014,Bihar,RJD,0.0,20.1,4
+2014,Bihar,JD(U),0.0,15.8,2
+2014,Bihar,Rashtriya Lok Samta Party,0.0,3.0,3
+2014,Bihar,NCP,0.0,1.2,1
+2014,Bihar,INC,0.0,8.4,2
+2014,Bihar,IND,0.0,0.0,0
+2014,Chandigarh,BJP,0.0,42.2,1
+2014,Chandigarh,INC,0.0,26.8,0
+2014,Chandigarh,AAP,0.0,24.0,0
+2014,Chhattisgarh,BJP,0.0,48.7,10
+2014,Chhattisgarh,INC,0.0,38.4,1
+2014,Dadra and Nagar Haveli,BJP,0.0,48.9,1
+2014,Dadra and Nagar Haveli,INC,0.0,45.1,0
+2014,Daman and Diu,BJP,0.0,53.8,1
+2014,Daman and Diu,INC,0.0,43.3,0
+2014,Delhi,BJP,0.0,46.4,7
+2014,Delhi,INC,0.0,15.1,0
+2014,Delhi,AAP,0.0,34.9,0
+2014,Goa,BJP,0.0,53.400000000000006,2
+2014,Goa,INC,0.0,36.6,0
+2014,Gujarat,BJP,0.0,60.11,26
+2014,Gujarat,INC,0.0,33.45,0
+2014,Haryana,BJP,0.0,34.7,7
+2014,Haryana,INC,0.0,22.9,1
+2014,Haryana,Indian National Lok Dal,0.0,24.4,2
+2014,Himachal Pradesh,BJP,0.0,53.31,4
+2014,Himachal Pradesh,INC,0.0,40.7,0
+2014,Jammu and Kashmir,BJP,0.0,34.4,3
+2014,Jammu and Kashmir,INC,0.0,22.9,0
+2014,Jammu and Kashmir,Jammu & Kashmir People'S Democratic Party,0.0,20.5,3
+2014,Jammu and Kashmir,JKNC,0.0,11.1,0
+2014,Jammu and Kashmir,IND,0.0,0.0,0
+2014,Jharkhand,BJP,0.0,40.1,12
+2014,Jharkhand,INC,0.0,13.3,0
+2014,Jharkhand,Jharkhand Vikas Morcha (Prajatantrik),0.0,12.1,0
+2014,Jharkhand,JMM,0.0,9.3,2
+2014,Jharkhand,IND,0.0,0.0,0
+2014,Karnataka,BJP,0.0,43.0,17
+2014,Karnataka,INC,0.0,40.8,9
+2014,Karnataka,JD(S),0.0,11.0,2
+2014,Kerala,UDF,5590285.0,31.1,8
+2014,Kerala,IUML,816226.0,4.54,2
+2014,Kerala,KC(M),424194.0,2.36,1
+2014,Kerala,RSP,408528.0,2.27,1
+2014,Kerala,SJ(D),307597.0,1.71,0
+2014,Kerala,LDF,3880655.0,21.59,5
+2014,Kerala,Ldf Ind.,1662997.0,9.25,2
+2014,Kerala,CPI,1364010.0,7.59,1
+2014,Kerala,JD(S),303595.0,1.69,0
+2014,Kerala,NDA,1856750.0,10.33,0
+2014,Kerala,KC(N),44357.0,0.25,0
+2014,Kerala,RSP(B),43051.0,0.24,0
+2014,Kerala,Others,1273648.0,7.08,0
+2014,Lakshadweep,NCP,0.0,50.1,1
+2014,Lakshadweep,INC,0.0,46.6,0
+2014,Madhya Pradesh,BJP,16015685.0,54.8,27
+2014,Madhya Pradesh,INC,10340274.0,35.4,2
+2014,Madhya Pradesh,BSP,1124772.0,3.8,0
+2014,Maharashtra,BJP,0.0,27.3,22
+2014,Maharashtra,SS,0.0,20.6,18
+2014,Maharashtra,INC,0.0,18.1,3
+2014,Maharashtra,NCP,0.0,16.0,4
+2014,Maharashtra,Swabhimani Paksha,0.0,2.3,1
+2014,Maharashtra,Bahujan Vikas Aaghadi,0.0,0.0,0
+2014,Maharashtra,IND,0.0,0.0,0
+2014,Manipur,BJP,0.0,11.9,0
+2014,Manipur,INC,0.0,41.7,2
+2014,Manipur,Naga People'S Front,0.0,19.9,0
+2014,Manipur,CPI,0.0,14.000000000000002,0
+2014,Meghalaya,BJP,0.0,8.9,0
+2014,Meghalaya,INC,0.0,37.9,1
+2014,Meghalaya,National People'S Party,0.0,22.2,1
+2014,Meghalaya,NCP,0.0,0.0,0
+2014,Mizoram,INC,0.0,48.6,1
+2014,Nagaland,Naga People'S Front,0.0,68.7,1
+2014,Nagaland,INC,0.0,30.1,0
+2014,Odisha,BJD,0.0,44.1,20
+2014,Odisha,BJP,0.0,21.5,1
+2014,Odisha,INC,0.0,26.0,0
+2014,Odisha,CPI,0.0,0.3,0
+2014,Puducherry,All India N.R. Congress,0.0,34.599999999999994,1
+2014,Puducherry,INC,0.0,26.3,0
+2014,Punjab,INC,0.0,33.1,3
+2014,Punjab,SAD,0.0,20.3,4
+2014,Punjab,BJP,0.0,8.7,2
+2014,Punjab,AAP,0.0,30.4,4
+2014,Rajasthan,BJP,0.0,54.900000000000006,25
+2014,Rajasthan,INC,0.0,30.4,0
+2014,Sikkim,SDF,0.0,53.0,1
+2014,Sikkim,SKM,0.0,39.5,0
+2014,Sikkim,BJP,0.0,2.4,0
+2014,Sikkim,INC,0.0,2.3,0
+2014,Tamil Nadu,AIADMK,0.0,44.3,37
+2014,Tamil Nadu,DMK,0.0,23.6,0
+2014,Tamil Nadu,BJP,0.0,5.5,1
+2014,Tamil Nadu,Pattali Makkal Katchi,0.0,4.4,1
+2014,Telangana,TRS,0.0,33.9,11
+2014,Telangana,INC,0.0,20.5,2
+2014,Telangana,BJP,0.0,8.5,1
+2014,Telangana,TDP,0.0,3.1,1
+2014,Telangana,YSRCP,0.0,2.9,1
+2014,Telangana,AIMIM,0.0,1.4,1
+2014,Tripura,CPI(M),0.0,64.0,2
+2014,Tripura,INC,0.0,15.2,0
+2014,Tripura,BJP,0.0,5.7,0
+2014,Uttar Pradesh,NDA,34318854.0,42.63,71
+2014,Uttar Pradesh,AD(S),812315.0,1.0,2
+2014,Uttar Pradesh,SP,17988967.0,22.35,5
+2014,Uttar Pradesh,BSP,15914194.0,19.77,0
+2014,Uttar Pradesh,UPA,6061267.0,7.53,2
+2014,Uttar Pradesh,RLD,689409.0,86.0,0
+2014,Uttarakhand,BJP,0.0,55.3,5
+2014,Uttarakhand,INC,0.0,34.0,0
+2014,West Bengal,TMC,0.0,39.8,34
+2014,West Bengal,CPI(M),0.0,23.0,2
+2014,West Bengal,BJP,0.0,18.0,2
+2014,West Bengal,INC,0.0,9.7,4
+2019,Andaman and Nicobar Islands,INC,0.0,45.98,1
+2019,Andaman and Nicobar Islands,BJP,0.0,45.3,0
+2019,Chandigarh,BJP,0.0,50.63999999999999,1
+2019,Chandigarh,INC,0.0,40.35,0
+2019,Chandigarh,AAP,0.0,3.02,0
+2019,Dadra and Nagar Haveli,BJP,0.0,40.92,0
+2019,Dadra and Nagar Haveli,IND,0.0,45.440000000000005,1
+2019,Daman and Diu,BJP,0.0,42.98,1
+2019,Daman and Diu,INC,0.0,31.62,0
+2019,Delhi,BJP,0.0,56.56,7
+2019,Delhi,INC,0.0,22.51,0
+2019,Delhi,AAP,0.0,18.11,0
+2019,Lakshadweep,NCP,0.0,48.61,1
+2019,Lakshadweep,INC,0.0,46.86,0
+2019,Puducherry,INC,0.0,56.27,1
+2019,Puducherry,All India N.R. Congress,0.0,31.36,0
+2019,Andhra Pradesh,YSRCP,15537006.0,49.89,22
+2019,Andhra Pradesh,TDP,12515345.0,40.19,3
+2019,Andhra Pradesh,Jana Sena Party,1829346.0,5.87,0
+2019,Andhra Pradesh,INC,406977.0,1.31,0
+2019,Andhra Pradesh,BJP,303985.0,98.0,0
+2019,Arunachal Pradesh,BJP,0.0,58.220000000000006,2
+2019,Arunachal Pradesh,INC,0.0,20.69,0
+2019,Assam,NDA,6484596.0,36.41,9
+2019,Assam,AGP,1480697.0,8.309999999999999,0
+2019,Assam,BPF,446774.0,2.5,0
+2019,Assam,UPA,6373659.0,35.79,3
+2019,Assam,AIUDF,1402088.0,7.870000000000001,1
+2019,Assam,IND,484560.0,4.3,1
+2019,Bihar,BJP,0.0,21.58,17
+2019,Bihar,JD(U),0.0,19.81,16
+2019,Bihar,LJP,0.0,7.86,6
+2019,Bihar,INC,0.0,7.7,1
+2019,Bihar,RJD,0.0,16.36,0
+2019,Bihar,Rashtriya Lok Samta Party,0.0,0.0,0
+2019,Bihar,NCP,0.0,10.1,0
+2019,Chhattisgarh,BJP,6902477.0,51.44,9
+2019,Chhattisgarh,INC,5569283.0,41.510000000000005,2
+2019,Chhattisgarh,BSP,313261.0,2.33,0
+2019,Goa,BJP,0.0,51.18000000000001,1
+2019,Goa,INC,0.0,42.92,1
+2019,Gujarat,BJP,0.0,62.21,26
+2019,Gujarat,INC,0.0,32.11,0
+2019,Haryana,BJP,7357347.0,58.21,10
+2019,Haryana,INC,3604106.0,28.51,0
+2019,Haryana,Jannayak Janata Party,619970.0,4.9,0
+2019,Haryana,BSP,461273.0,3.65,0
+2019,Haryana,Indian National Lok Dal,240258.0,1.9,0
+2019,Himachal Pradesh,BJP,0.0,69.11,4
+2019,Himachal Pradesh,INC,0.0,27.3,0
+2019,Jammu and Kashmir,BJP,0.0,46.39,3
+2019,Jammu and Kashmir,INC,0.0,28.47,0
+2019,Jammu and Kashmir,Jammu & Kashmir People'S Democratic Party,0.0,2.37,0
+2019,Jammu and Kashmir,JKNC,0.0,7.89,3
+2019,Jharkhand,BJP,0.0,50.96000000000001,11
+2019,Jharkhand,AJSU,0.0,4.33,1
+2019,Jharkhand,INC,0.0,15.63,1
+2019,Jharkhand,JMM,0.0,11.51,1
+2019,Karnataka,BJP,0.0,51.38,25
+2019,Karnataka,IND,0.0,0.0,1
+2019,Karnataka,INC,0.0,31.879999999999995,1
+2019,Karnataka,JD(S),0.0,9.67,1
+2019,Kerala,UDF,7596610.0,37.46,15
+2019,Kerala,IUML,1111697.0,5.48,2
+2019,Kerala,RSP,499677.0,2.46,1
+2019,Kerala,KEC(M),421046.0,2.08,1
+2019,Kerala,LDF,5266510.0,25.97,1
+2019,Kerala,CPI,1233886.0,6.08,0
+2019,Kerala,Ldf Ind.,655991.0,4.24,0
+2019,Kerala,NDA,2635810.0,13.0,0
+2019,Kerala,BDJS,380847.0,1.88,0
+2019,Kerala,KC (T),155135.0,0.76,0
+2019,Madhya Pradesh,BJP,0.0,57.99999999999999,28
+2019,Madhya Pradesh,INC,0.0,34.5,1
+2019,Maharashtra,BJP,14912139.0,27.84,23
+2019,Maharashtra,SS,12589064.0,23.5,18
+2019,Maharashtra,NCP,8387363.0,15.659999999999998,4
+2019,Maharashtra,INC,8792237.0,16.41,1
+2019,Maharashtra,AIMIM,389042.0,0.73,1
+2019,Maharashtra,Vanchit Bahujan Aaghadi,3743560.0,6.92,0
+2019,Maharashtra,IND,1992817.0,3.72,1
+2019,Maharashtra,None of the Above,488766.0,0.91,0
+2019,Manipur,BJP,0.0,34.22,1
+2019,Manipur,Naga People'S Front,0.0,22.48,1
+2019,Manipur,INC,0.0,24.63,0
+2019,Meghalaya,BJP,0.0,7.93,0
+2019,Meghalaya,INC,0.0,48.28,1
+2019,Meghalaya,National People'S Party,0.0,22.27,1
+2019,Mizoram,Mizo National Front,0.0,44.89,1
+2019,Mizoram,INC,0.0,43.26,0
+2019,Nagaland,Nationalist Democratic Progressive Party,0.0,49.73,1
+2019,Nagaland,INC,0.0,48.11,0
+2019,Odisha,BJD,0.0,42.76,12
+2019,Odisha,BJP,0.0,38.37,8
+2019,Odisha,INC,0.0,13.81,1
+2019,Punjab,INC,0.0,40.12,8
+2019,Punjab,SAD,0.0,27.450000000000003,2
+2019,Punjab,BJP,0.0,9.63,2
+2019,Punjab,AAP,0.0,7.380000000000001,1
+2019,Rajasthan,BJP,0.0,58.47,24
+2019,Rajasthan,RLP,0.0,2.03,1
+2019,Rajasthan,INC,0.0,34.239999999999995,0
+2019,Sikkim,SKM,0.0,47.46,1
+2019,Sikkim,SDF,0.0,43.92,0
+2019,Tamil Nadu,DMK,0.0,32.76,24
+2019,Tamil Nadu,INC,0.0,12.76,8
+2019,Tamil Nadu,CPI,0.0,2.43,2
+2019,Tamil Nadu,CPI(M),0.0,2.4,2
+2019,Tamil Nadu,AIADMK,0.0,18.48,1
+2019,Tamil Nadu,IUML,0.0,1.11,1
+2019,Tamil Nadu,VCK,0.0,0.0,1
+2019,Tamil Nadu,BJP,0.0,3.66,0
+2019,Tamil Nadu,Pattali Makkal Katchi,0.0,5.42,0
+2019,Telangana,BRS,7696848.0,41.71,9
+2019,Telangana,INC,5496686.0,29.79,3
+2019,Telangana,BJP,3626173.0,19.65,4
+2019,Telangana,AIMIM,517471.0,2.8,1
+2019,Tripura,BJP,0.0,49.03,2
+2019,Tripura,INC,0.0,25.34,0
+2019,Tripura,CPI(M),0.0,17.31,0
+2019,Uttar Pradesh,NDA,42858171.0,49.98,62
+2019,Uttar Pradesh,AD(S),1039478.0,1.21,2
+2019,Uttar Pradesh,Mahagathbandhan,16659754.0,19.43,10
+2019,Uttar Pradesh,SP,15533620.0,18.11,5
+2019,Uttar Pradesh,RLD,1447363.0,1.69,0
+2019,Uttar Pradesh,UPA,5457352.0,6.36,1
+2019,Uttarakhand,BJP,0.0,61.01,5
+2019,Uttarakhand,INC,0.0,31.4,0
+2019,West Bengal,AITC,24756985.0,43.7,22
+2019,West Bengal,BJP,23028343.0,40.6,18
+2019,West Bengal,LF,0.0,0.0,0
+2019,West Bengal,CPI(M),3594283.0,6.3,0
+2019,West Bengal,AIFB,239218.0,0.4,0
+2019,West Bengal,RSP,208275.0,0.4,0
+2019,West Bengal,CPI,227695.0,0.4,0
+2019,West Bengal,INC,3210485.0,5.7,2
+2024,Andaman and Nicobar Islands,BJP,0.0,50.59,1
+2024,Andaman and Nicobar Islands,INC,0.0,38.53,0
+2024,Andhra Pradesh,TDP,0.0,37.79,16
+2024,Andhra Pradesh,YSRCP,0.0,39.61,4
+2024,Andhra Pradesh,BJP,0.0,11.28,3
+2024,Andhra Pradesh,Jana Sena Party,0.0,4.3,2
+2024,Andhra Pradesh,INC,0.0,2.66,0
+2024,Arunachal Pradesh,BJP,0.0,48.87,2
+2024,Arunachal Pradesh,INC,0.0,30.37,0
+2024,Assam,BJP,0.0,37.43,9
+2024,Assam,INC,0.0,37.48,3
+2024,Assam,AGP,0.0,6.46,1
+2024,Assam,United People'S Party Liberal,0.0,2.43,1
+2024,Assam,AIUDF,0.0,3.13,0
+2024,Bihar,BJP,0.0,20.52,12
+2024,Bihar,JD(U),0.0,18.52,12
+2024,Bihar,LJP,0.0,6.47,5
+2024,Bihar,RJD,0.0,22.14,4
+2024,Bihar,INC,0.0,9.2,3
+2024,Bihar,CPI(ML)L,0.0,2.99,2
+2024,Bihar,Hindustani Awam Morcha,0.0,0.0,1
+2024,Bihar,IND,0.0,0.0,1
+2024,Chandigarh,INC,0.0,48.23,1
+2024,Chandigarh,BJP,0.0,47.66,0
+2024,Chhattisgarh,BJP,0.0,52.65,10
+2024,Chhattisgarh,INC,0.0,41.06,1
+2024,Chhattisgarh,Dadra & Nagar Haveli And Daman And Diu(2),0.0,0.0,0
+2024,Chhattisgarh,IND,0.0,0.0,1
+2024,Delhi,BJP,0.0,54.35,7
+2024,Delhi,AAP,0.0,24.17,0
+2024,Delhi,INC,0.0,18.91,0
+2024,Goa,BJP,0.0,50.79,1
+2024,Goa,INC,0.0,39.71,1
+2024,Gujarat,BJP,0.0,61.86,25
+2024,Gujarat,INC,0.0,31.24,1
+2024,Gujarat,AAP,0.0,2.69,0
+2024,Haryana,BJP,0.0,46.11,5
+2024,Haryana,INC,0.0,47.61,5
+2024,Haryana,AAP,0.0,3.94,0
+2024,Himachal Pradesh,BJP,0.0,56.44,4
+2024,Himachal Pradesh,INC,0.0,41.67,0
+2024,Jammu and Kashmir,BJP,0.0,24.36,2
+2024,Jammu and Kashmir,JKNC,0.0,22.3,2
+2024,Jammu and Kashmir,IND,0.0,0.0,1
+2024,Jammu and Kashmir,INC,0.0,19.38,0
+2024,Jammu and Kashmir,Jammu & Kashmir People'S Democratic Party,0.0,8.48,0
+2024,Jharkhand,BJP,0.0,44.6,8
+2024,Jharkhand,JMM,0.0,14.6,3
+2024,Jharkhand,INC,0.0,19.19,2
+2024,Jharkhand,AJSU,0.0,2.62,1
+2024,Karnataka,BJP,0.0,46.06,17
+2024,Karnataka,INC,0.0,45.43,9
+2024,Karnataka,Janata Dal,0.0,5.6,2
+2024,Kerala,INC,0.0,35.06,14
+2024,Kerala,IUML,0.0,6.07,2
+2024,Kerala,CPI(M),0.0,25.82,1
+2024,Kerala,BJP,0.0,16.68,1
+2024,Kerala,Kerala Congress,0.0,1.84,1
+2024,Kerala,RSP,0.0,2.24,1
+2024,Kerala,CPI,0.0,6.14,0
+2024,Kerala,Kerala Congress (M),0.0,1.38,0
+2024,Kerala,Bharath Dharma Jana Sena,0.0,2.56,0
+2024,Ladakh,IND,0.0,48.15,1
+2024,Ladakh,INC,0.0,27.59,0
+2024,Ladakh,BJP,0.0,23.58,0
+2024,Lakshadweep,INC,0.0,52.24,1
+2024,Lakshadweep,Nationalist Congress Party (Sharadchandra Pawar),0.0,46.96,0
+2024,Lakshadweep,NCP,0.0,0.41,0
+2024,Madhya Pradesh,BJP,0.0,59.27,29
+2024,Madhya Pradesh,INC,0.0,32.44,0
+2024,Maharashtra,INC,0.0,16.92,13
+2024,Maharashtra,BJP,0.0,26.18,9
+2024,Maharashtra,SS(UBT),0.0,16.72,9
+2024,Maharashtra,Nationalist Congress Party (Sharadchandra Pawar),0.0,10.27,8
+2024,Maharashtra,SS,0.0,12.95,7
+2024,Maharashtra,NCP,0.0,3.6,1
+2024,Maharashtra,IND,0.0,0.0,1
+2024,Maharashtra,AIMIM,0.0,0.61,0
+2024,Manipur,INC,0.0,47.59,2
+2024,Manipur,Naga People'S Front,0.0,18.87,0
+2024,Manipur,BJP,0.0,16.58,0
+2024,Manipur,Republican Party Of India,0.0,8.58,0
+2024,Meghalaya,INC,0.0,34.05,1
+2024,Meghalaya,Voice Of The People Party,0.0,33.4,1
+2024,Meghalaya,National People'S Party,0.0,24.22,0
+2024,Mizoram,Zoram People'S Movement,0.0,42.39,1
+2024,Mizoram,Mizo National Front,0.0,28.66,0
+2024,Mizoram,INC,0.0,20.08,0
+2024,Nagaland,INC,0.0,52.76,1
+2024,Nagaland,Nationalist Democratic Progressive Party,0.0,46.24,0
+2024,Odisha,BJP,0.0,45.34,20
+2024,Odisha,INC,0.0,12.52,1
+2024,Odisha,BJD,0.0,37.53,0
+2024,Puducherry,INC,0.0,52.74,1
+2024,Puducherry,BJP,0.0,35.81,0
+2024,Punjab,INC,0.0,26.3,7
+2024,Punjab,AAP,0.0,26.02,3
+2024,Punjab,IND,0.0,0.0,2
+2024,Punjab,SAD,0.0,13.42,1
+2024,Punjab,BJP,0.0,18.56,0
+2024,Rajasthan,BJP,0.0,49.24,14
+2024,Rajasthan,INC,0.0,37.91,8
+2024,Rajasthan,CPI(M),0.0,1.97,1
+2024,Rajasthan,RLP,0.0,1.8,1
+2024,Rajasthan,Bharat Adivasi Party,0.0,0.0,1
+2024,Sikkim,SKM,0.0,42.52,1
+2024,Sikkim,Citizen Action Party Â- Sikk,0.0,21.71,0
+2024,Sikkim,SDF,0.0,20.46,0
+2024,Sikkim,BJP,0.0,5.09,0
+2024,Tamil Nadu,DMK,0.0,26.93,22
+2024,Tamil Nadu,INC,0.0,10.67,9
+2024,Tamil Nadu,CPI(M),0.0,2.52,2
+2024,Tamil Nadu,CPI,0.0,2.15,2
+2024,Tamil Nadu,VCK,0.0,0.0,2
+2024,Tamil Nadu,IUML,0.0,1.17,1
+2024,Tamil Nadu,MDMK,0.0,0.0,1
+2024,Tamil Nadu,AIADMK,0.0,20.46,0
+2024,Tamil Nadu,BJP,0.0,11.24,0
+2024,Telangana,INC,0.0,40.1,8
+2024,Telangana,BJP,0.0,35.08,8
+2024,Telangana,AIMIM,0.0,3.02,1
+2024,Telangana,BRS,0.0,16.68,0
+2024,Tripura,BJP,0.0,70.72,2
+2024,Tripura,CPI(M),0.0,12.44,0
+2024,Tripura,INC,0.0,11.49,0
+2024,Uttar Pradesh,SP,0.0,33.59,37
+2024,Uttar Pradesh,BJP,0.0,41.37,33
+2024,Uttar Pradesh,INC,0.0,9.46,6
+2024,Uttar Pradesh,RLD,0.0,1.02,2
+2024,Uttar Pradesh,Apna Dal (Soneylal),0.0,0.92,1
+2024,Uttar Pradesh,Aazad Samaj Party,0.0,0.0,1
+2024,Uttar Pradesh,BSP,0.0,9.39,0
+2024,Uttarakhand,BJP,0.0,56.81,5
+2024,Uttarakhand,INC,0.0,32.83,0
+2024,West Bengal,TMC,0.0,45.76,29
+2024,West Bengal,BJP,0.0,38.73,12
+2024,West Bengal,INC,0.0,4.68,1
+2024,West Bengal,CPI(M),0.0,5.67,0
