@@ -1,3 +1,5 @@
+git 
+
 # Feature Engineering Report: Module 2 Pipeline
 
 > [!NOTE]
@@ -8,6 +10,7 @@
 ## 1. Summary of Engineered Features
 
 ### A. Constituency-Level Features (`constituency_engineered.csv`)
+
 - **`Margin_Percentage`** (`float64`): Normalized victory margin relative to top-2 total polled valid votes.
   - *Utility*: Eliminates turnout magnitude bias; supports EDA margin analysis, dashboard filtering, and ML inputs.
 - **`Victory_Category`** (`object`): Categorical tier (`Landslide` >15%, `Comfortable` 5-15%, `Tight / Close Contest` <5%).
@@ -22,11 +25,13 @@
   - *Utility*: Identifies party strongholds versus vulnerable seats.
 
 ### B. Party-Level Features (`party_summary_engineered.csv`)
+
 - **`Seat_Conversion_Efficiency`** (`float64`): Ratio of national seats won to national vote percentage share (`Seats / Percentage`).
   - *Utility*: Quantifies First-Past-The-Post vote conversion efficiency for national vs regional parties.
 - **`Coalition_Block`** (`object`): National alliance mapping per political party.
 
 ### C. State-Level Features (`state_summary_engineered.csv`)
+
 - **`State_Total_Seats`** (`int64`): Total Lok Sabha seats in the state.
 - **`State_Seat_Share`** (`float64`): Percentage share of state seats won by a party/alliance (`Seats_Won / State_Total_Seats * 100`).
 - **`State_Volatility_Rate`** (`float64`): Historical percentage of seat flips in the state.

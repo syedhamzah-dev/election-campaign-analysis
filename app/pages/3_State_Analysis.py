@@ -9,26 +9,35 @@ import streamlit as st
 base_dir = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(base_dir))
 
-from app.utils import load_processed_data, render_sidebar_filters
-from src.visualization import plot_state_volatility_ranking, plot_state_margin_distribution
+from app.utils import load_processed_data, render_sidebar_filters, compute_dynamic_insights
+from src.visualizations.state import plot_state_volatility_ranking, plot_state_margin_distribution
 
 st.title("🗺️ State & Regional Intelligence")
 st.markdown("Analyzing battleground state volatility, seat distributions, and victory margin spreads across Indian States and UTs.")
 
 c_df, p_df, s_df = load_processed_data()
 c_filt, p_filt, s_filt = render_sidebar_filters(c_df, p_df, s_df)
+insights = compute_dynamic_insights(c_filt, p_filt, s_filt)
+
+# Dynamic Automated State Insights Callout
+st.info(
+    f"💡 **State Battleground Intelligence**:\n"
+    f"- **Most Volatile State**: **{insights['volatile_state']}** with **{insights['volatile_rate']:.1f}% seat flip rate**.\n"
+    f"- **Most Competitive State**: **{insights['competitive_state']}** (Median victory margin: **{insights['competitive_median_margin']:.1f}%**)."
+)
 
 col1, col2, col3 = st.columns(3)
 
-most_volatile = s_df.sort_values("State_Volatility_Rate", ascending=False)["State_UT"].iloc[0] if not s_df.empty else "Tamil Nadu"
-highest_rate = s_df["State_Volatility_Rate"].max() if not s_df.empty else 0.0
+most_volatile = s_filt.sort_values("State_Volatility_Rate", ascending=False)["State_UT"].iloc[0] if ("State_Volatility_Rate" in s_filt.columns and not s_filt.empty) else "Tamil Nadu"
+highest_rate = s_filt["State_Volatility_Rate"].max() if ("State_Volatility_Rate" in s_filt.columns and not s_filt.empty) else 0.0
+state_count = c_filt["State"].nunique() if "State" in c_filt.columns else 0
 
 with col1:
     st.metric("Top Battleground State", f"{most_volatile}")
 with col2:
     st.metric("Peak State Volatility Rate", f"{highest_rate:.1f}%")
 with col3:
-    st.metric("States & UTs Analyzed", f"{c_filt['State'].nunique()}")
+    st.metric("States & UTs Analyzed", f"{state_count}")
 
 st.markdown("---")
 
