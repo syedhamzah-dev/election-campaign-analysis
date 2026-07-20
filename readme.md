@@ -288,10 +288,4 @@ streamlit run app/main.py
 
 - Election Commission of India
 - Wikipedia Election Data
-- Integral University
-
 ---
-
-## License
-
-This project has been developed for academic and educational purposes.
