@@ -197,11 +197,19 @@ python src/visualization.py
 streamlit run app/main.py
 ```
 
-Open your browser at `http://localhost:8501`.
+
 
 ---
 
 ## 📄 Comprehensive Project Technical Report
 
 For in-depth mathematical formulations, data cleaning edge cases, chart rationale, dashboard architecture, and statistical recommendations, read the full report:
-👉 [PROJECT_REPORT.md](<file:///c:/Users/mohdh/OneDrive/Desktop/Projects/Election%20Campaign%20Analysis/PROJECT_REPORT.md>)
+
+👉 [PROJECT_REPORT.md](PROJECT_REPORT.md)
+
+---
+
+## Acknowledgements
+
+- Election Commission of India
+- Wikipedia Election Data
