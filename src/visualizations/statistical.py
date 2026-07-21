@@ -39,7 +39,7 @@ def plot_coalition_trajectory(c_df: pd.DataFrame, output_dir: Optional[Path] = N
     else:
         agg_df = pd.DataFrame(
             {"NDA": [181, 159, 336, 353, 292], "UPA / I.N.D.I.A.": [218, 262, 60, 91, 235]},
-            index=[2004, 2008, 2014, 2019, 2024]
+            index=[2004, 2009, 2014, 2019, 2024]
         )
 
     desired_cols = ["NDA", "UPA / I.N.D.I.A.", "Left Front", "Others / Regional"]

@@ -208,46 +208,98 @@ def plot_vote_seat_conversion(df: pd.DataFrame, output_dir: Optional[Path] = Non
     setup_matplotlib_style()
     
     party_col = find_party_col(df)
-    
-    if "Percentage" in df.columns and "Seats" in df.columns:
-        latest = df.sort_values("Seats", ascending=False).head(8)
-    else:
-        agg = df.groupby(party_col).agg(
-            Seats=(find_party_col(df), "count"),
-            Total_Votes=(find_vote_col(df), "sum")
-        ).reset_index()
-        total_all = agg["Total_Votes"].sum()
-        agg["Percentage"] = (agg["Total_Votes"] / total_all * 100) if total_all > 0 else 0.0
-        latest = agg.sort_values("Seats", ascending=False).head(8)
-        latest.rename(columns={party_col: "Party"}, inplace=True)
+    vote_col = find_vote_col(df)
+    has_year = "Year" in df.columns and df["Year"].notna().any()
 
-    fig, ax1 = plt.subplots(figsize=(11, 6))
+    # Normalize input dataset to ensure Year, Party, Seats, and Percentage are available
+    if "Seats" in df.columns and "Percentage" in df.columns and "Party" in df.columns:
+        norm_df = df.copy()
+    else:
+        group_cols = ["Year", party_col] if has_year else [party_col]
+        agg = df.groupby(group_cols).agg(
+            Seats=(party_col, "count"),
+            Total_Votes=(vote_col, "sum")
+        ).reset_index()
+
+        if has_year:
+            year_totals = agg.groupby("Year")["Total_Votes"].transform("sum")
+            agg["Percentage"] = np.where(year_totals > 0, (agg["Total_Votes"] / year_totals) * 100, 0.0)
+        else:
+            tot = agg["Total_Votes"].sum()
+            agg["Percentage"] = (agg["Total_Votes"] / tot * 100) if tot > 0 else 0.0
+
+        agg.rename(columns={party_col: "Party"}, inplace=True)
+        norm_df = agg
+
+    if "Year" in norm_df.columns and norm_df["Year"].notna().any():
+        unique_years = sorted(norm_df["Year"].dropna().unique())
+        if len(unique_years) > 1:
+            # Multi-year selection: get top 2 parties by total seats across selected years
+            top_parties = norm_df.groupby("Party")["Seats"].sum().sort_values(ascending=False).head(2).index.tolist()
+            if not top_parties:
+                top_parties = ["BJP", "INC"]
+            filtered = norm_df[norm_df["Party"].isin(top_parties)].copy()
+            filtered["Year"] = filtered["Year"].astype(int)
+            latest = filtered.sort_values(["Year", "Party"]).reset_index(drop=True)
+        else:
+            # Single-year selection: get top 8 parties for that specific year
+            latest = norm_df.sort_values("Seats", ascending=False).head(8).reset_index(drop=True)
+    else:
+        latest = norm_df.sort_values("Seats", ascending=False).head(8).reset_index(drop=True)
+
+    fig, ax1 = plt.subplots(figsize=(11, 6.5))
 
     x = np.arange(len(latest))
     width = 0.35
-    party_names = latest["Party"] if "Party" in latest.columns else latest[party_col]
+    party_names = latest["Party"]
     bar_colors = [get_party_color(p) for p in party_names]
 
-    ax1.bar(x - width / 2, latest["Percentage"], width, label="Vote Share %", color="#a6cee3", edgecolor="black")
+    # Plot Vote Share % on Left Axis (ax1)
+    bars1 = ax1.bar(x - width / 2, latest["Percentage"], width, label="Vote Share (%)", color="#38bdf8", edgecolor="#0284c7", alpha=0.9)
+    
+    # Plot Seats Won on Right Axis (ax2)
     ax2 = ax1.twinx()
     bars2 = ax2.bar(x + width / 2, latest["Seats"], width, label="Seats Won", color=bar_colors, edgecolor="black", alpha=0.9)
 
-    ax1.set_title("National Vote Share % vs Parliamentary Seats Won")
-    fig.suptitle("Evaluating First-Past-The-Post Vote Conversion Efficiency", y=0.98, fontsize=12, style="italic")
-    ax1.set_xlabel("Political Party")
-    ax1.set_ylabel("National Vote Share (%)", color="#1f78b4")
-    ax2.set_ylabel("Seats Won Count", color="black")
+    ax1.set_title("National Vote Share (%) vs Parliamentary Seats Won")
+    fig.suptitle("Evaluating First-Past-The-Post Vote Conversion Efficiency Across Elections", y=0.98, fontsize=12, style="italic")
+    ax1.set_xlabel("Election Year & Political Party")
+    ax1.set_ylabel("National Vote Share (%)", color="#0284c7", fontweight="bold")
+    ax2.set_ylabel("Seats Won Count", color="black", fontweight="bold")
+    
+    # Format x-ticks with Year & Party Name
+    x_labels = []
+    for idx, row in latest.iterrows():
+        p_name = row["Party"]
+        if "Year" in row and pd.notna(row["Year"]):
+            x_labels.append(f"{p_name}\n({int(row['Year'])})")
+        else:
+            x_labels.append(str(p_name))
+
     ax1.set_xticks(x)
-    ax1.set_xticklabels(party_names, fontweight="bold", rotation=15)
+    ax1.set_xticklabels(x_labels, fontweight="bold", rotation=0)
     ax1.grid(False)
 
+    # Annotate Vote Share % on ax1 bars
+    for bar in bars1:
+        height = bar.get_height()
+        if height > 0:
+            ax1.annotate(f"{height:.1f}%", xy=(bar.get_x() + bar.get_width() / 2, height),
+                         xytext=(0, 3), textcoords="offset points", ha="center", va="bottom", fontsize=8, color="#0284c7", fontweight="bold")
+
+    # Annotate Seats Won on ax2 bars
     for bar in bars2:
         height = bar.get_height()
         if height > 0:
             ax2.annotate(f"{int(height)}", xy=(bar.get_x() + bar.get_width() / 2, height),
-                        xytext=(0, 3), textcoords="offset points", ha="center", va="bottom", fontweight="bold")
+                         xytext=(0, 3), textcoords="offset points", ha="center", va="bottom", fontweight="bold", fontsize=9)
 
-    insight = "FPTP rules disproportionately reward parties with concentrated regional support."
+    # Unified explicit legend combining both axes
+    lines1, labels1 = ax1.get_legend_handles_labels()
+    lines2, labels2 = ax2.get_legend_handles_labels()
+    ax1.legend(lines1 + lines2, labels1 + labels2, loc="upper left", frameon=True, facecolor="white", framealpha=0.9)
+
+    insight = "FPTP rules disproportionately reward major parties with seat shares exceeding national vote shares."
     add_chart_footer(fig, "Party Summary Master Dataset", insight)
 
     if output_dir is not None:
