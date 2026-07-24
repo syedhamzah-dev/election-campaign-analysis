@@ -1,8 +1,4 @@
-
-
-
-
-# 📄 Senior Data Scientist Technical Project Report: Election Campaign Analysis (2004–2024)
+# 📄 Technical Project Report: Election Campaign Analysis (2004–2024)
 
 > **Comprehensive Technical Architecture, Analytical Findings, Visualization Design Blueprint, and Streamlit Dashboard Intelligence System for Indian General Elections (Lok Sabha 2004–2024)**
 
