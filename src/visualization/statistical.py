@@ -35,19 +35,11 @@ def plot_margins_hist(df: pd.DataFrame, output_dir: Optional[Path] = None) -> Un
     """
     setup_matplotlib_style()
 
-    if "Margin_Votes" in df.columns:
-        margins = df["Margin_Votes"].dropna()
-    elif "Margin" in df.columns:
-        margins = pd.to_numeric(df["Margin"], errors="coerce").dropna()
-    elif "Constituency" in df.columns and "Total Votes" in df.columns:
-        top2 = df.sort_values(["Constituency", "Total Votes"], ascending=[True, False]).groupby("Constituency").head(2)
-        margins = top2.groupby("Constituency")["Total Votes"].apply(lambda x: float(x.iloc[0] - (x.iloc[1] if len(x) > 1 else 0)))
-    else:
-        margins = pd.Series([10000])
-
-    valid_margins = margins[margins >= 0]
-    median_margin = valid_margins.median() if not valid_margins.empty else 0.0
-    mean_margin = valid_margins.mean() if not valid_margins.empty else 0.0
+    from src.analysis.constituency.constituency import victory_margin_statistics
+    stats = victory_margin_statistics(df)
+    valid_margins = stats["valid_margins"]
+    median_margin = stats["median_margin"]
+    mean_margin = stats["mean_margin"]
 
     fig, ax = plt.subplots(figsize=(10, 6))
 
@@ -84,12 +76,9 @@ def plot_evm_vs_postal_scatter(df: pd.DataFrame, output_dir: Optional[Path] = No
 
     const_col = find_constituency_col(df)
 
-    if "EVM Votes" in df.columns and "Postal Votes" in df.columns:
-        agg = df.groupby(const_col)[["EVM Votes", "Postal Votes"]].sum().dropna()
-    else:
-        vote_col = find_vote_col(df)
-        agg = df.groupby(const_col)[vote_col].sum().to_frame("EVM Votes")
-        agg["Postal Votes"] = agg["EVM Votes"] * 0.012
+    from src.analysis.constituency.constituency import turnout_analysis
+    stats = turnout_analysis(df)
+    agg = stats["evm_postal"]
 
     fig, ax = plt.subplots(figsize=(8, 7))
 

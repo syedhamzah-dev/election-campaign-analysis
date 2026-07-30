@@ -25,16 +25,8 @@ def plot_coalition_trajectory(c_df: pd.DataFrame, output_dir: Optional[Path] = N
     """
     setup_matplotlib_style()
 
-    if "Year" in c_df.columns and "Coalition_Block" in c_df.columns:
-        agg_df = c_df.groupby(["Year", "Coalition_Block"]).size().unstack(fill_value=0)
-    else:
-        agg_df = pd.DataFrame(
-            {"NDA": [181, 159, 336, 353, 292], "UPA / I.N.D.I.A.": [218, 262, 60, 91, 235]},
-            index=[2004, 2009, 2014, 2019, 2024]
-        )
-
-    desired_cols = ["NDA", "UPA / I.N.D.I.A.", "Left Front", "Others / Regional"]
-    agg_df = agg_df[[c for c in desired_cols if c in agg_df.columns]]
+    from src.analysis.national.national import analyze_coalition_trajectory
+    agg_df = analyze_coalition_trajectory(c_df)
 
     fig, ax = plt.subplots(figsize=(10, 6))
     colors = [COALITION_COLORS.get(col, "#808080") for col in agg_df.columns]

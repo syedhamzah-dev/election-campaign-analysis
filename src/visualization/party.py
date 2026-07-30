@@ -37,16 +37,9 @@ def plot_seats_by_party(df: pd.DataFrame, output_dir: Optional[Path] = None) -> 
     """
     setup_matplotlib_style()
     
-    party_col = find_party_col(df)
-    if "Result" in df.columns:
-        winners = df[df["Result"].astype(str).str.lower() == "won"]
-        seats = winners[party_col].value_counts().head(25)
-    elif "Status" in df.columns and "Result Declared" in df["Status"].values:
-        seats = df[party_col].value_counts().head(25)
-    elif "Seats" in df.columns:
-        seats = df.groupby(party_col)["Seats"].sum().sort_values(ascending=False).head(25)
-    else:
-        seats = df[party_col].value_counts().head(25)
+    from src.analysis.party.party import vote_share_statistics
+    stats = vote_share_statistics(df)
+    seats = stats["seats"]
 
     if seats.empty:
         fig, ax = plt.subplots(figsize=(10, 5))
@@ -88,10 +81,9 @@ def plot_votes_by_party(df: pd.DataFrame, output_dir: Optional[Path] = None) -> 
     """
     setup_matplotlib_style()
     
-    party_col = find_party_col(df)
-    vote_col = find_vote_col(df)
-    
-    votes = df.groupby(party_col)[vote_col].sum().sort_values(ascending=False).head(25)
+    from src.analysis.party.party import vote_share_statistics
+    stats = vote_share_statistics(df)
+    votes = stats["votes"]
 
     if votes.empty:
         fig, ax = plt.subplots(figsize=(10, 5))
@@ -140,25 +132,9 @@ def plot_postal_vote_share(df: pd.DataFrame, output_dir: Optional[Path] = None) 
     """
     setup_matplotlib_style()
     
-    party_col = find_party_col(df)
-    
-    if "EVM Votes" in df.columns and "Postal Votes" in df.columns:
-        agg = df.groupby(party_col)[["EVM Votes", "Postal Votes"]].sum().fillna(0)
-    else:
-        vote_col = find_vote_col(df)
-        total_by_party = df.groupby(party_col)[vote_col].sum().to_frame("Total Votes")
-        agg = pd.DataFrame(index=total_by_party.index)
-        agg["EVM Votes"] = total_by_party["Total Votes"] * 0.985
-        agg["Postal Votes"] = total_by_party["Total Votes"] * 0.015
-
-    agg["Total Votes"] = agg["EVM Votes"] + agg["Postal Votes"]
-    
-    top20_parties = agg.sort_values("Total Votes", ascending=False).head(20).index
-    agg_top = agg.loc[top20_parties].copy()
-    
-    denom = agg_top["Total Votes"]
-    agg_top["Postal_Share_Pct"] = np.where(denom > 0, (agg_top["Postal Votes"] / denom) * 100, 0.0)
-    agg_top = agg_top.sort_values("Postal_Share_Pct", ascending=True)
+    from src.analysis.party.party import vote_share_statistics
+    stats = vote_share_statistics(df)
+    agg_top = stats["postal_vote_share"]
 
     fig, ax = plt.subplots(figsize=(11, 8))
     colors = [get_party_color(p) for p in agg_top.index]
@@ -207,45 +183,8 @@ def plot_vote_seat_conversion(df: pd.DataFrame, output_dir: Optional[Path] = Non
     """
     setup_matplotlib_style()
     
-    party_col = find_party_col(df)
-    vote_col = find_vote_col(df)
-    has_year = "Year" in df.columns and df["Year"].notna().any()
-
-    # Normalize input dataset to ensure Year, Party, Seats, and Percentage are available
-    if "Seats" in df.columns and "Percentage" in df.columns and "Party" in df.columns:
-        norm_df = df.copy()
-    else:
-        group_cols = ["Year", party_col] if has_year else [party_col]
-        agg = df.groupby(group_cols).agg(
-            Seats=(party_col, "count"),
-            Total_Votes=(vote_col, "sum")
-        ).reset_index()
-
-        if has_year:
-            year_totals = agg.groupby("Year")["Total_Votes"].transform("sum")
-            agg["Percentage"] = np.where(year_totals > 0, (agg["Total_Votes"] / year_totals) * 100, 0.0)
-        else:
-            tot = agg["Total_Votes"].sum()
-            agg["Percentage"] = (agg["Total_Votes"] / tot * 100) if tot > 0 else 0.0
-
-        agg.rename(columns={party_col: "Party"}, inplace=True)
-        norm_df = agg
-
-    if "Year" in norm_df.columns and norm_df["Year"].notna().any():
-        unique_years = sorted(norm_df["Year"].dropna().unique())
-        if len(unique_years) > 1:
-            # Multi-year selection: get top 2 parties by total seats across selected years
-            top_parties = norm_df.groupby("Party")["Seats"].sum().sort_values(ascending=False).head(2).index.tolist()
-            if not top_parties:
-                top_parties = ["BJP", "INC"]
-            filtered = norm_df[norm_df["Party"].isin(top_parties)].copy()
-            filtered["Year"] = filtered["Year"].astype(int)
-            latest = filtered.sort_values(["Year", "Party"]).reset_index(drop=True)
-        else:
-            # Single-year selection: get top 8 parties for that specific year
-            latest = norm_df.sort_values("Seats", ascending=False).head(8).reset_index(drop=True)
-    else:
-        latest = norm_df.sort_values("Seats", ascending=False).head(8).reset_index(drop=True)
+    from src.analysis.party.party import seat_conversion
+    latest = seat_conversion(df)
 
     fig, ax1 = plt.subplots(figsize=(11, 6.5))
 
@@ -316,35 +255,9 @@ def plot_party_retention_loss(df: pd.DataFrame, output_dir: Optional[Path] = Non
     """
     setup_matplotlib_style()
 
-    if "Seat_Flip_Status" in df.columns:
-        valid_transitions = df[df["Seat_Flip_Status"].notna()].copy()
-    else:
-        valid_transitions = df.copy()
-        valid_transitions["Seat_Flip_Status"] = 0.0
-
     top_parties = ["BJP", "INC", "SP", "TMC", "DMK"]
-    party_col = "Prev_Winner_Party" if "Prev_Winner_Party" in valid_transitions.columns else find_party_col(valid_transitions)
-
-    valid_transitions["Incumbent_Party"] = np.where(
-        valid_transitions[party_col].isin(top_parties),
-        valid_transitions[party_col],
-        "Others"
-    )
-
-    retention_df = (
-        valid_transitions.groupby(["Incumbent_Party", "Seat_Flip_Status"])
-        .size()
-        .unstack(fill_value=0)
-    )
-    
-    if 0.0 not in retention_df.columns:
-        retention_df[0.0] = 0
-    if 1.0 not in retention_df.columns:
-        retention_df[1.0] = 0
-
-    retention_df = retention_df[[0.0, 1.0]]
-    retention_df.columns = ["Retained Seats", "Lost Seats"]
-    retention_df = retention_df.loc[[p for p in top_parties if p in retention_df.index] + ["Others"]]
+    from src.analysis.party.party import retention_statistics
+    retention_df = retention_statistics(df)
 
     fig, ax = plt.subplots(figsize=(10, 6))
 

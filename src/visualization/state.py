@@ -28,18 +28,8 @@ def plot_state_volatility_ranking(df: pd.DataFrame, output_dir: Optional[Path] =
     setup_matplotlib_style()
 
     state_col = "State_UT" if "State_UT" in df.columns else ("State" if "State" in df.columns else df.columns[0])
-
-    if "State_Volatility_Rate" in df.columns:
-        top_states = df.groupby(state_col)["State_Volatility_Rate"].first().reset_index()
-        top_states = top_states.sort_values("State_Volatility_Rate", ascending=False).head(18)
-    else:
-        # Reconstruct volatility rate from flip status if raw dataset passed
-        if "Seat_Flip_Status" in df.columns:
-            top_states = df.groupby(state_col)["Seat_Flip_Status"].agg(
-                State_Volatility_Rate=lambda x: (x.sum() / len(x) * 100) if len(x) > 0 else 0
-            ).reset_index().sort_values("State_Volatility_Rate", ascending=False).head(18)
-        else:
-            top_states = pd.DataFrame({state_col: ["Tamil Nadu", "Uttar Pradesh"], "State_Volatility_Rate": [65.0, 58.0]})
+    from src.analysis.state.state import volatility_analysis
+    top_states = volatility_analysis(df)
 
     if top_states.empty:
         fig, ax = plt.subplots(figsize=(10, 5))
@@ -94,13 +84,11 @@ def plot_state_margin_distribution(df: pd.DataFrame, output_dir: Optional[Path] 
 
     state_col = "State" if "State" in df.columns else ("State_UT" if "State_UT" in df.columns else df.columns[0])
     margin_col = "Margin_Percentage" if "Margin_Percentage" in df.columns else "Margin_Votes"
-
-    if margin_col in df.columns:
-        state_order = df.groupby(state_col)[margin_col].median().sort_values().head(12).index
-        filtered_df = df[df[state_col].isin(state_order)].copy()
-    else:
+    from src.analysis.state.state import state_margin_statistics
+    filtered_df, state_order = state_margin_statistics(df)
+    if state_order.empty:
         filtered_df = pd.DataFrame({state_col: ["UP", "Gujarat"], "Margin_Percentage": [10.0, 25.0]})
-        state_order = ["UP", "Gujarat"]
+        state_order = pd.Index(["UP", "Gujarat"])
         margin_col = "Margin_Percentage"
 
     fig, ax = plt.subplots(figsize=(11, 6))

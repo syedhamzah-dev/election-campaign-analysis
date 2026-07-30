@@ -29,10 +29,9 @@ def plot_turnout_top20(df: pd.DataFrame, output_dir: Optional[Path] = None) -> U
     """
     setup_matplotlib_style()
 
-    const_col = find_constituency_col(df)
-    vote_col = find_vote_col(df)
-
-    turnout = df.groupby(const_col)[vote_col].sum().sort_values(ascending=False).head(20)
+    from src.analysis.constituency.constituency import turnout_analysis
+    stats = turnout_analysis(df)
+    turnout = stats["turnout_top20"]
 
     if turnout.empty:
         fig, ax = plt.subplots(figsize=(10, 5))
@@ -75,26 +74,8 @@ def plot_reserved_category_wins(df: pd.DataFrame, output_dir: Optional[Path] = N
     """
     setup_matplotlib_style()
 
-    party_col = find_party_col(df)
-    type_col = "Constituency_Type" if "Constituency_Type" in df.columns else "Category"
-
-    if type_col not in df.columns:
-        df_copy = df.copy()
-        df_copy[type_col] = "GEN"
-    else:
-        df_copy = df.copy()
-
-    top_parties = ["BJP", "INC", "SP", "TMC", "DMK", "CPI(M)"]
-    df_copy["Party_Group"] = np.where(df_copy[party_col].isin(top_parties), df_copy[party_col], "Others")
-
-    agg_df = (
-        df_copy.groupby([type_col, "Party_Group"])
-        .size()
-        .unstack(fill_value=0)
-    )
-
-    party_order = top_parties + ["Others"]
-    agg_df = agg_df[[p for p in party_order if p in agg_df.columns]]
+    from src.analysis.constituency.constituency import reservation_statistics
+    agg_df = reservation_statistics(df)
 
     fig, ax = plt.subplots(figsize=(10, 6))
     colors = [get_party_color(p) for p in agg_df.columns]
@@ -127,18 +108,10 @@ def plot_extreme_margins(df: pd.DataFrame, output_dir: Optional[Path] = None) ->
 
     const_col = find_constituency_col(df)
     margin_col = "Margin_Votes" if "Margin_Votes" in df.columns else ("Margin" if "Margin" in df.columns else df.columns[0])
-
-    if margin_col in df.columns:
-        contested = df[df[margin_col] > 0].copy()
-        if len(contested) >= 10:
-            tightest = contested.sort_values(margin_col).head(10)
-            largest = contested.sort_values(margin_col, ascending=False).head(10)
-        else:
-            tightest = df.head(10)
-            largest = df.head(10)
-    else:
-        tightest = df.head(5)
-        largest = df.head(5)
+    from src.analysis.constituency.constituency import victory_margin_statistics
+    stats = victory_margin_statistics(df)
+    tightest = stats["tightest"]
+    largest = stats["largest"]
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 6))
 
