@@ -1,0 +1,9 @@
+logs/
+
+src/__pycache__/
+
+src/visualization/__pycache__/
+
+dashboard/utils/__pycache__/
+
+*.py[cod]
