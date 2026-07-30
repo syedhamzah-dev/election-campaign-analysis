@@ -18,6 +18,7 @@ from src.visualization.party import (
     plot_party_retention_loss,
     plot_vote_seat_conversion,
 )
+from src.analysis.party.party import party_summary
 
 st.title("🚩 Party Performance Analytics")
 st.markdown("Evaluating political party seat growth, retention rates, postal vote dependence (%), and vote conversion efficiency.")
@@ -35,16 +36,18 @@ st.info(
 
 col1, col2, col3 = st.columns(3)
 
-top_party = p_filt.sort_values("Seats", ascending=False)["Party"].iloc[0] if not p_filt.empty else "BJP"
-top_seats = p_filt.sort_values("Seats", ascending=False)["Seats"].iloc[0] if not p_filt.empty else 0
-top_eff = p_filt.sort_values("Seat_Conversion_Efficiency", ascending=False)["Party"].iloc[0] if not p_filt.empty else "BJP"
+summary_stats = party_summary(p_filt)
+top_party = summary_stats["top_party"]
+top_seats = summary_stats["top_seats"]
+top_eff = summary_stats["top_eff"]
+num_parties = summary_stats["num_parties"]
 
 with col1:
     st.metric("Top Seat Party", f"{top_party} ({top_seats} Seats)")
 with col2:
     st.metric("Highest Conversion Efficiency", f"{top_eff}")
 with col3:
-    st.metric("Total Parties Analyzed", f"{p_filt['Party'].nunique()}")
+    st.metric("Total Parties Analyzed", f"{num_parties}")
 
 st.markdown("---")
 

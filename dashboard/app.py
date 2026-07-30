@@ -476,7 +476,7 @@ st.markdown("---")
 st.markdown('<div class="section-title">🚀 Quick Dashboard Navigation</div>', unsafe_allow_html=True)
 st.markdown('<div class="section-subtitle">Directly access deep-dive analytical modules and strategic insights</div>', unsafe_allow_html=True)
 
-nav_col1, nav_col2, nav_col3, nav_col4, nav_col5 = st.columns(5)
+nav_col1, nav_col2, nav_col3, nav_col4, nav_col5, nav_col6 = st.columns(6)
 
 with nav_col1:
     st.page_link("pages/1_Overview.py", label="Overview", icon="📊", use_container_width=True)
@@ -492,3 +492,6 @@ with nav_col4:
 
 with nav_col5:
     st.page_link("pages/5_Insights.py", label="Executive Insights", icon="💡", use_container_width=True)
+
+with nav_col6:
+    st.page_link("pages/6_🤖_Election_Intelligence.py", label="Election Intelligence", icon="🤖", use_container_width=True)

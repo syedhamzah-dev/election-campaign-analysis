@@ -12,6 +12,7 @@ sys.path.insert(0, str(base_dir))
 
 from dashboard.utils.utils import load_processed_data, render_sidebar_filters, compute_dynamic_insights
 from src.visualization.state import plot_state_volatility_ranking, plot_state_margin_distribution
+from src.analysis.state.state import state_summary
 
 st.title("🗺️ State & Regional Intelligence")
 st.markdown("Analyzing battleground state volatility, seat distributions, and victory margin spreads across Indian States and UTs.")
@@ -29,9 +30,10 @@ st.info(
 
 col1, col2, col3 = st.columns(3)
 
-most_volatile = s_filt.sort_values("State_Volatility_Rate", ascending=False)["State_UT"].iloc[0] if ("State_Volatility_Rate" in s_filt.columns and not s_filt.empty) else "Tamil Nadu"
-highest_rate = s_filt["State_Volatility_Rate"].max() if ("State_Volatility_Rate" in s_filt.columns and not s_filt.empty) else 0.0
-state_count = c_filt["State"].nunique() if "State" in c_filt.columns else 0
+summary_stats = state_summary(s_filt, c_filt)
+most_volatile = summary_stats["most_volatile"]
+highest_rate = summary_stats["highest_rate"]
+state_count = summary_stats["state_count"]
 
 with col1:
     st.metric("Top Battleground State", f"{most_volatile}")

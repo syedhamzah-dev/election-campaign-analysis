@@ -13,6 +13,7 @@ sys.path.insert(0, str(base_dir))
 from dashboard.utils.utils import load_processed_data, render_sidebar_filters, compute_dynamic_insights
 from src.visualization.national import plot_coalition_trajectory
 from src.visualization.party import plot_vote_seat_conversion
+from src.analysis.national.national import national_summary
 
 st.title("📊 National Executive Overview")
 st.markdown("Macro-level electoral trajectory, national coalition dominance, and First-Past-The-Post vote conversion efficiency.")
@@ -33,11 +34,12 @@ st.info(
 # 3. KPI Cards
 col1, col2, col3, col4 = st.columns(4)
 
-total_seats = len(c_filt)
-nda_seats = (c_filt["Coalition_Block"] == "NDA").sum() if "Coalition_Block" in c_filt.columns else 0
-upa_seats = (c_filt["Coalition_Block"] == "UPA / I.N.D.I.A.").sum() if "Coalition_Block" in c_filt.columns else 0
-avg_margin = c_filt["Margin_Percentage"].mean() if ("Margin_Percentage" in c_filt.columns and not c_filt.empty) else 0.0
-close_contests = (c_filt["Victory_Category"] == "Tight / Close Contest").sum() if "Victory_Category" in c_filt.columns else 0
+summary_stats = national_summary(c_filt)
+total_seats = summary_stats["total_seats"]
+nda_seats = summary_stats["nda_seats"]
+upa_seats = summary_stats["upa_seats"]
+avg_margin = summary_stats["avg_margin"]
+close_contests = summary_stats["close_contests"]
 
 with col1:
     st.metric("Total Seats Analyzed", f"{total_seats}")

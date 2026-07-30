@@ -20,6 +20,7 @@ from src.visualization.statistical import (
     plot_margins_hist,
     plot_evm_vs_postal_scatter,
 )
+from src.analysis.constituency.constituency import constituency_summary
 
 st.title("🎯 Constituency & Candidate Deep-Dive")
 st.markdown("Investigating turnout, election outcomes across Reserved (`SC`, `ST`) vs General (`GEN`) seats, margin distributions, and EVM/Postal splits.")
@@ -38,10 +39,11 @@ st.info(
 
 col1, col2, col3, col4 = st.columns(4)
 
-tightest_win = c_filt[c_filt["Margin_Votes"] > 0]["Margin_Votes"].min() if ("Margin_Votes" in c_filt.columns and not c_filt.empty and (c_filt["Margin_Votes"] > 0).any()) else 25
-largest_win = c_filt["Margin_Votes"].max() if ("Margin_Votes" in c_filt.columns and not c_filt.empty) else 690000
-swing_seats = (c_filt["Seat_Flip_Status"] == 1.0).sum() if "Seat_Flip_Status" in c_filt.columns else 0
-gen_seats = (c_filt["Constituency_Type"] == "GEN").sum() if "Constituency_Type" in c_filt.columns else 0
+summary_stats = constituency_summary(c_filt)
+tightest_win = summary_stats["tightest_win"]
+largest_win = summary_stats["largest_win"]
+swing_seats = summary_stats["swing_seats"]
+gen_seats = summary_stats["gen_seats"]
 
 with col1:
     st.metric("Tightest Victory Margin", f"{int(tightest_win):,} Votes")
