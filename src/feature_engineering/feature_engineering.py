@@ -16,14 +16,51 @@ logger = logging.getLogger(__name__)
 
 # Political Alliance Coalition Mapping Sets
 NDA_PARTIES = {
-    "BJP", "TDP", "JD(U)", "SS", "LJP", "LJPRV", "SAD", "AD(S)", "RLD",
-    "AGP", "HAM(S)", "AJSU", "JSP", "UPPL", "SKM", "NCP", "NPF", "NDPP"
+    "BJP",
+    "TDP",
+    "JD(U)",
+    "SS",
+    "LJP",
+    "LJPRV",
+    "SAD",
+    "AD(S)",
+    "RLD",
+    "AGP",
+    "HAM(S)",
+    "AJSU",
+    "JSP",
+    "UPPL",
+    "SKM",
+    "NCP",
+    "NPF",
+    "NDPP",
 }
 
 UPA_INDIA_PARTIES = {
-    "INC", "SP", "TMC", "DMK", "RJD", "NCP-SP", "SS(UBT)", "JMM", "IUML",
-    "AAP", "CPI(M)", "CPI", "CPI(ML)L", "VCK", "JKNC", "RSP", "MDMK", "RLP",
-    "BAP", "VPP", "KEC", "KEC(M)", "JVM(P)", "RLTP"
+    "INC",
+    "SP",
+    "TMC",
+    "DMK",
+    "RJD",
+    "NCP-SP",
+    "SS(UBT)",
+    "JMM",
+    "IUML",
+    "AAP",
+    "CPI(M)",
+    "CPI",
+    "CPI(ML)L",
+    "VCK",
+    "JKNC",
+    "RSP",
+    "MDMK",
+    "RLP",
+    "BAP",
+    "VPP",
+    "KEC",
+    "KEC(M)",
+    "JVM(P)",
+    "RLTP",
 }
 
 LEFT_FRONT_PARTIES = {"CPI(M)", "CPI", "AIFB", "RSP", "CPI(ML)L", "SUCI"}
@@ -128,7 +165,9 @@ def compute_runner_up_ratio(df: pd.DataFrame) -> pd.Series:
     return pd.Series(ratio, index=df.index)
 
 
-def compute_seat_flip_status(df: pd.DataFrame) -> Tuple[pd.Series, pd.Series, pd.Series]:
+def compute_seat_flip_status(
+    df: pd.DataFrame,
+) -> tuple[pd.Series, pd.Series, pd.Series]:
     """
     Track historical seat flips and incumbent holds across consecutive election cycles.
 
@@ -144,22 +183,31 @@ def compute_seat_flip_status(df: pd.DataFrame) -> Tuple[pd.Series, pd.Series, pd
     original_index = df.index
     sorted_df = df.sort_values(["State", "Constituency_No", "Year"]).copy()
 
-    sorted_df["Prev_Winner_Party"] = sorted_df.groupby(["State", "Constituency_No"])["Winner_Party"].shift(1)
-    sorted_df["Prev_Year"] = sorted_df.groupby(["State", "Constituency_No"])["Year"].shift(1)
+    sorted_df["Prev_Winner_Party"] = sorted_df.groupby(["State", "Constituency_No"])[
+        "Winner_Party"
+    ].shift(1)
+    sorted_df["Prev_Year"] = sorted_df.groupby(["State", "Constituency_No"])[
+        "Year"
+    ].shift(1)
 
     is_consecutive = (sorted_df["Year"] - sorted_df["Prev_Year"]) == 5
 
     seat_flip = np.full(len(sorted_df), np.nan, dtype=np.float64)
     seat_flip[is_consecutive] = (
-        sorted_df.loc[is_consecutive, "Winner_Party"] != sorted_df.loc[is_consecutive, "Prev_Winner_Party"]
+        sorted_df.loc[is_consecutive, "Winner_Party"]
+        != sorted_df.loc[is_consecutive, "Prev_Winner_Party"]
     ).astype(np.float64)
 
     sorted_df["Seat_Flip_Status"] = seat_flip
 
     # Compute consecutive hold count vectorially
     sorted_df["_flip_flag"] = (sorted_df["Seat_Flip_Status"] == 1.0).astype(int)
-    sorted_df["_flip_block"] = sorted_df.groupby(["State", "Constituency_No"])["_flip_flag"].cumsum()
-    sorted_df["Incumbent_Hold_Count"] = sorted_df.groupby(["State", "Constituency_No", "_flip_block"]).cumcount()
+    sorted_df["_flip_block"] = sorted_df.groupby(["State", "Constituency_No"])[
+        "_flip_flag"
+    ].cumsum()
+    sorted_df["Incumbent_Hold_Count"] = sorted_df.groupby(
+        ["State", "Constituency_No", "_flip_block"]
+    ).cumcount()
     sorted_df.loc[sorted_df["Seat_Flip_Status"].isna(), "Incumbent_Hold_Count"] = 0
 
     # Sort back to original index
@@ -195,7 +243,9 @@ def engineer_constituency_features(c_df: pd.DataFrame) -> pd.DataFrame:
     df["Seat_Flip_Status"] = flip_status
     df["Incumbent_Hold_Count"] = hold_count
 
-    logger.info(f"Constituency feature engineering complete. Enriched shape: {df.shape}")
+    logger.info(
+        f"Constituency feature engineering complete. Enriched shape: {df.shape}"
+    )
     return df
 
 
@@ -224,11 +274,15 @@ def engineer_party_summary_features(p_df: pd.DataFrame) -> pd.DataFrame:
         df.loc[valid_pct_mask, "Seats"] / df.loc[valid_pct_mask, "Percentage"], 2
     )
 
-    logger.info(f"Party summary feature engineering complete. Enriched shape: {df.shape}")
+    logger.info(
+        f"Party summary feature engineering complete. Enriched shape: {df.shape}"
+    )
     return df
 
 
-def engineer_state_summary_features(s_df: pd.DataFrame, c_eng: pd.DataFrame) -> pd.DataFrame:
+def engineer_state_summary_features(
+    s_df: pd.DataFrame, c_eng: pd.DataFrame
+) -> pd.DataFrame:
     """
     Engineer state summary features including state volatility metrics.
 
@@ -266,21 +320,24 @@ def engineer_state_summary_features(s_df: pd.DataFrame, c_eng: pd.DataFrame) -> 
         .reset_index()
         .rename(columns={"Seat_Flip_Status": "State_Volatility_Rate"})
     )
-    state_volatility["State_Volatility_Rate"] = np.round(state_volatility["State_Volatility_Rate"] * 100, 2)
+    state_volatility["State_Volatility_Rate"] = np.round(
+        state_volatility["State_Volatility_Rate"] * 100, 2
+    )
 
-    df = pd.merge(df, state_volatility, left_on="State_UT", right_on="State", how="left")
+    df = pd.merge(
+        df, state_volatility, left_on="State_UT", right_on="State", how="left"
+    )
     df = df.drop(columns=["State"], errors="ignore")
     df["State_Volatility_Rate"] = df["State_Volatility_Rate"].fillna(0.0)
 
-    logger.info(f"State summary feature engineering complete. Enriched shape: {df.shape}")
+    logger.info(
+        f"State summary feature engineering complete. Enriched shape: {df.shape}"
+    )
     return df
 
 
 def generate_feature_engineering_report(
-    report_path: Path,
-    c_df: pd.DataFrame,
-    p_df: pd.DataFrame,
-    s_df: pd.DataFrame
+    report_path: Path, c_df: pd.DataFrame, p_df: pd.DataFrame, s_df: pd.DataFrame
 ) -> None:
     """
     Generate markdown report documenting all engineered features and their utility.
@@ -377,10 +434,13 @@ def run_feature_engineering_pipeline(processed_dir: Path) -> Dict[str, pd.DataFr
 
     # Generate Feature Engineering Report
     generate_feature_engineering_report(
-        report_path=processed_dir.parent.parent / "outputs" / "reports" / "feature_engineering_report.md",
+        report_path=processed_dir.parent.parent
+        / "outputs"
+        / "reports"
+        / "feature_engineering_report.md",
         c_df=c_eng,
         p_df=p_eng,
-        s_df=s_eng
+        s_df=s_eng,
     )
 
     logger.info("Module 2 Feature Engineering Pipeline Completed Successfully.")
@@ -393,6 +453,7 @@ def run_feature_engineering_pipeline(processed_dir: Path) -> Dict[str, pd.DataFr
 
 if __name__ == "__main__":
     import sys
+
     base_dir = Path(__file__).resolve().parent.parent.parent
     sys.path.insert(0, str(base_dir))
     run_feature_engineering_pipeline(processed_dir=base_dir / "data" / "processed")
