@@ -233,13 +233,7 @@ python src/visualization/__init__.py
 - **Spatial Mapping**: Integrating geopandas and folium for interactive GIS choropleth constituency maps.
 - **Deployment**: Deploying the dashboard to a cloud provider (e.g., Streamlit Community Cloud or Heroku).
 
----
 
-## 👥 Team
-
-Refer to [TEAM_CONTRIBUTIONS.md](<file:///c:/Users/mohdh/OneDrive/Desktop/Projects/Election%20Campaign%20Analysis/TEAM_CONTRIBUTIONS.md>) for details on roles and responsibilities.
-
----
 
 ---
 
