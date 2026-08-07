@@ -300,4 +300,3 @@ The refactored **Election Campaign Analysis** platform succeeds in transforming 
 
 1. **Constituency Seat Flip Binary Classifier**: Train Decision Tree and Logistic Regression models using historical victory margins, runner-up vote ratios, and incumbent hold counts to predict seat flip probability in upcoming elections.
 2. **GIS Spatial Mapping**: Integrate Folium / Plotly interactive GIS choropleth maps for state and constituency boundaries.
-3. **Sentiment & Social Media Integration**: Incorporate digital campaign ad spend and news sentiment data.

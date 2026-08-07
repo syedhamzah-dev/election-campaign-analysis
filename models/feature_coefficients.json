@@ -1,0 +1,512 @@
+[
+    {
+        "Feature":"Prev_Winner_Party: TMC",
+        "Coefficient":-1.6268708778,
+        "Abs_Coefficient":1.6268708778
+    },
+    {
+        "Feature":"Prev_Winner_Party: TRS",
+        "Coefficient":1.5751641564,
+        "Abs_Coefficient":1.5751641564
+    },
+    {
+        "Feature":"Prev_Winner_Party: BJP",
+        "Coefficient":-1.481398453,
+        "Abs_Coefficient":1.481398453
+    },
+    {
+        "Feature":"Prev_Winner_Party: RJD",
+        "Coefficient":1.2785149099,
+        "Abs_Coefficient":1.2785149099
+    },
+    {
+        "Feature":"State: Uttar Pradesh",
+        "Coefficient":1.1420040594,
+        "Abs_Coefficient":1.1420040594
+    },
+    {
+        "Feature":"Prev_Winner_Party: IND",
+        "Coefficient":1.0481137,
+        "Abs_Coefficient":1.0481137
+    },
+    {
+        "Feature":"Prev_Winner_Party: JKPDP",
+        "Coefficient":0.9029357437,
+        "Abs_Coefficient":0.9029357437
+    },
+    {
+        "Feature":"Prev_Winner_Party: SP",
+        "Coefficient":-0.8991028959,
+        "Abs_Coefficient":0.8991028959
+    },
+    {
+        "Feature":"Prev_Winner_Party: DMK",
+        "Coefficient":-0.8936236201,
+        "Abs_Coefficient":0.8936236201
+    },
+    {
+        "Feature":"State: Tripura",
+        "Coefficient":-0.8740902474,
+        "Abs_Coefficient":0.8740902474
+    },
+    {
+        "Feature":"State: Telangana",
+        "Coefficient":-0.8712669025,
+        "Abs_Coefficient":0.8712669025
+    },
+    {
+        "Feature":"Prev_Winner_Party: IUML",
+        "Coefficient":-0.8629514274,
+        "Abs_Coefficient":0.8629514274
+    },
+    {
+        "Feature":"State: Andaman and Nicobar Islands",
+        "Coefficient":0.7985898325,
+        "Abs_Coefficient":0.7985898325
+    },
+    {
+        "Feature":"Prev_Margin_Percentage",
+        "Coefficient":-0.781371985,
+        "Abs_Coefficient":0.781371985
+    },
+    {
+        "Feature":"Prev_Winner_Party: SS",
+        "Coefficient":-0.7745482807,
+        "Abs_Coefficient":0.7745482807
+    },
+    {
+        "Feature":"Prev_Winner_Party: VCK",
+        "Coefficient":-0.7697893902,
+        "Abs_Coefficient":0.7697893902
+    },
+    {
+        "Feature":"Prev_Winner_Party: AIFB",
+        "Coefficient":0.7168409479,
+        "Abs_Coefficient":0.7168409479
+    },
+    {
+        "Feature":"State: Himachal Pradesh",
+        "Coefficient":-0.704593432,
+        "Abs_Coefficient":0.704593432
+    },
+    {
+        "Feature":"Prev_Winner_Party: AIADMK",
+        "Coefficient":0.7023266858,
+        "Abs_Coefficient":0.7023266858
+    },
+    {
+        "Feature":"Prev_Winner_Party: BJD",
+        "Coefficient":-0.7015670593,
+        "Abs_Coefficient":0.7015670593
+    },
+    {
+        "Feature":"State: Dadra and Nagar Haveli",
+        "Coefficient":0.6903477455,
+        "Abs_Coefficient":0.6903477455
+    },
+    {
+        "Feature":"State: Madhya Pradesh",
+        "Coefficient":-0.6696895527,
+        "Abs_Coefficient":0.6696895527
+    },
+    {
+        "Feature":"Prev_Winner_Party: RLD",
+        "Coefficient":0.6667476762,
+        "Abs_Coefficient":0.6667476762
+    },
+    {
+        "Feature":"State: Meghalaya",
+        "Coefficient":-0.6599749134,
+        "Abs_Coefficient":0.6599749134
+    },
+    {
+        "Feature":"Prev_Winner_Party: CPI(M)",
+        "Coefficient":0.659183652,
+        "Abs_Coefficient":0.659183652
+    },
+    {
+        "Feature":"State: Rajasthan",
+        "Coefficient":0.653491942,
+        "Abs_Coefficient":0.653491942
+    },
+    {
+        "Feature":"State: Delhi",
+        "Coefficient":-0.6454950181,
+        "Abs_Coefficient":0.6454950181
+    },
+    {
+        "Feature":"State: Bihar",
+        "Coefficient":0.6310257129,
+        "Abs_Coefficient":0.6310257129
+    },
+    {
+        "Feature":"State: Haryana",
+        "Coefficient":0.6248884495,
+        "Abs_Coefficient":0.6248884495
+    },
+    {
+        "Feature":"State: Kerala",
+        "Coefficient":-0.6167422955,
+        "Abs_Coefficient":0.6167422955
+    },
+    {
+        "Feature":"State: Sikkim",
+        "Coefficient":-0.61426102,
+        "Abs_Coefficient":0.61426102
+    },
+    {
+        "Feature":"Prev_Winner_Party: Pattali Makkal Katchi",
+        "Coefficient":0.6031485104,
+        "Abs_Coefficient":0.6031485104
+    },
+    {
+        "Feature":"State: Mizoram",
+        "Coefficient":0.5542700628,
+        "Abs_Coefficient":0.5542700628
+    },
+    {
+        "Feature":"Prev_Winner_Party: Rashtriya Lok Samta Party",
+        "Coefficient":0.5463233572,
+        "Abs_Coefficient":0.5463233572
+    },
+    {
+        "Feature":"Prev_Winner_Party: SKM",
+        "Coefficient":-0.5457863361,
+        "Abs_Coefficient":0.5457863361
+    },
+    {
+        "Feature":"Prev_Winner_Party: AJSU",
+        "Coefficient":-0.5244102882,
+        "Abs_Coefficient":0.5244102882
+    },
+    {
+        "Feature":"State: Tamil Nadu",
+        "Coefficient":0.5094280066,
+        "Abs_Coefficient":0.5094280066
+    },
+    {
+        "Feature":"State: Jammu and Kashmir",
+        "Coefficient":-0.4541175047,
+        "Abs_Coefficient":0.4541175047
+    },
+    {
+        "Feature":"Prev_Winner_Party: MDMK",
+        "Coefficient":0.4524533902,
+        "Abs_Coefficient":0.4524533902
+    },
+    {
+        "Feature":"Prev_Winner_Party: JD(U)",
+        "Coefficient":-0.4474469325,
+        "Abs_Coefficient":0.4474469325
+    },
+    {
+        "Feature":"State: Gujarat",
+        "Coefficient":-0.4389026626,
+        "Abs_Coefficient":0.4389026626
+    },
+    {
+        "Feature":"Prev_Winner_Party: BSP",
+        "Coefficient":0.4347246564,
+        "Abs_Coefficient":0.4347246564
+    },
+    {
+        "Feature":"Year: 2019",
+        "Coefficient":-0.4020981422,
+        "Abs_Coefficient":0.4020981422
+    },
+    {
+        "Feature":"Year: 2009",
+        "Coefficient":0.3832414726,
+        "Abs_Coefficient":0.3832414726
+    },
+    {
+        "Feature":"Constituency_Type: ST",
+        "Coefficient":0.3775771573,
+        "Abs_Coefficient":0.3775771573
+    },
+    {
+        "Feature":"Prev_Winner_Party: Kerala Congress (M)",
+        "Coefficient":-0.3751326155,
+        "Abs_Coefficient":0.3751326155
+    },
+    {
+        "Feature":"State: Lakshadweep",
+        "Coefficient":0.3711808652,
+        "Abs_Coefficient":0.3711808652
+    },
+    {
+        "Feature":"State: Maharashtra",
+        "Coefficient":0.3562205558,
+        "Abs_Coefficient":0.3562205558
+    },
+    {
+        "Feature":"Prev_Winner_Party: JD(S)",
+        "Coefficient":0.349057596,
+        "Abs_Coefficient":0.349057596
+    },
+    {
+        "Feature":"Prev_Winner_Party: Swabhimani Paksha",
+        "Coefficient":-0.3489248817,
+        "Abs_Coefficient":0.3489248817
+    },
+    {
+        "Feature":"Prev_Winner_Party: JKNC",
+        "Coefficient":-0.3479357077,
+        "Abs_Coefficient":0.3479357077
+    },
+    {
+        "Feature":"State: Arunachal Pradesh",
+        "Coefficient":0.3442634723,
+        "Abs_Coefficient":0.3442634723
+    },
+    {
+        "Feature":"Prev_Winner_Party: JMM",
+        "Coefficient":-0.3440071601,
+        "Abs_Coefficient":0.3440071601
+    },
+    {
+        "Feature":"Prev_Winner_Party: RSP",
+        "Coefficient":-0.2833745966,
+        "Abs_Coefficient":0.2833745966
+    },
+    {
+        "Feature":"State: Chhattisgarh",
+        "Coefficient":-0.2792812432,
+        "Abs_Coefficient":0.2792812432
+    },
+    {
+        "Feature":"Prev_Winner_Party: All India N.R. Congress",
+        "Coefficient":0.277810561,
+        "Abs_Coefficient":0.277810561
+    },
+    {
+        "Feature":"Prev_Winner_Party: YSRCP",
+        "Coefficient":0.2758992195,
+        "Abs_Coefficient":0.2758992195
+    },
+    {
+        "Feature":"Prev_Winner_Party: SAD",
+        "Coefficient":-0.2726457668,
+        "Abs_Coefficient":0.2726457668
+    },
+    {
+        "Feature":"Prev_Winner_Party: AD(S)",
+        "Coefficient":-0.2721746756,
+        "Abs_Coefficient":0.2721746756
+    },
+    {
+        "Feature":"Prev_Winner_Party: Kerala Congress",
+        "Coefficient":0.2638464051,
+        "Abs_Coefficient":0.2638464051
+    },
+    {
+        "Feature":"Prev_Winner_Party: LJP",
+        "Coefficient":-0.2413284585,
+        "Abs_Coefficient":0.2413284585
+    },
+    {
+        "Feature":"Prev_Winner_Party: National People'S Party",
+        "Coefficient":-0.2396840188,
+        "Abs_Coefficient":0.2396840188
+    },
+    {
+        "Feature":"Prev_Runner_Up_Ratio",
+        "Coefficient":-0.2229661458,
+        "Abs_Coefficient":0.2229661458
+    },
+    {
+        "Feature":"Prev_Winner_Party: AAP",
+        "Coefficient":0.2219306698,
+        "Abs_Coefficient":0.2219306698
+    },
+    {
+        "Feature":"Prev_Winner_Party: BPF",
+        "Coefficient":0.2168076298,
+        "Abs_Coefficient":0.2168076298
+    },
+    {
+        "Feature":"Prev_Winner_Party: Jharkhand Vikas Morcha (Prajatantrik)",
+        "Coefficient":0.2072782807,
+        "Abs_Coefficient":0.2072782807
+    },
+    {
+        "Feature":"Prev_Winner_Party: TDP",
+        "Coefficient":-0.2054164386,
+        "Abs_Coefficient":0.2054164386
+    },
+    {
+        "Feature":"Prev_Winner_Party: INC",
+        "Coefficient":-0.2050729495,
+        "Abs_Coefficient":0.2050729495
+    },
+    {
+        "Feature":"Prev_Winner_Party: Indian National Lok Dal",
+        "Coefficient":0.1892868701,
+        "Abs_Coefficient":0.1892868701
+    },
+    {
+        "Feature":"State: Daman and Diu",
+        "Coefficient":-0.1854352829,
+        "Abs_Coefficient":0.1854352829
+    },
+    {
+        "Feature":"Prev_Winner_Party: AGP",
+        "Coefficient":0.179461545,
+        "Abs_Coefficient":0.179461545
+    },
+    {
+        "Feature":"State: Puducherry",
+        "Coefficient":0.1788711624,
+        "Abs_Coefficient":0.1788711624
+    },
+    {
+        "Feature":"Prev_Winner_Party: Socialist Unity Centre Of India (C)",
+        "Coefficient":0.1739265104,
+        "Abs_Coefficient":0.1739265104
+    },
+    {
+        "Feature":"Constituency_Type: GEN",
+        "Coefficient":-0.1681357253,
+        "Abs_Coefficient":0.1681357253
+    },
+    {
+        "Feature":"State: Punjab",
+        "Coefficient":0.1679958971,
+        "Abs_Coefficient":0.1679958971
+    },
+    {
+        "Feature":"Prev_Winner_Party: RLP",
+        "Coefficient":0.1572760357,
+        "Abs_Coefficient":0.1572760357
+    },
+    {
+        "Feature":"State: Jharkhand",
+        "Coefficient":0.1534056334,
+        "Abs_Coefficient":0.1534056334
+    },
+    {
+        "Feature":"Prev_Winner_Party: Republican Party Of India (A)",
+        "Coefficient":0.1456078645,
+        "Abs_Coefficient":0.1456078645
+    },
+    {
+        "Feature":"State: Goa",
+        "Coefficient":-0.13983483,
+        "Abs_Coefficient":0.13983483
+    },
+    {
+        "Feature":"Prev_Winner_Party: AIUDF",
+        "Coefficient":0.1361677124,
+        "Abs_Coefficient":0.1361677124
+    },
+    {
+        "Feature":"Prev_Winner_Party: Mizo National Front",
+        "Coefficient":0.1333062924,
+        "Abs_Coefficient":0.1333062924
+    },
+    {
+        "Feature":"Prev_Winner_Party: Naga People'S Front",
+        "Coefficient":0.1321967001,
+        "Abs_Coefficient":0.1321967001
+    },
+    {
+        "Feature":"State: Manipur",
+        "Coefficient":0.1267283422,
+        "Abs_Coefficient":0.1267283422
+    },
+    {
+        "Feature":"State: Odisha",
+        "Coefficient":-0.1203212906,
+        "Abs_Coefficient":0.1203212906
+    },
+    {
+        "Feature":"Prev_Winner_Party: Bharatiya Navshakti Party",
+        "Coefficient":0.1085499063,
+        "Abs_Coefficient":0.1085499063
+    },
+    {
+        "Feature":"Year: 2014",
+        "Coefficient":0.1064570913,
+        "Abs_Coefficient":0.1064570913
+    },
+    {
+        "Feature":"Prev_Winner_Party: Haryana Janhit Congress (Bl)",
+        "Coefficient":0.0988960757,
+        "Abs_Coefficient":0.0988960757
+    },
+    {
+        "Feature":"Prev_Winner_Party: NCP",
+        "Coefficient":-0.0946750457,
+        "Abs_Coefficient":0.0946750457
+    },
+    {
+        "Feature":"State: Karnataka",
+        "Coefficient":0.0881852623,
+        "Abs_Coefficient":0.0881852623
+    },
+    {
+        "Feature":"Prev_Winner_Party: Samajwadi Janata Party (Rashtriya)",
+        "Coefficient":0.0880065031,
+        "Abs_Coefficient":0.0880065031
+    },
+    {
+        "Feature":"Prev_Winner_Party: Bahujan Vikas Aaghadi",
+        "Coefficient":0.0809756979,
+        "Abs_Coefficient":0.0809756979
+    },
+    {
+        "Feature":"Year: 2024",
+        "Coefficient":0.0761132495,
+        "Abs_Coefficient":0.0761132495
+    },
+    {
+        "Feature":"State: Chandigarh",
+        "Coefficient":0.0685810521,
+        "Abs_Coefficient":0.0685810521
+    },
+    {
+        "Feature":"Prev_Winner_Party: SDF",
+        "Coefficient":-0.0684746838,
+        "Abs_Coefficient":0.0684746838
+    },
+    {
+        "Feature":"State: Uttarakhand",
+        "Coefficient":0.0479527805,
+        "Abs_Coefficient":0.0479527805
+    },
+    {
+        "Feature":"Constituency_Type: SC",
+        "Coefficient":-0.0457277609,
+        "Abs_Coefficient":0.0457277609
+    },
+    {
+        "Feature":"State: West Bengal",
+        "Coefficient":-0.0381300024,
+        "Abs_Coefficient":0.0381300024
+    },
+    {
+        "Feature":"State: Assam",
+        "Coefficient":-0.0336470729,
+        "Abs_Coefficient":0.0336470729
+    },
+    {
+        "Feature":"Prev_Winner_Party: CPI",
+        "Coefficient":-0.0200566723,
+        "Abs_Coefficient":0.0200566723
+    },
+    {
+        "Feature":"Prev_Winner_Party: AIMIM",
+        "Coefficient":-0.0126525578,
+        "Abs_Coefficient":0.0126525578
+    },
+    {
+        "Feature":"Prev_Incumbent_Hold_Count",
+        "Coefficient":0.0025308118,
+        "Abs_Coefficient":0.0025308118
+    },
+    {
+        "Feature":"State: Andhra Pradesh",
+        "Coefficient":0.002066108,
+        "Abs_Coefficient":0.002066108
+    }
+]
